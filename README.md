@@ -1,6 +1,9 @@
-# Python_Programming_Notes
+# Python Programming Notes
+
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png">
 
 This repository contains in depth notes for Python Programming.
+For missing methods, refer [Official Documentation](https://docs.python.org/)
 
 ### Sequence of notes:
 1. [Installing and Using Python](Installing_and_Using_Python.ipynb)
