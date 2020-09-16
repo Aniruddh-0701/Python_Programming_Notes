@@ -9,4 +9,4 @@ This repository contains in depth notes for Python Programming.
 
 ### Test questions:
 1. [Code Practice 1](Practice_code1.md)
-2. Practice_Code2
+2. Code Practice 2
