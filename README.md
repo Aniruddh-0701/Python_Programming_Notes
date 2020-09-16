@@ -1,12 +1,12 @@
 # Python_Programming_Notes
 
-The repo contains in depth for Python Programming.
+This repository contains in depth notes for Python Programming.
 
-Sequence of notes:
-1. Installing and Using Python
-2. Introduction to Python programming
-3. Condition Statments in Python
+### Sequence of notes:
+1. [Installing and Using Python](Installing and Using Python.ipynb)
+2. [Introduction to Python programming](Introduction to Python Programming.ipynb)
+3. [Condition Statments in Python](Condition_Statements.ipynb)
 
-Test questions:
-1. Practice_Code1
+### Test questions:
+1. [Code Practice 1](Practice_code1.md)
 2. Practice_Code2
