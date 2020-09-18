@@ -71,3 +71,32 @@ Sum of 10 and 15 is 25
 I/p: Jenyhin  
 O/p: Good Morning, Jenyhin
 
+**Q8:** Write a program to get the side of the square and print its perimeter  
+Perimeter of a square = $\rm{4 \times side}$
+
+**Q9:** Write a program to get the side of the square and print its area  
+Area of square = $\rm{side \times side}$
+
+**Q10:** Write a program to get the length and breadth of a rectangle and print its perimeter  
+Perimeter of a rectangle = $\rm{2 \times (length + breadth)}$
+
+**Q11:** Write a program to get the length and breadth of a rectangle and print its area  
+Area of a rectangle = $\rm{length \times breadth}$
+
+**Q12:** Write a program to get the number of sides and length of each side of a regular polygon and print its perimeter.  
+Perimeter = $\rm{number~of~ sides \times length~ of~ one~ side}$
+
+**Q13:** Write a program to get the length and height of a right triangle and print its area.  
+Area of right triangle = $\dfrac{\sqrt{3}}{4} \times \rm{side^2}$
+
+**Q14:** Write a program to get the radius of a circle and print its perimeter. (Take $\pi = 3.14159$)  
+Perimeter of a circle = $2\pi \times \rm{radius}$
+
+**Q15:** Write a program to get the radius of a circle and print its area. (Take $\pi = 3.14159$)  
+Area of a circle = $\pi \times \rm{radius^2}$
+
+**Q16:** Write a program to get the sides of a triangle and print its area using Heron's Formula.  
+Area of right triangle = $\sqrt{s \times (s-a)\times(s-b)\times(s-c)}$  
+where,  
+$s$ = Semi-Perimeter = $\dfrac{\rm{Perimter ~of ~triangle}}{2}$  
+$a, b, c$ = Sides of the triangle
