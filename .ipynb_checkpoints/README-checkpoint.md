@@ -12,4 +12,4 @@ For missing content, refer [Official Documentation](https://docs.python.org/)
 
 ### Test questions:
 1. [Code Practice 1](Practice_code1.md)
-2. Code Practice 2
+2. [Code Practice 2](Practice_code2.md)
