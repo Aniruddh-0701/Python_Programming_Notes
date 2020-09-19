@@ -72,12 +72,12 @@ I/p: Jenyhin
 O/p: Good Morning, Jenyhin
 
 **Q8:** Write a program to get the side of the square and print its perimeter  
-Perimeter of a square = <img src="https://render.githubusercontent.com/render/math?math= $\rm{4 \times side}$ ">
+Perimeter of a square = <img src="https://render.githubusercontent.com/render/math?math= \rm{4 \times side}">
 **Q9:** Write a program to get the side of the square and print its area  
-Area of square = $\rm{side \times side}$
+Area of square = <img src="https://render.githubusercontent.com/render/math?math=\rm{side \times side}">
 
 **Q10:** Write a program to get the length and breadth of a rectangle and print its perimeter  
-Perimeter of a rectangle = $\rm{2 \times (length + breadth)}$
+Perimeter of a rectangle = <img src="https://render.githubusercontent.com/render/math?math=\rm{2 \times (length + breadth)}">
 
 **Q11:** Write a program to get the length and breadth of a rectangle and print its area  
 Area of a rectangle = $\rm{length \times breadth}$
