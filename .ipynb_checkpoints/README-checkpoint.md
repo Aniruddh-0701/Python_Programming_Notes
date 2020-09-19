@@ -11,5 +11,5 @@ For missing content, refer [Official Documentation](https://docs.python.org/)
 3. [Condition Statments in Python](Condition_Statements.ipynb)
 
 ### Test questions:
-1. [Code Practice 1](Practice_code1.md)
+1. [Code Practice 1](Practice_code1.ipynb)
 2. [Code Practice 2](Practice_code2.md)
