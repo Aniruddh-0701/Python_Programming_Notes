@@ -72,8 +72,7 @@ I/p: Jenyhin
 O/p: Good Morning, Jenyhin
 
 **Q8:** Write a program to get the side of the square and print its perimeter  
-Perimeter of a square = $\rm{4 \times side}$
-
+Perimeter of a square = <img src="https://render.githubusercontent.com/render/math?math= $\rm{4 \times side}$ ">
 **Q9:** Write a program to get the side of the square and print its area  
 Area of square = $\rm{side \times side}$
 
