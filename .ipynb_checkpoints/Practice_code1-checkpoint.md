@@ -80,7 +80,7 @@ Area of square = <img src="https://render.githubusercontent.com/render/math?math
 Perimeter of a rectangle = <img src="https://render.githubusercontent.com/render/math?math=\rm{2 \times (length + breadth)}">
 
 **Q11:** Write a program to get the length and breadth of a rectangle and print its area  
-Area of a rectangle = $`\rm{length \times breadth}`$
+Area of a rectangle = `$\rm{length \times breadth}$`
 
 **Q12:** Write a program to get the number of sides and length of each side of a regular polygon and print its perimeter.  
 Perimeter = $\rm{number~of~ sides \times length~ of~ one~ side}$
