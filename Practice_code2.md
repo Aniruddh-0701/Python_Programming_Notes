@@ -57,3 +57,9 @@ I/P: 27
 O/P: Eligible
 
 **Q5:** Code a simple Calculator.
+
+**Q6:** Write a program to get an input from the user and print if it is a vowel or a consonant.
+
+**Q7:** Write a program to two numbers and print the greatest of them.
+
+**Q8:** Write a program to get three numbers and the print the greatest of them.
