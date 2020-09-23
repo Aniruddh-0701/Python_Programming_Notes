@@ -1,4 +1,4 @@
-This Notebook Contains practice question for the note on condition statements.
+This Notebook Contains practice question for the note on {Condition statements}(Condition_Statements.ipynb).
 
 Try working online at:  
 [Coding Ground - Tutorials Point](https://www.tutorialspoint.com/execute_python3_online.php)  
