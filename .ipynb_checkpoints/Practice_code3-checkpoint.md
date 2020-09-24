@@ -6,7 +6,26 @@ Try working online at:
 
 **Q1:** Write a program to get the value of ***n*** from the user and print sum of ***n*** natural numbers as output.
 
-**Q2:** Write a program to get the values of ***n*** and ***n*** numbers from the user and print sum of the ***n*** numbers as output.
+**Q2:** Write a program to get the values of ***n*** and ***n*** numbers from the user and print sum of the ***n*** numbers as output.  
+I/p:  
+First line contains the number ***n***  
+Next n lines contain ***n*** integers  
+O/p: 
+Sum of n numbers
+>Sample1:  
+I/P:  
+10  <br>
+1  <br>
+5  <br>
+7  
+22  
+20  
+40  
+2  <br>
+53  
+18  
+-1<br>
+O/p: 167
 
 **Q3:** Write a program get a number from user and print if it is prime or composite.
 
@@ -15,3 +34,12 @@ Try working online at:
 **Q5:** Write a program to get the value of ***n*** from the user and print ***n*** terms of a fibonacci series as output.
 
 **Q6:** Write a program to get a number ***n*** from the user and print its reverse as output.
+
+**Q7:** Write a program to get a number and check if it is an armstrong numberr or not.  
+*Condition:* A number is armstrong number if sum of cubes of its digit is equal to the number itself.
+>Sample1:  
+I/P:
+153  
+O/P:
+Armstrong Number  
+**Explanation:** $1^3 + 5^3 + 3^3 = 153$
