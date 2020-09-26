@@ -9,6 +9,32 @@ Try working online at:
 **Q2:** Write a program to create a function that gets sides of a rectangle and return its perimeter and area.
 
 **Q3:** Write a program to create a function that gets a number ***n*** and a value and prints the value ***n*** times as output.
+>Sample1:  
+I/P:  
+10  <br>
+Hello  
+O/p:  
+Hello  
+Hello  
+Hello  
+Hello  
+Hello  
+Hello  
+Hello  
+Hello  
+Hello  
+Hello  
+
+>Sample2:  
+I/P:  
+5  <br>
+1  <br>
+O/p:  
+1  <br>
+1  <br>
+1  <br>
+1  
+1  
 
 **Q4:** Write a program to define a function to determine simple interest for given values of Principal, Rate p.a. and duration in years.
 

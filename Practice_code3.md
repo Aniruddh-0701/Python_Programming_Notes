@@ -42,4 +42,27 @@ I/P:
 153  
 O/P:
 Armstrong Number  
-**Explanation:** <MATH> {1 ^3^ + 5 ^3^ + 3 ^3^ = 153} <Math>
+**Explanation:** $ 1^3 + 5^3 + 3^3 = 153 $
+
+**Q8:** Write a program to get a number ***n*** and print its multiplication table from 1 to 20.
+
+**Q9:** Write a program to get the values of ***n*** and ***n*** numbers from the user and print average of the ***n*** numbers rounded off to 4 decimal places as output.  
+I/p:  
+First line contains the number ***n***  
+Next n lines contain ***n*** integers  
+O/p: 
+Average of n numbers
+>Sample1:  
+I/P:  
+10  <br>
+1  <br>
+5  <br>
+7  
+22  
+20  
+40  
+2  <br>
+53  
+18  
+-1<br>
+O/p: 16.7
