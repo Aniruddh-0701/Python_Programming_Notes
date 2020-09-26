@@ -15,5 +15,5 @@ For missing content, refer [Official Documentation](https://docs.python.org/)
 ### Test questions:
 1. [Code Practice 1](Practice_code1.ipynb); [Code Practice 1 Solution](Solution1.ipynb)
 2. [Code Practice 2](Practice_code2.md); [Code Practice 2 Solution](Solution2.ipynb)
-3. [Code Practice 3](Practice_code3.md)
+3. [Code Practice 3](Practice_code3.md); [Code Practice 3 Solution](Solution3.ipynb)
 4. [Code Practice 4](ractice_code4.md)
