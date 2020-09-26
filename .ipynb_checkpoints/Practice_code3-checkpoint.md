@@ -42,4 +42,4 @@ I/P:
 153  
 O/P:
 Armstrong Number  
-**Explanation:** $1^3 + 5^3 + 3^3 = 153$
+**Explanation:** <MATH> {1 ^3^ + 5 ^3^ + 3 ^3^ = 153} <Math>
