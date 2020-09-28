@@ -63,3 +63,5 @@ O/P: Eligible
 **Q7:** Write a program to two numbers and print the greatest of them.
 
 **Q8:** Write a program to get three numbers and the print the greatest of them.
+
+[Check Solution](Solution_2.ipynb)
