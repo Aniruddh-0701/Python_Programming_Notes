@@ -64,4 +64,6 @@ O/P: Eligible
 
 **Q8:** Write a program to get three numbers and the print the greatest of them.
 
-[Check Solution](Solution_2.ipynb)
+**Q9:** Write a program to check if a number is a perfect square or not.
+
+**[Check Solution](Solution_2.ipynb)**
