@@ -6,11 +6,15 @@ This repository contains in depth notes for Python Programming.
 For missing content, refer [Official Documentation](https://docs.python.org/)
 
 ### Sequence of notes:
-1. [Installing and Using Python](Installing_and_Using_Python.ipynb)
-2. [Introduction to Python programming](Introduction_to_Python_Programming.ipynb)
-3. [Decision Control Statements in Python](Condition_Statements.ipynb)
-4. [Looping statements in Python](Looping_Statements.ipynb)
-5. [Functions in Python](Functions.ipynb)
+<ol>
+    <li> <a href = 'Installing_and_Using_Python.ipynb'>Installing and Using Python</a> </li>
+    <li> <a href = 'Introduction_to_Python_Programming.ipynb'>Introduction to Python programming</a> </li>
+    <li> <a href = 'Condition_Statements.ipynb'> Decision Control Statements in Python</a></li>
+    <li> <a href = 'Looping_Statements.ipynb'>Looping statements in Python</a></li>
+    <li> <a href = 'Functions.ipynb'> Functions in Python</a> </li>
+    <li> <a href = 'DS_Lists.ipynb'> Data Structures - Lists </a> </li>
+    <li> <a href = 'Generators.ipynb'> Python Generators </a> </li>
+</ol>
 
 ### Test questions:
 1. [Code Practice 1](Practice_code1.ipynb); [Code Practice 1 Solution](Solution1.ipynb)
