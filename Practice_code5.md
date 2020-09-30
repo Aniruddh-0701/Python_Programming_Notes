@@ -13,3 +13,10 @@ I/p:
 -20  
 O/p:
 [5, 2, -20]
+
+**Q2:** Get the list of inetegers as input, sort them and print as output.
+>Sample 1:  
+I/P:  
+-1 110 -10 0 20 1 60  
+O/P:  
+[-10 -1 0 1 20 60 110]
