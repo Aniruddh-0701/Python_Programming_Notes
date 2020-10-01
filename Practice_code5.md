@@ -20,3 +20,55 @@ I/P:
 -1 110 -10 0 20 1 60  
 O/P:  
 [-10 -1 0 1 20 60 110]
+
+**Q3:** Get a list of integers as input and print the even elements present in it. (No. of even elements > 1)
+> Sample 1:  
+I/P: 10 20 5 -2 79 23335 40  
+O/p: [10 20 -2 40]
+
+**Q4:** Write a program to get a list of integers and print their product as output. (Use *reduce* method).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 13202000  
+
+**Q5:** Write a program to get a list of integers and print their sum as output. (Use *sum* method).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 90
+
+**Q6:** Write a program to get a list of integers and print their sum as output. (use loops).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 90  
+
+**Q7:** Write a program to get a list of integers and print their product as output. (Use loops).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 13202000  
+
+**Q8:** Write a program to get a list of integers and print their average as output. (round off to 3 decimal places).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 12.857  
+
+**Q9:** Write a program to get a list of integers and print the maximum value as output. (Use *max* method).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 41  
+
+**Q10:** Write a program to get a list of integers and print the maximum value as output. (Use loops).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: 41  
+
+**Q11:** Write a program to get a list of integers and print the minimum value as output. (Use *min* method).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: -7  
+
+**Q12:** Write a program to get a list of integers and print the minimum value as output. (Use loops).
+> Sample 1:  
+I/P: 10 20 5 41 -2 -7 23  
+O/P: -7  
+
+**[Check Solution](Solution5.ipynb)**
