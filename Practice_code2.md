@@ -66,4 +66,4 @@ O/P: Eligible
 
 **Q9:** Write a program to check if a number is a perfect square or not.
 
-**[Check Solution](Solution_2.ipynb)**
+**[Check Solution](Solution2.ipynb)**
