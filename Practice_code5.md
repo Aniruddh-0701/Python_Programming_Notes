@@ -14,7 +14,7 @@ I/p:
 O/p:
 [5, 2, -20]
 
-**Q2:** Get the list of inetegers as input, sort them and print as output.
+**Q2:** Get the list of integers as input, sort them and print as output.
 >Sample 1:  
 I/P:  
 -1 110 -10 0 20 1 60  
