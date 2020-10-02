@@ -66,4 +66,12 @@ O/P: Eligible
 
 **Q9:** Write a program to check if a number is a perfect square or not.
 
+**Q10:** The humidity (in percentage) and temperature (in celsius) value in a city is given as the input to the program. The program must print ***YES***  as the output if there is a possibility of rain. Else the program must print ***NO*** as the output. If one of the conditions given below is true then there is a possibility of rain.
+
+*Condition:*  
+1. Humidity > 90  
+2. Temperature < 18  
+3. Humidity > 70 and Temperature < 30  
+4. Humidity > 60 and Temperature < 24
+
 **[Check Solution](Solution2.ipynb)**
