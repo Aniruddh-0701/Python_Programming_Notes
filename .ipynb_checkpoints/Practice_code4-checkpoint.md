@@ -50,3 +50,11 @@ Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!}$
 
 **Q8:** Write a program to define a function that returns the caombinations of ***n*** and ***r***.<br>
 Permutation(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!}$
+
+**Q9:** Write a program to define a function that gets a year as input and print if it is a leap year or not.  
+**Condition:** A year is leap if it is either divisible *4* or *400* and not *100*.
+
+
+
+****
+**[Check Solution](Solution4.ipynb)**
