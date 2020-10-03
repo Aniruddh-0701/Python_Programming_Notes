@@ -71,4 +71,32 @@ O/P: -7
 I/P: 10 20 5 41 -2 -7 23  
 O/P: -7  
 
+**Q13:** Write a program to get a number ***n*** and print first ***n*** terms of Fibonacci series.
+
+**Q14:** Write a program to get a list of string values as input and print the values at even position as output.
+> Sample 1:  
+I/P: Hi First Second python STRING  
+O/P: First python  
+
+**Q15:** Write a program to get a list of numbers as input and print their median as output.  
+(Median is the center-most value of the sorted list)  
+> Sample 1:  
+I/P: 2 9 1 7 4 8  
+O/P: 6.5  
+
+>Sample 2:  
+I/P: 1 7 8 6 3  
+O/P: 3
+
+**Q16:** Write a program to get a list of numbers as input and print their mode as output.  
+(Mode is the most frequent value of the given list)  
+> Sample 1:  
+I/P: 2 9 1 1 4 1  
+O/P: 1  
+
+>Sample 2:  
+I/P: 1 3 8 6 3  
+O/P: 3
+
+
 **[Check Solution](Solution5.ipynb)**
