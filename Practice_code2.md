@@ -74,4 +74,8 @@ O/P: Eligible
 3. Humidity > 70 and Temperature < 30  
 4. Humidity > 60 and Temperature < 24
 
+**Q11:** Write a program to get a year as input and print if it is a leap year or not.  
+A year is leap if it is either divisible *4* or *400* and not *100*.
+
+****
 **[Check Solution](Solution2.ipynb)**
