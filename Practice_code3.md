@@ -31,12 +31,12 @@ O/p: 167
 
 **Q4:** Write a program to get a number from the user and print its factorial as output.
 
-**Q5:** Write a program to get the value of ***n*** from the user and print ***n*** terms of a fibonacci series as output.
+**Q5:** Write a program to get the value of ***n*** from the user and print the first ***n*** terms of the Fibonacci series as output.
 
 **Q6:** Write a program to get a number ***n*** from the user and print its reverse as output.
 
-**Q7:** Write a program to get a number and check if it is an armstrong numberr or not.  
-*Condition:* A number is armstrong number if sum of cubes of its digit is equal to the number itself.
+**Q7:** Write a program to get a number and check if it is an armstrong number or not.  
+**Condition:** A number is armstrong number if sum of cubes of its digit is equal to the number itself.
 >Sample1:  
 I/P:
 153  
@@ -66,3 +66,12 @@ I/P:
 18  
 -1<br>
 O/p: 16.7
+
+**Q10:** Write a program to get a number ***n*** and print the ***nth*** term of Fibonacci series as output.
+
+**Q11:** Write a program to get two numbers as input and print their **HCF** as output.
+
+**Q12:** Write a program to get two numbers as input and print their **LCM** as output.
+
+****
+**[Check Solution](Solution3.ipynb)**
