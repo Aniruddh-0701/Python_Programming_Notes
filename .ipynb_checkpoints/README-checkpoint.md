@@ -3,7 +3,8 @@
 <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png">
 
 This repository contains in depth notes for Python Programming.
-For missing content, refer [Official Documentation](https://docs.python.org/)
+For missing content, refer [Official Documentation](https://docs.python.org/)  
+For some short snippets in python, visit [30 seconds of code - python](https://www.30secondsofcode.org/python/p/1)
 
 ### Sequence of notes:
 <ol>
