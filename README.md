@@ -13,7 +13,16 @@ For missing content, refer [Official Documentation](https://docs.python.org/)
     <li> <a href = 'Looping_Statements.ipynb'>Looping statements in Python</a></li>
     <li> <a href = 'Functions.ipynb'> Functions in Python</a> </li>
     <li> <a href = 'DS_Lists.ipynb'> Data Structures - Lists </a> </li>
+    <li>Data Structures - Tuples</li>
+    <li>Data Stuctures - String</li>
+    <li>Data Structures - Dictionaries</li>
+    <li>Data Structres - Sets</li>
+    <li>Modules and Packages</li>
+    <li>Advanced I/O </li>
     <li> <a href = 'Generators.ipynb'> Python Generators </a> </li>
+    <li>Python Iterators</li>
+    <li>Object Oriented Programming in Python</li>
+    <li> Regular Expressions</li>
 </ol>
 
 ### Test questions:
