@@ -98,5 +98,16 @@ O/P: 1
 I/P: 1 3 8 6 3  
 O/P: 3
 
+**Q17:** Write a program to get the number of rows ***n*** and n rows of a matrix and print each row as a list.  
+> Sample1:
+I/P:  
+3<br>
+10 20 30  
+1 2 3  
+5 -4 -10  
+O/P:  
+[10, 20, 30]  
+[1, 2, 3]  
+[5, -4, -10]  
 
 **[Check Solution](Solution5.ipynb)**
