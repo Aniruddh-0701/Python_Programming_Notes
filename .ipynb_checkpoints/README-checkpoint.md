@@ -8,7 +8,7 @@ For some short snippets in python, visit [30 seconds of code - python](https://w
 
 ### Sequence of notes:
 <ol>
-    <li> <a href = 'Installing_and_Using_Python.ipynb'>Installing and Using Python</a> </li>
+    <li> <a href = 'Installing_and_Using_Python.md'>Installing and Using Python</a> </li>
     <li> <a href = 'Introduction_to_Python_Programming.ipynb'>Introduction to Python programming</a> </li>
     <li> <a href = 'Condition_Statements.ipynb'> Decision Control Statements in Python</a></li>
     <li> <a href = 'Looping_Statements.ipynb'>Looping statements in Python</a></li>
