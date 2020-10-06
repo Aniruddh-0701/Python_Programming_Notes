@@ -14,12 +14,14 @@ For some short snippets in python, visit [30 seconds of code - python](https://w
     <li> <a href = 'Looping_Statements.ipynb'>Looping statements in Python</a></li>
     <li> <a href = 'Functions.ipynb'> Functions in Python</a> </li>
     <li> <a href = 'DS_Lists.ipynb'> Data Structures - Lists </a> </li>
+    <li> <a href = 'DS_Strings.ipynb'> Data Stuctures - String </a> </li>
     <li>Data Structures - Tuples</li>
-    <li>Data Stuctures - String</li>
     <li>Data Structures - Dictionaries</li>
     <li>Data Structres - Sets</li>
     <li>Modules and Packages</li>
+    <li>File Handling</li>
     <li>Advanced I/O </li>
+    <li>Errors and Exception Handling</li>
     <li> <a href = 'Generators.ipynb'> Python Generators </a> </li>
     <li>Python Iterators</li>
     <li>Object Oriented Programming in Python</li>
