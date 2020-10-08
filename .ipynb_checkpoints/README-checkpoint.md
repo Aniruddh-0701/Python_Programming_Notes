@@ -34,3 +34,4 @@ For some short snippets in python, visit [30 seconds of code - python](https://w
 3. [Code Practice 3](Practice_code3.md); [Code Practice 3 Solution](Solution3.ipynb)
 4. [Code Practice 4](Practice_code4.md); [Code Practice 4 Solution](Solution4.ipynb)
 5. [Code Practice 5](Practice_code5.md); [Code Practice 5 Solution](Solution5.ipynb )
+6. [Code Practice 6](Practice_code6.md)
