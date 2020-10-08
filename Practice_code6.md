@@ -21,4 +21,8 @@ Try working online at:
 **Q8**: Write a program to get a name from the user and print if it is a valid name as output.  
 **Condition:** Name is valid if contains only alphabets and there are atleast 1 uppercase and 1 lowercase characters.
 
-**Q9:** Write a program to get a variable name, replace all the whitespaces with an underscore " _ " and print the modified as output.
+**Q9:** Write a program to get a variable name, replace all the whitespaces with an underscore " _ " and print the modified string as output.
+
+**Q10:** Write a program to get a string and print all the elements sorted in the alphabetical order as output.
+
+**Q11:** Write a program to get a string and print the words in them in lexicographic order as output. The words in the string are delimited by a single whitespace (' ').
