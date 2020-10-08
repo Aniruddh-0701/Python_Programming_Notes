@@ -110,4 +110,73 @@ O/P:
 [1, 2, 3]  
 [5, -4, -10]  
 
+**Q18:** Write a program to get the number of rows ***n*** and *nxn* matrix and print its transpose.  
+> Sample1:
+I/P:  
+3<br>
+10 20 30  
+1 2 3  
+5 -4 -10  
+O/P:  
+10 1 5  
+20 2 -4  
+30 3 -10  
+
+**Q19:** Write a program to get number of rows ***r*** and columns ***c*** and two *rxc* matrices and print their sum as output.  
+(No empty lines are provided in between the matrices)  
+>Sample 1:  
+4<br>
+4<br>
+9 13 5 2  
+1 11 7 6  
+3 7  4  1  
+6 0  7 10   <br><br>
+-2 4 7 31  
+6 9 12 6  
+12 11 0 1  
+9 10 2 3  <br><br>
+O/P:  
+7 17 12 33  
+7 20 19 12  
+15 18 4 2  
+15 10 9 13  
+
+**Q20:** Write a program to get number of rows ***r*** and no. of columns ***c***  and three *rxc* matrices and print their sum as output.  
+(No empty lines are provided in between the matrices)  
+>Sample 1:  
+4<br>
+4<br>
+9 13 5 2  
+1 11 7 6  
+3 7  4  1  
+6 0  7 10   <br><br>
+-2 4 7 31  
+6 9 12 6  
+12 11 0 1  
+9 10 2 3  <br><br>
+0 2 8 6  
+3 7 1 0  
+0 0 1 2  
+10 1 0 11  <br><br>
+O/P:  
+7 19 20 39  
+10 27 20 12   
+15 18 5 4  
+25 11 9 24  
+
+**Q21:** Write a program to get a *mxn* matrix and a *pxq* matrix (m, n, p, q given) and print their product as output.  
+(No empty lines are provided in between the matrices)
+>Sample1:  
+3<br>2<br>
+-82 0  
+-57 -95  
+91 56  <br><br>
+2<br>4<br>
+1 3 -11 24  
+-59 42 -15 48 <br><br>
+O/P:  
+-82 -246 902 -1968  
+5548 -4161 2052 -5928  
+-3213 2625 -1841 4872  
+*****
 **[Check Solution](Solution5.ipynb)**
