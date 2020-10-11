@@ -15,7 +15,7 @@ For some short snippets in python, visit [30 seconds of code - python](https://w
     <li> <a href = 'Functions.ipynb'> Functions in Python</a> </li>
     <li> <a href = 'DS_Lists.ipynb'> Data Structures - Lists </a> </li>
     <li> <a href = 'DS_Strings.ipynb'> Data Stuctures - String </a> </li>
-    <li>Data Structures - Tuples</li>
+    <li> <a href = 'DS_Tuples.ipynb'> Data Structures - Tuples</a></li>
     <li>Data Structures - Dictionaries</li>
     <li>Data Structres - Sets</li>
     <li>Modules and Packages</li>
