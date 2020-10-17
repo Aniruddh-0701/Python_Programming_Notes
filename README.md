@@ -25,8 +25,9 @@ For short notes refer, [Cheat Sheet](Cheat_sheet.pdf)
     <li>Errors and Exception Handling</li>
     <li> <a href = 'Generators.ipynb'> Python Generators </a> </li>
     <li>Python Iterators</li>
+    <li>Numbers in Programming</li>
     <li>Object Oriented Programming in Python</li>
-    <li> Regular Expressions</li>
+    <li> Regular Expressions in Python</li>
 </ol>
 
 ### Test questions:
