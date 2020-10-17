@@ -4,7 +4,8 @@
 
 This repository contains in depth notes for Python Programming.
 For missing content, refer [Official Documentation](https://docs.python.org/)  
-For some short snippets in python, visit [30 seconds of code - python](https://www.30secondsofcode.org/python/p/1)
+For some short snippets in python, visit [30 seconds of code - python](https://www.30secondsofcode.org/python/p/1)  
+For short notes refer, [Cheat Sheet](Cheat_sheet.pdf)
 
 ### Sequence of notes:
 <ol>
