@@ -19,7 +19,7 @@ For short notes refer, [Cheat Sheet](Cheat_sheet.pdf)
     <li> <a href = 'DS_Tuples.ipynb'> Data Structures - Tuples</a></li>
     <li> <a href = 'DS_Dictionaries.ipynb'>Data Structures - Dictionaries</a></li>
     <li> <a href = 'DS_Sets.ipynb'>Data Structres - Sets</a></li>
-    <li>Modules and Packages</li>
+    <li> <a href = 'Modules_and_Packages.ipynb'>Modules and Packages </a></li>
     <li>File Handling</li>
     <li><a href = 'Advanced_IO.ipynb'> Advanced I/O </a></li>
     <li>Errors and Exception Handling</li>
