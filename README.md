@@ -8,7 +8,7 @@ For some short snippets in python, visit [30 seconds of code - python](https://w
 For short notes refer, [Cheat Sheet](Cheat_sheet.pdf)
 
 ### Sequence of notes:
-All the outputs are to be tested by using print statement. If print statements are not given, please use print statement in your code(s). 
+All the outputs are to be tested by using print statement. In the notes shared, if only names of variables/functions are given, please use print statement in your code(s) to get the output. 
 
 <ol>
     <li> <a href = 'Installing_and_Using_Python.md'>Installing and Using Python</a> </li>
