@@ -21,9 +21,9 @@ For Interactive working for beginners, [Jupyter Notebooks](https://jupyter.org) 
 The official Python Documentation may be viewed at or [downloaded](https://docs.python.org/)
 
 Other Private tutorials at:  
-1. [Tutorials Point](www.tutorialspoint.com/python/index.htm)  
-2. [W3Schools](www.w3schools.com/python/)  
-3. [Geeks for Geeks](www.geeksforgeeks.org/python-programming-language/)  
+1. [Tutorials Point](https://www.tutorialspoint.com/python/index.htm)  
+2. [W3Schools](https://www.w3schools.com/python/)  
+3. [Geeks for Geeks](https://www.geeksforgeeks.org/python-programming-language/)  
 
 ****
 
