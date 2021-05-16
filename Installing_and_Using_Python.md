@@ -1,9 +1,7 @@
 ## Downloading and Installing Python
-The official python software (Interperter and IDLE) available at the official site: https://www.python.org
+The official python software (Interperter and IDLE) available at [the official site](https://www.python.org)
 
 For windows 32-bit: Click on Download option in the Downloads Menu
-
-For Windows 64-bit, MacOS and Linux/Unix, visit: https://www.python.org/downloads/
 
 ****
 
