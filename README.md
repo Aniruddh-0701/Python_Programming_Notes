@@ -13,6 +13,8 @@ A Byte of Python - Swaroopch
 [Download PDF or EPUB](https://github.com/swaroopch/byte-of-python/releases/latest)  
 [Purchase](https://swaroopch.com/buybook)  
 
+Read the notes using [GitHub pages](https://aniruddh-0701.github.io/Python_Programming_Notes/)
+
 ### Sequence of notes:
 All the outputs are to be tested by using print statement. In the notes shared, if only names of variables/functions are given, please use print statement(s) in your code to get the output. 
 
