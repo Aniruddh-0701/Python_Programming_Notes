@@ -14318,9 +14318,12 @@ Index - may be positive or negative</p>
 <li>'[ ]'</li>
 <li>list()</li>
 </ol>
-<h3 id="1.-'[-]'">1. '[ ]'<a class="anchor-link" href="#1.-'[-]'">&#182;</a></h3><p>l = [10, 20, 30]</p>
-<h3 id="2.-list()">2. list()<a class="anchor-link" href="#2.-list()">&#182;</a></h3><p>Syntax: <code>list(iterable = None)</code><br>
-iterable: any data structures listed above</p>
+<h3 id="1.-'[-]'">1. '[ ]'<a class="anchor-link" href="#1.-'[-]'">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">]</span>
+</pre></div>
+<h3 id="2.-list()">2. list()<a class="anchor-link" href="#2.-list()">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">iterable</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+<p>iterable: any data structures listed above</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14442,8 +14445,9 @@ iterable: any data structures listed above</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Getting-list-as-input:">Getting list as input:<a class="anchor-link" href="#Getting-list-as-input:">&#182;</a></h3><p>list1 = list(input())<br>
-list1 = list(input().split())</p>
+<h3 id="Getting-list-as-input:">Getting list as input:<a class="anchor-link" href="#Getting-list-as-input:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">list1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>  
+<span class="n">list1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14621,7 +14625,9 @@ list1 = list(input().split())</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="1.-append:">1. append:<a class="anchor-link" href="#1.-append:">&#182;</a></h3><p>Adds the given element to the end of the list.<br>
-Syntax: <code>list.append(element)</code></p>
+Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14670,7 +14676,9 @@ Syntax: <code>list.append(element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="2.-insert:">2. insert:<a class="anchor-link" href="#2.-insert:">&#182;</a></h3><p>Inserts the element at the index specified<br>
-Syntax: <code>list.insert(index, element)</code></p>
+Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">element</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14719,7 +14727,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="3.-pop:">3. pop:<a class="anchor-link" href="#3.-pop:">&#182;</a></h3><p>Removes and returns the element from the index specified. Default is last element</p>
-<p>Syntax: <code>list.pop(index = -1)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">index</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14781,7 +14791,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="4.-map:">4. map:<a class="anchor-link" href="#4.-map:">&#182;</a></h3><p>Applies the given function to every element in a list or iterable.</p>
-<p>Syntax: <code>map(function, iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">map</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14897,7 +14909,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="5.-filter:">5. filter:<a class="anchor-link" href="#5.-filter:">&#182;</a></h3><p>Filters out the elements that match the given condition</p>
-<p>Syntax: <code>filter(condition, iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">filter</span><span class="p">(</span><span class="n">condition</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 <p>The condition should be given as a function definition which can be mapped to each variable.</p>
 
 </div>
@@ -14942,7 +14956,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="6.-sort:">6. sort:<a class="anchor-link" href="#6.-sort:">&#182;</a></h3><p>Sorts the list as per the given condition</p>
-<p>Syntax: <code>list.sort(key = None, reverse = False)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">reverse</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15029,7 +15045,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="7.-sorted:">7. sorted:<a class="anchor-link" href="#7.-sorted:">&#182;</a></h3><p>It is also function used to sort. Difference is that the sorted list should be reassigned to a variable.</p>
-<p>Syntax: <code>sorted(iterable, key = None, reverse = False)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">sorted</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">reverse</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15075,7 +15093,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="8.-extend:">8. extend:<a class="anchor-link" href="#8.-extend:">&#182;</a></h3><p>Extends the given list using the elements of iterable, i.e. appends the elements of iterable to the given list</p>
-<p>Syntax: <code>list.extend(iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15160,7 +15180,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="9.-index:">9. index:<a class="anchor-link" href="#9.-index:">&#182;</a></h3><p>Returns the index of the element in the list. If multiple elements exist, it gives the index of first occurrence. If the element is not in the list, it raises an error</p>
-<p>Syntax: <code>list.index(element)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15205,7 +15227,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="10.-remove:">10. remove:<a class="anchor-link" href="#10.-remove:">&#182;</a></h3><p>Removes the first occurence of the element if present. Raises error when element not present</p>
-<p>Syntax: <code>list.remove(value)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15291,7 +15315,9 @@ Syntax: <code>list.insert(index, element)</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="11.-reduce:">11. reduce:<a class="anchor-link" href="#11.-reduce:">&#182;</a></h3><p>Sequentially applies the elements in the list to a function to give the final value. To use this we need to call <em>functools</em> module. In depth study of modules will be dealt later</p>
-<p>Syntax: <code>reduce(function, list)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">reduce</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15354,7 +15380,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="12.-reverse:">12. reverse:<a class="anchor-link" href="#12.-reverse:">&#182;</a></h3><p>Used to reverse the list.</p>
-<p>Syntax: <code>list.reverse()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15400,7 +15428,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="13.-len:">13. len:<a class="anchor-link" href="#13.-len:">&#182;</a></h3><p>Returns the length of the given iterable</p>
-<p>Syntax: <code>len(iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15445,7 +15475,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="14.-count:">14. count:<a class="anchor-link" href="#14.-count:">&#182;</a></h3><p>Returns the count of the element specified</p>
-<p>Syntax: <code>list.count(element)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15503,7 +15535,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="15.-sum:">15. sum:<a class="anchor-link" href="#15.-sum:">&#182;</a></h3><p>returns the sum elements in the list or tuple.</p>
-<p>Syntax: <code>sum(list, start = 0)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">sum</span><span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15590,7 +15624,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="16.-max:">16. max:<a class="anchor-link" href="#16.-max:">&#182;</a></h3><p>Returns the maximum value in the list.</p>
-<p>Syntax: <code>max(list, key = None)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">max</span><span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15673,7 +15709,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="17.-min:">17. min:<a class="anchor-link" href="#17.-min:">&#182;</a></h3><p>Returns minimum value in the iterable</p>
-<p>Syntax: <code>min(iterable, key = None)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">min</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15718,7 +15756,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="18.-enumerate:">18. enumerate:<a class="anchor-link" href="#18.-enumerate:">&#182;</a></h3><p>Returns the enumerate object for given list. An enumerate object is an iterable which contains ordered pair of the form <code>(index, value)</code></p>
-<p>Syntax: <code>enumerate(iterable, start = 0)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">enumerate</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15803,8 +15843,8 @@ Consider a list, <code>l = [10, 20, 30, 40, 50]</code>. Length = 5</p>
 </tbody>
 </table>
 <p>Calling $i^{th}$ element:<br>
-positive index: l [i-1]<br>
-negative index: l [i - 1 - length]</p>
+positive index: <code>l[i-1]</code><br>
+negative index: <code>l[i - 1 - length]</code></p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15892,8 +15932,10 @@ negative index: l [i - 1 - length]</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Slicing-operator:">Slicing operator:<a class="anchor-link" href="#Slicing-operator:">&#182;</a></h2><p>Used to get / set a sublist of a list. Denoted by '[ ]'</p>
-<p>Syntax: <code>list_name[start = 0 : stop = length : step = 1]</code></p>
+<h2 id="Slicing-operator:">Slicing operator:<a class="anchor-link" href="#Slicing-operator:">&#182;</a></h2><p>Used to get / set a sublist of a list. Denoted by <code>'[]'</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">list_name</span><span class="p">[</span><span class="n">start</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">:</span> <span class="n">stop</span> <span class="o">=</span> <span class="n">length</span> <span class="p">:</span> <span class="n">step</span> <span class="o">=</span> <span class="mi">1</span><span class="p">]</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16145,7 +16187,9 @@ negative index: l [i - 1 - length]</p>
 <h2 id="List-Comprehension:">List Comprehension:<a class="anchor-link" href="#List-Comprehension:">&#182;</a></h2><p>It follows the form of the mathematical set-builder notation unlike the use of map and filter functions. It is used to create lists from either an existing like or a completely new list.</p>
 <p>Set bulider form:
 {$x: x ~\rm{\epsilon~ list}$}<br>
-Example: <code>list1 = [expression (loops)]</code></p>
+Example:</p>
+<div class="highlight"><pre><span></span><span class="n">list1</span> <span class="o">=</span> <span class="p">[</span><span class="n">expression</span> <span class="p">(</span><span class="n">loops</span><span class="p">)]</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16314,7 +16358,9 @@ Example: <code>list1 = [expression (loops)]</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="List-Aliasing:">List Aliasing:<a class="anchor-link" href="#List-Aliasing:">&#182;</a></h2><p>Aliasing a list variable with another name. Referring a single list by multiple names.<br>
-Syntax: <code>new_name = old_name</code></p>
+Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">new_name</span> <span class="o">=</span> <span class="n">old_name</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16376,7 +16422,9 @@ Syntax: <code>new_name = old_name</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="1.-Copy-method:">1. Copy method:<a class="anchor-link" href="#1.-Copy-method:">&#182;</a></h3><p>Creates a shallow copy of variable</p>
-<p>Syntax: <code>new_list = list.copy(list_name)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">new_list</span> <span class="o">=</span> <span class="nb">list</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">list_name</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16422,7 +16470,9 @@ Syntax: <code>new_name = old_name</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="2.-slicing-operator:">2. slicing operator:<a class="anchor-link" href="#2.-slicing-operator:">&#182;</a></h3><p>Another method for shallow copy</p>
-<p>Syntax: <code>new_list = old_list[:]</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">new_list</span> <span class="o">=</span> <span class="n">old_list</span><span class="p">[:]</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16468,7 +16518,9 @@ Syntax: <code>new_name = old_name</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="3.-list-function:">3. list function:<a class="anchor-link" href="#3.-list-function:">&#182;</a></h3><p>Create a new instance using list function. It also results in shallow copy</p>
-<p>Syntax: <code>list_new = list(old_list)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">list_new</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">old_list</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16520,9 +16572,13 @@ Syntax: <code>new_name = old_name</code></p>
 <li>deepcopy</li>
 </ol>
 <h4 id="1.-copy:">1. copy:<a class="anchor-link" href="#1.-copy:">&#182;</a></h4><p>creates shallow copy</p>
-<p>Syntax: <code>new_list = copy(list_name)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">new_list</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="n">list_name</span><span class="p">)</span>
+</pre></div>
 <h4 id="2.-deepcopy:">2. deepcopy:<a class="anchor-link" href="#2.-deepcopy:">&#182;</a></h4><p>Creates a deep copy</p>
-<p>Syntax: <code>new_list = deepcopy(list_name)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">new_list</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">list_name</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16584,8 +16640,12 @@ Syntax: <code>new_name = old_name</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Multi-dimensional-lists-or-matrices:">Multi-dimensional lists or matrices:<a class="anchor-link" href="#Multi-dimensional-lists-or-matrices:">&#182;</a></h2><p>Lists in a list is called a multidimensional list or nested lists. They are generally used to work with matrices.</p>
-<p>Example: <code>list = [[10, 20, 30], [40, 50, 60]]</code> - Two dimensional list</p>
-<h3 id="Accessing-elements-using-index:">Accessing elements using index:<a class="anchor-link" href="#Accessing-elements-using-index:">&#182;</a></h3><p>Syntax: <code>list_name[outermost list index][inner list index]...</code></p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><span class="nb">list</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span> <span class="p">[</span><span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">]]</span> <span class="c1"># - Two dimensional list</span>
+</pre></div>
+<h3 id="Accessing-elements-using-index:">Accessing elements using index:<a class="anchor-link" href="#Accessing-elements-using-index:">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">list_name</span><span class="p">[</span><span class="n">outermost</span> <span class="nb">list</span> <span class="n">index</span><span class="p">][</span><span class="n">inner</span> <span class="nb">list</span> <span class="n">index</span><span class="p">]</span><span class="o">...</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16672,7 +16732,9 @@ Syntax: <code>new_name = old_name</code></p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Matrix:">Matrix:<a class="anchor-link" href="#Matrix:">&#182;</a></h2><p>A rectangular array of elements. Two dimensional lists or tuples are used to work with matrices.</p>
 <p>Each row of matrix is stored as a list</p>
-<p>Example: <code>matrix = [[10, 20, 30], [40, 50, 60]]</code></p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><span class="n">matrix</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span> <span class="p">[</span><span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">]]</span>
+</pre></div>
 <h3 id="Matrix-input:">Matrix input:<a class="anchor-link" href="#Matrix-input:">&#182;</a></h3><p>Matrix can be taken as input using loops or list comprehension.</p>
 
 </div>
@@ -16914,7 +16976,7 @@ Syntax: <code>new_name = old_name</code></p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Stack:">Stack:<a class="anchor-link" href="#Stack:">&#182;</a></h2><p>A data type where elements are arranged such that the elements can only be added to and removed from the last.<br>
 It follows the principle <em>FILO</em> - First In Last Out</p>
-<p><strong>Methods used:</strong> append() and pop()</p>
+<p><strong>Methods used:</strong> <code>append()</code> and <code>pop()</code></p>
 
 </div>
 </div>
@@ -16922,7 +16984,7 @@ It follows the principle <em>FILO</em> - First In Last Out</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Queue">Queue<a class="anchor-link" href="#Queue">&#182;</a></h2><p>A data type where elements are arranged such that the elements can only be added to the last and removed from the first.<br>
 It follows the principle <em>FIFO</em> - First In First Out</p>
-<p><strong>Methods Used:</strong> append() and pop(0)</p>
+<p><strong>Methods Used:</strong> <code>append()</code> and <code>pop(0)</code></p>
 
 </div>
 </div>

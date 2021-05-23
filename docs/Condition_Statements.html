@@ -14293,9 +14293,9 @@ The list of Control statements are:</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="1.-if-statement:">1. if statement:<a class="anchor-link" href="#1.-if-statement:">&#182;</a></h4><p>Executes the statements inside the block only if the condition is satisfied.</p>
 <p>Syntax:</p>
-<blockquote><p><em>if</em> condition:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statements</p>
-</blockquote>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">condition</span><span class="p">:</span>  
+    <span class="n">Statements</span>
+</pre></div>
 
 </div>
 </div>
@@ -14345,7 +14345,7 @@ The list of Control statements are:</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Example2</span>
@@ -14396,11 +14396,11 @@ The list of Control statements are:</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="2.-if---else-statements:">2. <em>if - else</em> statements:<a class="anchor-link" href="#2.-if---else-statements:">&#182;</a></h4><p>Executes <em>else</em> when <em>if</em> condition fails<br>
 Syntax:</p>
-<blockquote><p>if condition1:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Statements<br>
-else:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Statements</p>
-</blockquote>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">condition1</span><span class="p">:</span>  
+    <span class="n">Statements</span>  
+<span class="k">else</span><span class="p">:</span>  
+    <span class="n">Statements</span>
+</pre></div>
 
 </div>
 </div>
@@ -14408,13 +14408,13 @@ else:<br>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="3.-if---elif---else-statements:">3. <em>if - elif - else</em> statements:<a class="anchor-link" href="#3.-if---elif---else-statements:">&#182;</a></h4><p>Checks for truth of <em>elif</em> statement when <em>if</em> statement fails. Chain of <em>if-else</em><br>
 Syntax:</p>
-<blockquote><p>if condition1:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Statements
-elif condition2:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Statements
-else:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Statements</p>
-</blockquote>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">condition1</span><span class="p">:</span>  
+    <span class="n">Statements</span>  
+<span class="k">elif</span> <span class="n">condition2</span><span class="p">:</span>  
+    <span class="n">Statements</span>  
+<span class="k">else</span><span class="p">:</span>  
+    <span class="n">Statements</span>
+</pre></div>
 
 </div>
 </div>
@@ -14422,17 +14422,17 @@ else:<br>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="4.-Nested-if---else-statements:">4. Nested <em>if - else</em> statements:<a class="anchor-link" href="#4.-Nested-if---else-statements:">&#182;</a></h4><p><em>if else</em> within another <em>if else</em> statement</p>
 <p>Syntax:</p>
-<blockquote><p>if condition1:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if condition2:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statements<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statements<br>
-else:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if condition3:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statements<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statements</p>
-</blockquote>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">condition1</span><span class="p">:</span>  
+    <span class="k">if</span> <span class="n">condition2</span><span class="p">:</span>  
+        <span class="n">Statements</span>  
+    <span class="k">else</span><span class="p">:</span>  
+        <span class="n">Statements</span>  
+<span class="k">else</span><span class="p">:</span>  
+    <span class="k">if</span> <span class="n">condition3</span><span class="p">:</span>  
+        <span class="n">Statements</span>  
+    <span class="k">else</span><span class="p">:</span>  
+        <span class="n">Statements</span>
+</pre></div>
 
 </div>
 </div>
@@ -14440,8 +14440,8 @@ else:<br>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="5.-Inline-if---else-statements:">5. Inline <em>if - else</em> statements:<a class="anchor-link" href="#5.-Inline-if---else-statements:">&#182;</a></h4><p>One liner of <em>if else</em> statements</p>
 <p>Syntax:</p>
-<blockquote><p>Statement1 if condition else Statement2</p>
-</blockquote>
+<div class="highlight"><pre><span></span><span class="n">Statement1</span> <span class="k">if</span> <span class="n">condition</span> <span class="k">else</span> <span class="n">Statement2</span>
+</pre></div>
 
 </div>
 </div>

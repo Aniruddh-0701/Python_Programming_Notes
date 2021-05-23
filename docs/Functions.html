@@ -14266,19 +14266,23 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Syntax:<br>
-<em>def</em> function_name(parameters): =&gt; function definition<br>
-&nbsp; &nbsp; &nbsp;Statements<br>
-&nbsp; &nbsp; &nbsp; <em>return</em> value(s)</p>
-<p>...<br>
-...<br>
-function_name(parameters) =&gt; Caller</p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">parameters</span><span class="p">):</span>  <span class="c1"># function definition  </span>
+    <span class="n">Statements</span>
+    <span class="k">return</span> <span class="n">value</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+
+<span class="o">...</span>  
+<span class="o">...</span>  
+<span class="n">function_name</span><span class="p">(</span><span class="n">parameters</span><span class="p">)</span> <span class="c1"># Caller</span>
+</pre></div>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Return-statement:(return)">Return statement:(<em>return</em>)<a class="anchor-link" href="#Return-statement:(return)">&#182;</a></h4><p>Returns back a value as specified. It marks the end of a function</p>
+<h4 id="Return-statement:">Return statement:<a class="anchor-link" href="#Return-statement:">&#182;</a></h4><div class="highlight"><pre><span></span><span class="k">return</span>
+</pre></div>
+<p>Returns back a value as specified. It marks the end of a function</p>
 
 </div>
 </div>
@@ -14290,12 +14294,12 @@ function_name(parameters) =&gt; Caller</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Example 1:</span>
 <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span> <span class="c1"># Function Definition</span>
-    <span class="k">return</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span> <span class="c1"># returns the sum</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="c1"># returns the sum</span>
 <span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span> <span class="c1"># Function Calling</span>
@@ -14343,8 +14347,9 @@ function_name(parameters) =&gt; Caller</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Lambda-function-(Inline-or-Anonymous-function):">Lambda function (Inline or Anonymous function):<a class="anchor-link" href="#Lambda-function-(Inline-or-Anonymous-function):">&#182;</a></h2><p>One liner of a function</p>
-<p>Syntax:<br>
-<em>lambda</em> parameters: Statement</p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="k">lambda</span> <span class="n">parameters</span><span class="p">:</span> <span class="n">Statement</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14404,9 +14409,9 @@ function_name(parameters) =&gt; Caller</p>
 <h2 id="Recursion:">Recursion:<a class="anchor-link" href="#Recursion:">&#182;</a></h2><p>Recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem.</p>
 <h2 id="Recursive-function:">Recursive function:<a class="anchor-link" href="#Recursive-function:">&#182;</a></h2><p>A function that performs recursion.</p>
 <p>A recursive function calls itself repeatedly by dividing the problem into sub problems until the solution is obtained for the smallest sub-problem.</p>
-<blockquote><p><em>def</em> function(paramters1):<br>
-&nbsp;&nbsp;&nbsp; function(parameters2) -- Recursive calling</p>
-</blockquote>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function</span><span class="p">(</span><span class="n">paramters1</span><span class="p">):</span>
+    <span class="n">function</span><span class="p">(</span><span class="n">parameters2</span><span class="p">)</span> <span class="c1"># Recursive calling</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14415,10 +14420,10 @@ function_name(parameters) =&gt; Caller</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Example using factorial</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Example using factorial (n! = 1 * 2 * 3 ... n) n! = n * (n-1)!</span>
 <span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
     <span class="k">if</span> <span class="o">-</span><span class="mi">1</span><span class="o">&lt;</span><span class="n">n</span><span class="o">&lt;=</span><span class="mi">1</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span> <span class="c1"># End of recursion</span>
-    <span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="n">n</span><span class="o">*</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># recursive calling</span>
+    <span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># recursive calling</span>
 
 <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
@@ -14639,6 +14644,8 @@ If not, it will result in error.</p>
 <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span> <span class="c1"># Function Definition - Parameters</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span> <span class="c1"># returns the sum</span>
+
+
 <span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="n">b</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">a</span> <span class="o">=</span> <span class="n">y</span><span class="p">))</span> <span class="c1"># Function Calling - Keywords are names of params used in definition</span>
@@ -14899,6 +14906,49 @@ The arguments passed are stored as a tuple. The arguments that start with ' * ' 
 <h4 id="2.-**kwargs:">2. **kwargs:<a class="anchor-link" href="#2.-**kwargs:">&#182;</a></h4><p>Variable length arguments of the form key = value. Stores the values as key-value mapping or dictionary.</p>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#kwargs example</span>
+<span class="k">def</span> <span class="nf">kwargs_ex</span><span class="p">(</span><span class="o">**</span><span class="n">a</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">a</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">v</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">kwargs_ex</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>{&#39;x&#39;: 2, &#39;y&#39;: 3}
+x = 2
+y = 3
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -14915,7 +14965,7 @@ Scopes:</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Example</span>
@@ -14937,9 +14987,10 @@ Scopes:</p>
     <span class="n">k</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">s</span><span class="p">,</span><span class="n">z</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
 <span class="n">printf</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
 
 <span class="c1"># Input:</span>
 <span class="c1"># 10</span>
@@ -14980,6 +15031,9 @@ Hello
 Hello
 Hello
 10 23 10 -100
+Hello
+Hello
+4
 </pre>
 </div>
 </div>
@@ -14994,12 +15048,12 @@ Hello
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-2-2716aba99fc1&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     18</span>     print<span class="ansi-yellow-intense-fg ansi-bold">(</span>k<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     19</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">,</span>y<span class="ansi-yellow-intense-fg ansi-bold">,</span>s<span class="ansi-yellow-intense-fg ansi-bold">,</span>z<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 20</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>c<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     21</span> printf<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     22</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>k<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-7-7827df25d73f&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">     21</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>k<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     22</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>i<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 23</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>c<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     24</span> 
+<span class="ansi-green-fg">     25</span> <span class="ansi-red-intense-fg ansi-bold"># Input:</span>
 
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;c&#39; is not defined</pre>
 </div>
@@ -15012,7 +15066,7 @@ Hello
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">printf</span><span class="p">():</span> <span class="c1"># Function definition</span>
@@ -15065,8 +15119,9 @@ Hi
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Docstrings-in-Function:">Docstrings in Function:<a class="anchor-link" href="#Docstrings-in-Function:">&#182;</a></h3><p>Docstrings are most commonly used in a function.
 They act as descriptor of function, i.e., they describe the function.</p>
-<p>Calling docstings:
-<em>function_name.&#95;&#95;doc&#95;&#95;</em></p>
+<p>Calling docstings:</p>
+<div class="highlight"><pre><span></span><span class="n">function_name</span><span class="o">.</span><span class="vm">__doc__</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15135,8 +15190,9 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="1.-print:">1. print:<a class="anchor-link" href="#1.-print:">&#182;</a></h3><p>Syntax:
-<code>print(values, [end=”\n”, sep=” ”])</code></p>
+<h3 id="1.-print:">1. print:<a class="anchor-link" href="#1.-print:">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15356,7 +15412,9 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="2.-input:">2. input:<a class="anchor-link" href="#2.-input:">&#182;</a></h3><p>Syntax: <code>input(prompt="")</code></p>
+<h3 id="2.-input:">2. input:<a class="anchor-link" href="#2.-input:">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">input</span><span class="p">(</span><span class="n">prompt</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15396,7 +15454,7 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">prompt</span> <span class="o">=</span> <span class="s1">&#39;Prompt&#39;</span><span class="p">)</span>
@@ -15430,7 +15488,9 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="3.-int:">3. int:<a class="anchor-link" href="#3.-int:">&#182;</a></h3><p>Syntax: <code>int(x, base = 10)</code></p>
+<h3 id="3.-int:">3. int:<a class="anchor-link" href="#3.-int:">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">base</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15587,7 +15647,9 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="4.-float:">4. float:<a class="anchor-link" href="#4.-float:">&#182;</a></h3><p>Syntax: <code>float(x = 0)</code></p>
+<h3 id="4.-float:">4. float:<a class="anchor-link" href="#4.-float:">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">float</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15809,6 +15871,7 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="o">*</span><span class="n">b</span><span class="p">):</span> <span class="c1"># Function Definition </span>
     <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="c1"># returns the sum; sum is a built in function that returns sum of elements in an iterable</span>
+
 <span class="n">l</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="o">*</span><span class="n">l</span><span class="p">))</span> <span class="c1"># Function Calling</span>
 
@@ -15854,18 +15917,67 @@ Iteration is hard coding but is efficient in solving the problems.</p>
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Higher-Order-Functions-or-Function-Decorators:">Higher Order Functions or Function Decorators:<a class="anchor-link" href="#Higher-Order-Functions-or-Function-Decorators:">&#182;</a></h2><p>A function returning another function is called a higher order function</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function1</span><span class="p">(</span><span class="n">params</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">function2</span><span class="p">(</span><span class="n">params</span><span class="p">):</span>
+        <span class="n">Statements</span>
+
+    <span class="k">return</span> <span class="n">function2</span>
+</pre></div>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">deco</span><span class="p">(</span><span class="n">k</span><span class="p">):</span> <span class="c1"># Higher order function / decorator</span>
+    <span class="k">def</span> <span class="nf">multiple</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">n</span><span class="o">*</span><span class="n">k</span>
+    <span class="k">return</span> <span class="n">multiple</span>
+
+<span class="n">second_multiple</span> <span class="o">=</span> <span class="n">deco</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter a num</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">second_multiple</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>12
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
