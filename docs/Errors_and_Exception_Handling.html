@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>OOPS</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Errors_and_Exception_Handling</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14259,209 +14259,31 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="OOPS:">OOPS:<a class="anchor-link" href="#OOPS:">&#182;</a></h1><p>Object Oriented Programming or OOP is working with classes and objects. It involves interaction between objects having various attributes.</p>
-<p>Python is a object oriented programming language. This meand that all the types are representation or instance of a type class.</p>
-
+<h1 id="Errors-and-Exception">Errors and Exception<a class="anchor-link" href="#Errors-and-Exception">&#182;</a></h1>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Components:">Components:<a class="anchor-link" href="#Components:">&#182;</a></h2><ol>
-<li>Class</li>
-<li>Object</li>
+<h2 id="Error:">Error:<a class="anchor-link" href="#Error:">&#182;</a></h2><p>Errors are the problems in a program due to which the program will stop the execution.</p>
+<p><a href="https://www.thecrazyprogrammer.com/2014/08/types-of-errors-in-programming.html">Some Common Errors</a></p>
+<ol>
+<li>Syntax Errors</li>
+<li>Run-time Errors</li>
+<li>Logical Errors</li>
+<li>Latent Errors</li>
 </ol>
 
 </div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Class:">Class:<a class="anchor-link" href="#Class:">&#182;</a></h2><p>It is a structure or a building block (a code block) representing or defining the attributes (features and behaviour) of similar parameters.</p>
-<h3 id="Definition:">Definition:<a class="anchor-link" href="#Definition:">&#182;</a></h3><p>Using <code>class</code> keyword.
-Name of a class should start with an uppercase letter.</p>
-<p>Syntax: <code>class Class_name</code></p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Students</span><span class="p">:</span>
-    <span class="n">roll_no</span> <span class="o">=</span> <span class="nb">int</span><span class="p">()</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Object:">Object:<a class="anchor-link" href="#Object:">&#182;</a></h2><p>It is an instance of a class.</p>
-<p>Syntax: <code>obj_name = Class_name()</code></p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">student1</span> <span class="o">=</span> <span class="n">Students</span><span class="p">()</span> <span class="c1"># creating a new object</span>
-
-<span class="n">student1</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">student1</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Prabhu&#39;</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">student1</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">student1</span><span class="o">.</span><span class="n">roll_no</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Prabhu
-1
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="self-Keyword:"><em>self</em> Keyword:<a class="anchor-link" href="#self-Keyword:">&#182;</a></h2><p>Calls the attributes for current instance or object.</p>
-<p>Syntax: <code>self.attribute_name</code></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Defining-attributes-in-a-class:">Defining attributes in a class:<a class="anchor-link" href="#Defining-attributes-in-a-class:">&#182;</a></h2><p>Attributes or Properties are  defined using a constructor.</p>
-<h3 id="Constructor:">Constructor:<a class="anchor-link" href="#Constructor:">&#182;</a></h3><p>Executes a set of code whenever a new object/instance is created.</p>
-<p>Defined by __init__ method.</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="c1"># default constructor</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Name&#39;</span>
-<span class="c1">#         print(&#39;__init__ file&#39;)</span>
-    
-    <span class="k">def</span> <span class="nf">study</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Studying....&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">st1</span> <span class="o">=</span> <span class="n">Student</span><span class="p">()</span>
-<span class="n">st1</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">st1</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Ravi&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Roll No: </span><span class="si">{</span><span class="n">st1</span><span class="o">.</span><span class="n">roll_no</span><span class="si">}</span><span class="s1">, Name: </span><span class="si">{</span><span class="n">st1</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>__init__ file
-Roll No: 1, Name: Ravi
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student_details</span><span class="p">:</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rn</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">st_name</span> <span class="o">=</span> <span class="s1">&#39;Name&#39;</span><span class="p">):</span> <span class="c1"># Parametric Constructor</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="n">rn</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">st_name</span>
-<span class="c1">#         print(&#39;__init__ file&#39;)</span>
-    
-    <span class="k">def</span> <span class="nf">study</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Studying....&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">st2</span> <span class="o">=</span> <span class="n">Student_details</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;Rahul&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Roll No: </span><span class="si">{</span><span class="n">st2</span><span class="o">.</span><span class="n">roll_no</span><span class="si">}</span><span class="s1">, Name: </span><span class="si">{</span><span class="n">st2</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># list of Errors and exceptions</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">)</span> <span class="o">+</span> <span class="nb">dir</span><span class="p">(</span><span class="n">__builtin__</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s2">&quot;Error&quot;</span> <span class="ow">in</span> <span class="n">i</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14481,7 +14303,104 @@ Roll No: 1, Name: Ravi
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Roll No: 2, Name: Rahul
+<pre>ArithmeticError
+AssertionError
+AttributeError
+BlockingIOError
+BrokenPipeError
+BufferError
+ChildProcessError
+ConnectionAbortedError
+ConnectionError
+ConnectionRefusedError
+ConnectionResetError
+EOFError
+EnvironmentError
+FileExistsError
+FileNotFoundError
+FloatingPointError
+IOError
+ImportError
+IndentationError
+IndexError
+InterruptedError
+IsADirectoryError
+KeyError
+LookupError
+MemoryError
+ModuleNotFoundError
+NameError
+NotADirectoryError
+NotImplementedError
+OSError
+OverflowError
+PermissionError
+ProcessLookupError
+RecursionError
+ReferenceError
+RuntimeError
+SyntaxError
+SystemError
+TabError
+TimeoutError
+TypeError
+UnboundLocalError
+UnicodeDecodeError
+UnicodeEncodeError
+UnicodeError
+UnicodeTranslateError
+ValueError
+WindowsError
+ZeroDivisionError
+ArithmeticError
+AssertionError
+AttributeError
+BlockingIOError
+BrokenPipeError
+BufferError
+ChildProcessError
+ConnectionAbortedError
+ConnectionError
+ConnectionRefusedError
+ConnectionResetError
+EOFError
+EnvironmentError
+FileExistsError
+FileNotFoundError
+FloatingPointError
+IOError
+ImportError
+IndentationError
+IndexError
+InterruptedError
+IsADirectoryError
+KeyError
+LookupError
+MemoryError
+ModuleNotFoundError
+NameError
+NotADirectoryError
+NotImplementedError
+OSError
+OverflowError
+PermissionError
+ProcessLookupError
+RecursionError
+ReferenceError
+RuntimeError
+SyntaxError
+SystemError
+TabError
+TimeoutError
+TypeError
+UnboundLocalError
+UnicodeDecodeError
+UnicodeEncodeError
+UnicodeError
+UnicodeTranslateError
+ValueError
+WindowsError
+ZeroDivisionError
 </pre>
 </div>
 </div>
@@ -14493,61 +14412,19 @@ Roll No: 1, Name: Ravi
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="destructor:">destructor:<a class="anchor-link" href="#destructor:">&#182;</a></h2><p>Delete the current instance of class or object.</p>
-<p>Use __del__ method</p>
+<h2 id="Exception:">Exception:<a class="anchor-link" href="#Exception:">&#182;</a></h2><p>Exceptions are raised when the some internal events occur which changes the normal flow of the program.</p>
 
 </div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Some-other-methods:">Some other methods:<a class="anchor-link" href="#Some-other-methods:">&#182;</a></h2><ol>
-<li>__repr__ - String representation</li>
-<li>__cmp__ - Compare two objects</li>
-<li>__len__ - length of object</li>
-<li>__lt__ - less than</li>
-<li>__le__ - less than or equal</li>
-<li>__gt__ - greater than</li>
-<li>__ge__ - greater than or equal</li>
-<li>__ne__ - not equal</li>
-<li>__eq__ - equal</li>
-<li>__getitem__ - get a key from a iterable</li>
-<li>__setitem__ - set a value to the given key of iterable</li>
-</ol>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Private-variables-and-methods:">Private variables and methods:<a class="anchor-link" href="#Private-variables-and-methods:">&#182;</a></h2><p>Start with __</p>
-<p>E.g.: __var, __method</p>
-<p>It is advised for best programming practice to avoid calling private attributes outside the class.<br>
-But if needed, use the following syntax:</p>
-<p><code>obj._classname__attribute</code></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Calling-a-method-in-another-method-inside-the-class:">Calling a method in another method inside the class:<a class="anchor-link" href="#Calling-a-method-in-another-method-inside-the-class:">&#182;</a></h2><p>Use self keyword to call the function.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Definining-run-time-class-attributes:">Definining run time class attributes:<a class="anchor-link" href="#Definining-run-time-class-attributes:">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Methods-of-attributes:">Methods of attributes:<a class="anchor-link" href="#Methods-of-attributes:">&#182;</a></h2>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># list of Errors and exceptions</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">)</span> <span class="o">+</span> <span class="nb">dir</span><span class="p">(</span><span class="n">__builtin__</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s2">&quot;Exception&quot;</span> <span class="ow">in</span> <span class="n">i</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14555,13 +14432,114 @@ But if needed, use the following syntax:</p>
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>BaseException
+Exception
+BaseException
+Exception
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Check the complete example <a href="OOPS.py">OOPS.py</a></p>
-<p>Ignore the imports. They have used to provide hinting about the types of each variable</p>
+<h2 id="Traceback">Traceback<a class="anchor-link" href="#Traceback">&#182;</a></h2><p>The script used below is present <a href="Errors_and_Exception.py">here</a></p>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">a</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;In a&quot;</span><span class="p">)</span>
+    <span class="n">b</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Back in a&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">b</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;In b&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="mi">42</span><span class="o">/</span><span class="mi">0</span>
+
+<span class="n">a</span><span class="p">()</span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>In a
+In b
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">ZeroDivisionError</span>                         Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-11-cabfeb6b5ae6&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">      8</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-cyan-intense-fg ansi-bold">42</span><span class="ansi-yellow-intense-fg ansi-bold">/</span><span class="ansi-cyan-intense-fg ansi-bold">0</span>
+<span class="ansi-green-fg">      9</span> 
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 10</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>a<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-11-cabfeb6b5ae6&gt;</span> in <span class="ansi-cyan-fg">a</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-fg">      1</span> <span class="ansi-green-intense-fg ansi-bold">def</span> a<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">      2</span>     print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;In a&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>b<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      4</span>     print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;Back in a&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      5</span> 
+
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-11-cabfeb6b5ae6&gt;</span> in <span class="ansi-cyan-fg">b</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-fg">      6</span> <span class="ansi-green-intense-fg ansi-bold">def</span> b<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">      7</span>     print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;In b&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 8</span><span class="ansi-yellow-intense-fg ansi-bold">     </span><span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-cyan-intense-fg ansi-bold">42</span><span class="ansi-yellow-intense-fg ansi-bold">/</span><span class="ansi-cyan-intense-fg ansi-bold">0</span>
+<span class="ansi-green-fg">      9</span> 
+<span class="ansi-green-fg">     10</span> a<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">ZeroDivisionError</span>: division by zero</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 </body>
 
