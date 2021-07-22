@@ -14287,7 +14287,7 @@ Name of a class should start with an uppercase letter.</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Students</span><span class="p">:</span>
     <span class="n">roll_no</span> <span class="o">=</span> <span class="nb">int</span><span class="p">()</span>
     <span class="n">name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">()</span>
 </pre></div>
@@ -14310,7 +14310,7 @@ Name of a class should start with an uppercase letter.</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">student1</span> <span class="o">=</span> <span class="n">Student</span><span class="p">()</span> <span class="c1"># creating a new object</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">student1</span> <span class="o">=</span> <span class="n">Students</span><span class="p">()</span> <span class="c1"># creating a new object</span>
 
 <span class="n">student1</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="n">student1</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Prabhu&#39;</span>
@@ -14385,7 +14385,7 @@ Name of a class should start with an uppercase letter.</p>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Name&#39;</span>
 <span class="c1">#         print(&#39;__init__ file&#39;)</span>
     
-    <span class="k">def</span> <span class="nf">study</span><span class="p">():</span>
+    <span class="k">def</span> <span class="nf">study</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Studying....&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -14439,13 +14439,13 @@ Roll No: 1, Name: Ravi
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student_details</span><span class="p">:</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rn</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">st_name</span> <span class="o">=</span> <span class="s1">&#39;Name&#39;</span><span class="p">):</span> <span class="c1"># Parametric Constructor</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="n">rn</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">st_name</span>
 <span class="c1">#         print(&#39;__init__ file&#39;)</span>
     
-    <span class="k">def</span> <span class="nf">study</span><span class="p">():</span>
+    <span class="k">def</span> <span class="nf">study</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Studying....&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -14460,7 +14460,7 @@ Roll No: 1, Name: Ravi
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">st2</span> <span class="o">=</span> <span class="n">Student</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;Rahul&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">st2</span> <span class="o">=</span> <span class="n">Student_details</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;Rahul&#39;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Roll No: </span><span class="si">{</span><span class="n">st2</span><span class="o">.</span><span class="n">roll_no</span><span class="si">}</span><span class="s1">, Name: </span><span class="si">{</span><span class="n">st2</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
 
