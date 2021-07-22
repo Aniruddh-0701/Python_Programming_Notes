@@ -41,7 +41,7 @@ All the outputs are to be tested by using print statement. In the notes shared, 
     <li> <a href = 'Modules_and_Packages.ipynb'>Modules and Packages </a></li>
     <li>File Handling</li>
     <li><a href = 'Advanced_IO.ipynb'> Advanced I/O </a></li>
-    <li>Errors and Exception Handling</li>
+    <li><a href = 'Errors_and_Exception_Handling.ipynb'> Errors and Exception Handling </a></li>
     <li> <a href = 'Generators.ipynb'> Python Generators </a> </li>
     <li>Python Iterators</li>
     <li>Numbers in Programming</li>
