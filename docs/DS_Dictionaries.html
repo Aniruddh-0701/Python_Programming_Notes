@@ -14276,8 +14276,9 @@ In this notebook, we'll discuss indepth on Dictionaries</li>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Dictionary:">Dictionary:<a class="anchor-link" href="#Dictionary:">&#182;</a></h2><p>Dictionaries are unordered collection of data.
 They are key-value mapping.<br>
-Represented by Curly braces '{ }'<br>
-<code>dictionary : {1:10, 2:20, 3:30, 4:'Hello', 5:-2.0}</code></p>
+Represented by Curly braces <code>{}</code></p>
+<div class="highlight"><pre><span></span><span class="n">dictionary</span> <span class="p">:</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">4</span><span class="p">:</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">:</span> <span class="o">-</span><span class="mf">2.0</span><span class="p">}</span>
+</pre></div>
 <p>Defined by - key : value.<br>
 Each key-value map is separated by comma (,)</p>
 <table>
@@ -14310,9 +14311,12 @@ Each key-value map is separated by comma (,)</p>
 <li>'{ }'</li>
 <li>dict()</li>
 </ol>
-<h3 id="1.-'{}'">1. '{}'<a class="anchor-link" href="#1.-'{}'">&#182;</a></h3><p>dict1 = {1:10, 2:20, 3:30}</p>
-<h3 id="2.-dict()">2. dict()<a class="anchor-link" href="#2.-dict()">&#182;</a></h3><p>Syntax: <code>dict(iterable = None)</code><br>
-iterable: any data structures listed above given that elements are present as key value mapping.</p>
+<h3 id="1.-'{}'">1. '{}'<a class="anchor-link" href="#1.-'{}'">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">dict1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span><span class="mi">20</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span><span class="mi">30</span><span class="p">}</span>
+</pre></div>
+<h3 id="2.-dict()">2. dict()<a class="anchor-link" href="#2.-dict()">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="p">(</span><span class="n">iterable</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+<p>iterable: any data structures listed above given that elements are present as key value mapping.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14430,7 +14434,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="1.-len:">1. len:<a class="anchor-link" href="#1.-len:">&#182;</a></h3><p>Returns the length of the given iterable.</p>
-<p>Syntax: <code>len(iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14475,7 +14481,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="2.-str:">2. str:<a class="anchor-link" href="#2.-str:">&#182;</a></h3><p>Returns the string format of the given dictionary.</p>
-<p>Syntax: <code>str(dict)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14520,7 +14528,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="3.-clear:">3. clear:<a class="anchor-link" href="#3.-clear:">&#182;</a></h3><p>Deletes the items in the dictionary.</p>
-<p>Syntax: <code>dict.clear()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14566,7 +14576,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="4.-copy:">4. copy:<a class="anchor-link" href="#4.-copy:">&#182;</a></h3><p>Returns the shallow copy of the given dictionary.</p>
-<p>Syntax: <code>dict.copy()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14612,7 +14624,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="5.-fromkeys:">5. fromkeys:<a class="anchor-link" href="#5.-fromkeys:">&#182;</a></h3><p>Returns  a new dictionary form the given list of keys. By default the values are set to None.</p>
-<p>Syntax: <code>dict.fromkeys(sep, val = None)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">sep</span><span class="p">,</span> <span class="n">val</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14697,7 +14711,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="6.-get:">6. get:<a class="anchor-link" href="#6.-get:">&#182;</a></h3><p>Returns the value of the given key if present else returns the default value given (None by Default).</p>
-<p>Syntax: <code>dict.get(key, default = None)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">default</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14816,7 +14832,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="7.-items:">7. items:<a class="anchor-link" href="#7.-items:">&#182;</a></h3><p>Returns the list of key-value pairs in the dictionary.</p>
-<p>Syntax: <code>dict.items()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14861,7 +14879,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="8.-keys:">8. keys:<a class="anchor-link" href="#8.-keys:">&#182;</a></h3><p>Returns the list of keys present in the dictionary.</p>
-<p>Syntax: <code>dict.keys()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14906,7 +14926,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="9.-values:">9. values:<a class="anchor-link" href="#9.-values:">&#182;</a></h3><p>Returns the list of values present on the dictionary.</p>
-<p>Syntax: <code>dict.values()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14951,7 +14973,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="10.-update:">10. update:<a class="anchor-link" href="#10.-update:">&#182;</a></h3><p>Adds the key-value pairs in second dictionary to the first.</p>
-<p>Syntax: <code>dict.update(dict)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14998,7 +15022,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="11.-pop:">11. pop:<a class="anchor-link" href="#11.-pop:">&#182;</a></h3><p>Removes and returns the value of given key. If the key is absent, Error is raised if default is not given.</p>
-<p>Syntax: <code>dict.pop(key, [default])</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="p">[</span><span class="n">default</span><span class="p">])</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15151,7 +15177,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="12.-popitem:">12. popitem:<a class="anchor-link" href="#12.-popitem:">&#182;</a></h3><p>Removes and returns the last key-value pair of the dictionary.</p>
-<p>Syntax: <code>dict.popitem()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">popitem</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15209,7 +15237,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="13.-setdefault:">13. setdefault:<a class="anchor-link" href="#13.-setdefault:">&#182;</a></h3><p>Sets the default value to key if the key is absent.</p>
-<p>Syntax: <code>dict.setdefault(key, value)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15255,7 +15285,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Accessing-elements:">Accessing elements:<a class="anchor-link" href="#Accessing-elements:">&#182;</a></h2><p>The values in the dictionary are accessed by key.</p>
-<p>Syntax: <code>dictionary[key]</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">dictionary</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15380,7 +15412,10 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Adding-or-Modifying-items:">Adding or Modifying items:<a class="anchor-link" href="#Adding-or-Modifying-items:">&#182;</a></h2><p>Items can be added or modified by using keys.</p>
-<p>Syntax: <code>dictaionary[key] = value</code></p>
+<p>If the key already exists, the value is replcaed by the new value. If not, new key-value pair is created</p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">dictaionary</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15427,7 +15462,9 @@ iterable: any data structures listed above given that elements are present as ke
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Delete-Elements:">Delete Elements:<a class="anchor-link" href="#Delete-Elements:">&#182;</a></h2><p>Elements can be deleted by using the <em>del</em> keyword.</p>
-<p>Syntax: <code>del dict[key]</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="k">del</span> <span class="nb">dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15615,7 +15652,9 @@ d {1: 12, 2: 23, 3: 34}
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Dictionaries-and-list-Comprehension:">Dictionaries and list Comprehension:<a class="anchor-link" href="#Dictionaries-and-list-Comprehension:">&#182;</a></h2><p>Dictionaries can be defined by comprehensions.</p>
-<p>Syntax: <code>dict = {key: value (loops)}</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">value</span> <span class="p">(</span><span class="n">loops</span><span class="p">)}</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">

@@ -14275,8 +14275,9 @@ In this notebook, we'll discuss indepth on Sets</li>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Sets:">Sets:<a class="anchor-link" href="#Sets:">&#182;</a></h2><p>Sets are unordered collection of unique data.
-Enclosed by Curly braces '{ }'<br>
-<code>set: {10, 20.2, 30.0}</code></p>
+Enclosed by Curly braces <code>{}</code></p>
+<div class="highlight"><pre><span></span><span class="nb">set</span><span class="p">:</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mf">20.2</span><span class="p">,</span> <span class="mf">30.0</span><span class="p">}</span>
+</pre></div>
 <p>Each value in the set is called a element<br>
 Since set is unordered collection, it cannot be indexed. The elements are randomly stored.</p>
 
@@ -14284,9 +14285,11 @@ Since set is unordered collection, it cannot be indexed. The elements are random
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Defining-a-set:">Defining a set:<a class="anchor-link" href="#Defining-a-set:">&#182;</a></h2><h3 id="set()-method">set() method<a class="anchor-link" href="#set()-method">&#182;</a></h3><p>Syntax: <code>set(iterable = None)</code><br>
-iterable: any data structures listed above</p>
-<p>By default the { } map to a dictionary. So empty curly braces cannot be used.</p>
+<h2 id="Defining-a-set:">Defining a set:<a class="anchor-link" href="#Defining-a-set:">&#182;</a></h2><h3 id="set()-method">set() method<a class="anchor-link" href="#set()-method">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">set</span><span class="p">(</span><span class="n">iterable</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+<p>iterable: any data structures listed above</p>
+<p>By default the <code>{}</code> map to a dictionary. So empty curly braces cannot be used.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14369,8 +14372,9 @@ iterable: any data structures listed above</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Getting-set-as-input:">Getting set as input:<a class="anchor-link" href="#Getting-set-as-input:">&#182;</a></h3><p>s1 = set(input())<br>
-s2 = set(input().split())</p>
+<h3 id="Getting-set-as-input:">Getting set as input:<a class="anchor-link" href="#Getting-set-as-input:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">s1</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>  
+<span class="n">s2</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+</pre></div>
 
 </div>
 </div>

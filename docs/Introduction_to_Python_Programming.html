@@ -14517,7 +14517,8 @@ Not: user name, number_to_find_prime</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Keywords-or-Identifiers-or-Reserved-words:">Keywords or Identifiers or Reserved words:<a class="anchor-link" href="#Keywords-or-Identifiers-or-Reserved-words:">&#182;</a></h3><p>Words used for a special purpose in program.</p>
-<p>E.g: input, print, int, if, for, try, list, etc.</p>
+<div class="highlight"><pre><span></span><span class="n">Eg</span><span class="p">:</span> <span class="nb">input</span><span class="p">,</span> <span class="nb">print</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="k">if</span><span class="p">,</span> <span class="k">for</span><span class="p">,</span> <span class="k">try</span><span class="p">,</span> <span class="nb">list</span><span class="p">,</span> <span class="n">etc</span><span class="o">.</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -15471,18 +15472,25 @@ Welcome to Python3.8 Sooriya
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Float-and-integer-formatting:">Float and integer formatting:<a class="anchor-link" href="#Float-and-integer-formatting:">&#182;</a></h3><p>The format method is used to format integers and floats as required.</p>
-<h4 id="Integer-Formatting:">Integer Formatting:<a class="anchor-link" href="#Integer-Formatting:">&#182;</a></h4><p>Leading zeroes adding to integers
+<h4 id="Integer-Formatting:">Integer Formatting:<a class="anchor-link" href="#Integer-Formatting:">&#182;</a></h4><p>Leading zeroes adding to integers<br>
 Eg: 01 002</p>
-<h5 id="1.-Format-Specifiers:">1. Format Specifiers:<a class="anchor-link" href="#1.-Format-Specifiers:">&#182;</a></h5><p><code>%d</code> - integer<br>
-<code>%0nd</code> - no. of leading zeroes = n - no. of digits in the integer</p>
-<h5 id="2.-format-method:">2. format method:<a class="anchor-link" href="#2.-format-method:">&#182;</a></h5><p><code>format(int_value, format)</code></p>
-<h5 id="3.-f-strings:">3. f-strings:<a class="anchor-link" href="#3.-f-strings:">&#182;</a></h5><p><code>{int_value:0nd}</code></p>
+<h5 id="1.-Format-Specifiers:">1. Format Specifiers:<a class="anchor-link" href="#1.-Format-Specifiers:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">d</span> <span class="o">-</span> <span class="n">integer</span>  
+<span class="o">%</span><span class="mi">0</span><span class="n">nd</span> <span class="o">-</span> <span class="n">no</span><span class="o">.</span> <span class="n">of</span> <span class="n">leading</span> <span class="n">zeroes</span>
+</pre></div>
+<p>= n - no. of digits in the integer</p>
+<h5 id="2.-format-method:">2. format method:<a class="anchor-link" href="#2.-format-method:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="nb">format</span><span class="p">(</span><span class="n">int_value</span><span class="p">,</span> <span class="nb">format</span><span class="p">)</span>
+</pre></div>
+<h5 id="3.-f-strings:">3. f-strings:<a class="anchor-link" href="#3.-f-strings:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="p">{</span><span class="n">int_value</span><span class="p">:</span><span class="mi">0</span><span class="n">nd</span><span class="p">}</span>
+</pre></div>
 <h4 id="Float-formatting:">Float formatting:<a class="anchor-link" href="#Float-formatting:">&#182;</a></h4><p>Round off decimal places<br>
 Eg: 10.1234: 10.12</p>
-<h5 id="1.-Format-Specifiers:">1. Format Specifiers:<a class="anchor-link" href="#1.-Format-Specifiers:">&#182;</a></h5><p><code>%f</code> - float<br>
-<code>%.2f</code> - 2 decimal places</p>
-<h5 id="2.-format-method:">2. format method:<a class="anchor-link" href="#2.-format-method:">&#182;</a></h5><p><code>format(float_value, format)</code></p>
-<h5 id="3.-f-strings:">3. f-strings:<a class="anchor-link" href="#3.-f-strings:">&#182;</a></h5><p><code>{float_value:.nf}</code></p>
+<h5 id="1.-Format-Specifiers:">1. Format Specifiers:<a class="anchor-link" href="#1.-Format-Specifiers:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">f</span> <span class="o">-</span> <span class="nb">float</span>  
+<span class="o">%.</span><span class="mi">2</span><span class="n">f</span> <span class="o">-</span> <span class="mi">2</span> <span class="n">decimal</span> <span class="n">places</span>
+</pre></div>
+<h5 id="2.-format-method:">2. format method:<a class="anchor-link" href="#2.-format-method:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="nb">format</span><span class="p">(</span><span class="n">float_value</span><span class="p">,</span> <span class="nb">format</span><span class="p">)</span>
+</pre></div>
+<h5 id="3.-f-strings:">3. f-strings:<a class="anchor-link" href="#3.-f-strings:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">float_value</span><span class="si">:</span><span class="s2">.nf</span><span class="si">}</span><span class="s2">&quot;</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">

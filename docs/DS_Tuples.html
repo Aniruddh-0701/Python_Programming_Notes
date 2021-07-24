@@ -14275,8 +14275,9 @@ In this notebook, we'll discuss indepth on Tuples</li>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Tuple:">Tuple:<a class="anchor-link" href="#Tuple:">&#182;</a></h2><p>Tuples are ordered collection of data. Unlike Lists they are immutable.
-Represented by parenthesis '( )'<br>
-<code>tuple : (10, 20, 30, 'Hello', -2.0)</code></p>
+Represented by parenthesis '( )'</p>
+<div class="highlight"><pre><span></span><span class="nb">tuple</span> <span class="p">:</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.0</span><span class="p">)</span>
+</pre></div>
 <p>Each value in the tuple is called a element<br>
 order of elements: index of element<br>
 Index - may be positive or negative</p>
@@ -14318,10 +14319,15 @@ Index - may be positive or negative</p>
 <li>'( )'</li>
 <li>tuple()</li>
 </ol>
-<h3 id="1.-'(-)'">1. '( )'<a class="anchor-link" href="#1.-'(-)'">&#182;</a></h3><p>l = (10, 20, 30)<br>
-add a comma ',' if tuple is singleton</p>
-<h3 id="2.-tuple()">2. tuple()<a class="anchor-link" href="#2.-tuple()">&#182;</a></h3><p>Syntax: <code>tuple(iterable = None)</code><br>
-iterable: any data structures listed above</p>
+<h3 id="1.-'(-)'">1. '( )'<a class="anchor-link" href="#1.-'(-)'">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+</pre></div>
+<p>add a comma ',' if tuple is singleton,</p>
+<div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,)</span>
+</pre></div>
+<h3 id="2.-tuple()">2. tuple()<a class="anchor-link" href="#2.-tuple()">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">tuple</span><span class="p">(</span><span class="n">iterable</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+<p>iterable: any data structures listed above</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14490,7 +14496,7 @@ iterable: any data structures listed above</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="1.-Concatenation:">1. Concatenation:<a class="anchor-link" href="#1.-Concatenation:">&#182;</a></h3><p>Two tuples can be concatenated by using '+' operator.</p>
+<h3 id="1.-Concatenation:">1. Concatenation:<a class="anchor-link" href="#1.-Concatenation:">&#182;</a></h3><p>Two tuples can be concatenated by using <code>+</code> operator.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14535,7 +14541,7 @@ iterable: any data structures listed above</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="2.-Appending:">2. Appending:<a class="anchor-link" href="#2.-Appending:">&#182;</a></h3><p>A tuples can be appended to string using '+=' operator or by reassignment.</p>
+<h3 id="2.-Appending:">2. Appending:<a class="anchor-link" href="#2.-Appending:">&#182;</a></h3><p>A tuples can be appended to string using <code>+=</code> operator or by reassignment.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14581,7 +14587,7 @@ iterable: any data structures listed above</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="3.-Tuple-Multiplication:">3. Tuple Multiplication:<a class="anchor-link" href="#3.-Tuple-Multiplication:">&#182;</a></h3><p>Tuple multiplication results a new tuple with repitition. It can be done using ' * ' operator.</p>
+<h3 id="3.-Tuple-Multiplication:">3. Tuple Multiplication:<a class="anchor-link" href="#3.-Tuple-Multiplication:">&#182;</a></h3><p>Tuple multiplication results a new tuple with repitition. It can be done using <code>*</code> operator.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14647,7 +14653,9 @@ iterable: any data structures listed above</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="1.-map:">1. map:<a class="anchor-link" href="#1.-map:">&#182;</a></h3><p>Applies the given function to every element in a iterable.</p>
-<p>Syntax: <code>map(function, iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">map</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14695,7 +14703,9 @@ iterable: any data structures listed above</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="2.-filter:">2. filter:<a class="anchor-link" href="#2.-filter:">&#182;</a></h3><p>Filters out the elements that match the given condition</p>
-<p>Syntax: <code>filter(condition, iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">filter</span><span class="p">(</span><span class="n">condition</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 <p>The condition should be given as a function definition which can be mapped to each variable.</p>
 
 </div>
@@ -14740,7 +14750,9 @@ iterable: any data structures listed above</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="3.-sorted:">3. sorted:<a class="anchor-link" href="#3.-sorted:">&#182;</a></h3><p>Sorts the given tuple and returns a copy</p>
-<p>Syntax: <code>sorted(iterable, key = None, reverse = False)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">sorted</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">reverse</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14786,7 +14798,9 @@ iterable: any data structures listed above</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="4.-index:">4. index:<a class="anchor-link" href="#4.-index:">&#182;</a></h3><p>Returns the index of the element in the tuple. If multiple elements exist, it gives the index of first occurrence. If the element is not in the tuple, it raises an error</p>
-<p>Syntax: <code>tuple.index(element)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">tuple</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14831,7 +14845,9 @@ iterable: any data structures listed above</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="5.-reduce:">5. reduce:<a class="anchor-link" href="#5.-reduce:">&#182;</a></h3><p>Sequentially applies the elements in the tuple to a function to give the final value. To use this we need to call <em>functools</em> module. In depth study of modules will be dealt later</p>
-<p>Syntax: <code>reduce(function, tuple)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">reduce</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14894,7 +14910,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="6.-reversed:">6. reversed:<a class="anchor-link" href="#6.-reversed:">&#182;</a></h3><p>Returns iterator object of reversed tuple.</p>
-<p>Syntax: <code>revrsed(sequence)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">revrsed</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14937,7 +14955,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="7.-len:">7. len:<a class="anchor-link" href="#7.-len:">&#182;</a></h3><p>Returns the length of the given iterable</p>
-<p>Syntax: <code>len(iterable)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">iterable</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14982,7 +15002,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="8.-count:">8. count:<a class="anchor-link" href="#8.-count:">&#182;</a></h3><p>Returns the count of the element specified</p>
-<p>Syntax: <code>tuple.count(element)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">tuple</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15040,7 +15062,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="9.-sum:">9. sum:<a class="anchor-link" href="#9.-sum:">&#182;</a></h3><p>Returns the sum elements in the tuple.</p>
-<p>Syntax: <code>sum(tuple, start = 0)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">sum</span><span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="n">start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15085,7 +15109,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="10.-max:">10. max:<a class="anchor-link" href="#10.-max:">&#182;</a></h3><p>Returns the maximum value in the tuple.</p>
-<p>Syntax: <code>max(tuple, key = None)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">max</span><span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15168,7 +15194,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="11.-min:">11. min:<a class="anchor-link" href="#11.-min:">&#182;</a></h3><p>Returns minimum value in the iterable</p>
-<p>Syntax: <code>min(iterable, key = None)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">min</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15251,7 +15279,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="12.-enumerate:">12. enumerate:<a class="anchor-link" href="#12.-enumerate:">&#182;</a></h3><p>Returns the enumerate object for given tuple. An enumerate object is an iterable which contains ordered pair of the form <code>(index, value)</code></p>
-<p>Syntax: <code>enumerate(iterable, start = 0)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">enumerate</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15296,7 +15326,9 @@ applies the result and next element (40). result = 100</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="13.-zip:">13. zip:<a class="anchor-link" href="#13.-zip:">&#182;</a></h3><p>Returns zipped object containing order pairs of elements from given iterables.</p>
-<p>Syntax: <code>zip(iterables)</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="nb">zip</span><span class="p">(</span><span class="n">iterables</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15341,7 +15373,10 @@ applies the result and next element (40). result = 100</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Accessing-Elements-in-a-tuple:">Accessing Elements in a tuple:<a class="anchor-link" href="#Accessing-Elements-in-a-tuple:">&#182;</a></h2><p>Elements of a tuple can be accessed using index.</p>
 <p><em>Example:</em><br>
-Consider a tuple, <code>t = (10, 20, 30, 40, 50)</code>. Length = 5</p>
+Consider a tuple,</p>
+<div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+<p>Length = 5</p>
 <table>
 <thead><tr>
 <th>Element</th>
@@ -15387,8 +15422,10 @@ negative index: t [i - 1 - length]</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Slicing-operator:">Slicing operator:<a class="anchor-link" href="#Slicing-operator:">&#182;</a></h2><p>Used to get / set a sub-tuple of a tuple. Denoted by '[ ]'</p>
-<p>Syntax: <code>tuple_name[start = 0 : stop = length : step = 1]</code></p>
+<h2 id="Slicing-operator:">Slicing operator:<a class="anchor-link" href="#Slicing-operator:">&#182;</a></h2><p>Used to get / set a sub-tuple of a tuple. Denoted by <code>[]</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">tuple_name</span><span class="p">[</span><span class="n">start</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">:</span> <span class="n">stop</span> <span class="o">=</span> <span class="n">length</span> <span class="p">:</span> <span class="n">step</span> <span class="o">=</span> <span class="mi">1</span><span class="p">]</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15436,8 +15473,8 @@ negative index: t [i - 1 - length]</p>
 <li>Using loops</li>
 <li>Using  * </li>
 </ol>
-<h3 id="1.-Looping:">1. Looping:<a class="anchor-link" href="#1.-Looping:">&#182;</a></h3><p>Use for or while loop to access elements.</p>
-<h3 id="2.-Using-*-:">2. Using * :<a class="anchor-link" href="#2.-Using-*-:">&#182;</a></h3><p>Using * will convert the tuple elements into individual arguments of print method</p>
+<h3 id="1.-Looping:">1. Looping:<a class="anchor-link" href="#1.-Looping:">&#182;</a></h3><p>Use <em>for</em> or <em>while</em> loop to access elements.</p>
+<h3 id="2.-Using-*-:">2. Using * :<a class="anchor-link" href="#2.-Using-*-:">&#182;</a></h3><p>Using <code>*</code> will convert the tuple elements into individual arguments of print method</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15520,7 +15557,9 @@ negative index: t [i - 1 - length]</p>
 <h2 id="List-Comprehension-in-tuples:">List Comprehension in tuples:<a class="anchor-link" href="#List-Comprehension-in-tuples:">&#182;</a></h2><p>It follows the form of the mathematical set-builder notation unlike the use of map and filter functions. It is used to create tuples from either an existing one or a completely new tuple.</p>
 <p>Set bulider form:
 {$x: x ~\rm{\epsilon~ iterable}$}<br>
-Example: <code>l = tuple(expression (loops))</code></p>
+Example:</p>
+<div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">expression</span> <span class="p">(</span><span class="n">loops</span><span class="p">))</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15568,8 +15607,13 @@ Example: <code>l = tuple(expression (loops))</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Multi-dimensional-tuples-or-matrices:">Multi-dimensional tuples or matrices:<a class="anchor-link" href="#Multi-dimensional-tuples-or-matrices:">&#182;</a></h2><p>Like Lists, tuples / lists in a tuple is called a multidimensional tuple or nested tuple. They are generally used to store matrices.</p>
-<p>Example: <code>list = ((10, 20, 30), (40, 50, 60))</code> - Two dimensional</p>
-<h3 id="Accessing-elements-using-index:">Accessing elements using index:<a class="anchor-link" href="#Accessing-elements-using-index:">&#182;</a></h3><p>Syntax: <code>tuple_name[outermost tuple index][inner]...</code></p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="p">((</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">),</span> <span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
+<span class="c1"># Two dimensional tuple</span>
+</pre></div>
+<h3 id="Accessing-elements-using-index:">Accessing elements using index:<a class="anchor-link" href="#Accessing-elements-using-index:">&#182;</a></h3><p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">tuple_name</span><span class="p">[</span><span class="n">outermost_tuple_index</span><span class="p">][</span><span class="n">inner</span><span class="p">]</span><span class="o">...</span><span class="p">[</span><span class="n">inner_most_index</span><span class="p">]</span>
+</pre></div>
 
 </div>
 </div>
@@ -15577,7 +15621,9 @@ Example: <code>l = tuple(expression (loops))</code></p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Matrix:">Matrix:<a class="anchor-link" href="#Matrix:">&#182;</a></h2><p>A rectangular array of elements. Two dimensional lists or tuples are used to work with matrices.</p>
 <p>Each row of matrix is stored as a list / tuple</p>
-<p>Example: <code>matrix = ([10, 20, 30], (40, 50, 60))</code></p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><span class="n">matrix</span> <span class="o">=</span> <span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span> <span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
+</pre></div>
 <h3 id="Matrix-input:">Matrix input:<a class="anchor-link" href="#Matrix-input:">&#182;</a></h3><p>Matrix can be taken as input using loops or list comprehension.</p>
 
 </div>
@@ -15597,7 +15643,7 @@ Example: <code>l = tuple(expression (loops))</code></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Tuple-Comparison:">Tuple Comparison:<a class="anchor-link" href="#Tuple-Comparison:">&#182;</a></h2><p>Python allows usage of relational operators on Tuples.</p>
-<p>Python compares two tuples using the elements present in them. Whenever a greater element is encounter thr boolean value is returned.</p>
+<p>Python compares two tuples using the elements present in them. Whenever a greater element is encounter the boolean value is returned.</p>
 
 </div>
 </div>
