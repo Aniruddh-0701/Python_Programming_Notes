@@ -14278,7 +14278,9 @@ a.anchor-link {
 <h2 id="Class:">Class:<a class="anchor-link" href="#Class:">&#182;</a></h2><p>It is a structure or a building block (a code block) representing or defining the attributes (features and behaviour) of similar parameters.</p>
 <h3 id="Definition:">Definition:<a class="anchor-link" href="#Definition:">&#182;</a></h3><p>Using <code>class</code> keyword.
 Name of a class should start with an uppercase letter.</p>
-<p>Syntax: <code>class Class_name</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Class_name</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14301,7 +14303,9 @@ Name of a class should start with an uppercase letter.</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Object:">Object:<a class="anchor-link" href="#Object:">&#182;</a></h2><p>It is an instance of a class.</p>
-<p>Syntax: <code>obj_name = Class_name()</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="n">obj_name</span> <span class="o">=</span> <span class="n">Class_name</span><span class="p">()</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14362,15 +14366,61 @@ Name of a class should start with an uppercase letter.</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="self-Keyword:"><em>self</em> Keyword:<a class="anchor-link" href="#self-Keyword:">&#182;</a></h2><p>Calls the attributes for current instance or object.</p>
-<p>Syntax: <code>self.attribute_name</code></p>
+<p>Syntax:</p>
+<div class="highlight"><pre><span></span><span class="bp">self</span><span class="o">.</span><span class="n">attribute_name</span>
+</pre></div>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Defining-attributes-in-a-class:">Defining attributes in a class:<a class="anchor-link" href="#Defining-attributes-in-a-class:">&#182;</a></h2><p>Attributes or Properties are  defined using a constructor.</p>
-<h3 id="Constructor:">Constructor:<a class="anchor-link" href="#Constructor:">&#182;</a></h3><p>Executes a set of code whenever a new object/instance is created.</p>
-<p>Defined by __init__ method.</p>
+<h2 id="Defining-attributes-in-a-class">Defining attributes in a class<a class="anchor-link" href="#Defining-attributes-in-a-class">&#182;</a></h2><p>Attributes or Properties are generally of two types:</p>
+<ol>
+<li>Fields (variables)</li>
+<li>Methods (functions)</li>
+</ol>
+<h3 id="Fields">Fields<a class="anchor-link" href="#Fields">&#182;</a></h3><p>The <code>fields</code> are the variables or containers that store data used and related to an object/Class</p>
+<p>Types:</p>
+<ol>
+<li>Instance fields</li>
+<li>Class or static fields</li>
+</ol>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The <code>methods</code> are block of code that, like functions, execute a specific task</p>
+<p>Though a method and function are defined in the same way, they have differences.</p>
+<p>A <strong>function</strong> is a piece of code that is called by name. It can be passed data to operate on (i.e. the parameters) and can optionally return data (the return value). All data that is passed to a function is explicitly passed.</p>
+<p>A <strong>method</strong> is a piece of code that is called by a name that is associated with an object.</p>
+<p>In most respects it is identical to a function except for two key differences:</p>
+<ol>
+<li>A method is implicitly passed the object on which it was called.</li>
+<li>A method is able to operate on data that is contained within the class </li>
+</ol>
+<p>(remembering that an object is an instance of a class - the class is the definition, the object is an instance of that data).</p>
+<p>Types:</p>
+<ol>
+<li>Instance methods</li>
+<li>Static methods</li>
+</ol>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Constructor:">Constructor:<a class="anchor-link" href="#Constructor:">&#182;</a></h3><p>A method that executes a set of code whenever a new object/instance is created.</p>
+<p>Defined as <code>__new__()</code>. Generally, this is not defined/overridden and follows the default definition as in the <code>object</code> class</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="c1"># Custom constructor</span>
+</pre></div>
+<h3 id="Initializer:">Initializer:<a class="anchor-link" href="#Initializer:">&#182;</a></h3><p>A method that initializes the object (instance) created by call with the parameters passed.</p>
+<p>The <code>__new__()</code> method calls this automatically.</p>
+<p>Defined as <code>__init__()</code>.</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="c1"># Statements for object Initialization</span>
+</pre></div>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14493,8 +14543,11 @@ Roll No: 1, Name: Ravi
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="destructor:">destructor:<a class="anchor-link" href="#destructor:">&#182;</a></h2><p>Delete the current instance of class or object.</p>
-<p>Use __del__ method</p>
+<h2 id="destructor:">destructor:<a class="anchor-link" href="#destructor:">&#182;</a></h2><p>Delete the current instance of class or object. It has default definition in the object Base class</p>
+<p>Use <code>__del__()</code> method to override it</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="fm">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="c1"># Custom destructor</span>
+</pre></div>
 
 </div>
 </div>
@@ -14559,7 +14612,7 @@ But if needed, use the following syntax:</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Check the complete example <a href="OOPS.py">OOPS.py</a></p>
-<p>Ignore the imports. They have used to provide hinting about the types of each variable</p>
+<p>Ignore the imports. They have been used to provide hinting about the types of each variable</p>
 
 </div>
 </div>
