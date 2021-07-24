@@ -16,7 +16,7 @@ def prime_gen(n):
 
 prime = 2
 prime_square = 4
-__primeval__ = 3 # private value
+__primeval = 3 # private value
 
 if __name__ == '__main__':
     t = time()
