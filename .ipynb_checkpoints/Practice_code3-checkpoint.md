@@ -36,13 +36,26 @@ O/p: 167
 **Q6:** Write a program to get a number ***n*** from the user and print its reverse as output.
 
 **Q7:** Write a program to get a number and check if it is an armstrong number or not.  
-**Condition:** A number is armstrong number if sum of cubes of its digit is equal to the number itself.
->Sample1:  
+**Condition:** Armstrong / Narcissistic number is the number in any given number base, which forms the total of the same number, when each of its digits is raised to the power of the number of digits in the number.
+>Sample 1:  
 I/P:
 153  
 O/P:
 Armstrong Number  
 **Explanation:** $ 1^3 + 5^3 + 3^3 = 153 $
+
+>Sample 2:  
+I/P:  
+407  
+O/P:  
+Armstrong Number  
+**Explanation:** $ 4^3 + 0^3 + 7^3 = 407 $
+
+>Sample 3:  
+I/P:  
+107
+O/P:  
+Not an Armstrong Number  
 
 **Q8:** Write a program to get a number ***n*** and print its multiplication table from 1 to 20.
 

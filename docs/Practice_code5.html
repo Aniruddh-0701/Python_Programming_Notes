@@ -1,199 +1,241 @@
-<p>This Notebook Contains practice question for the note on <a href="DS_Lists.html">Lists</a>.</p>
-<p>Try working online at:<br />
-<a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br />
-<a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a></p>
-<p><strong>Q1:</strong> Write a program to get a number <strong><em>n</em></strong> and <strong><em>n</em></strong> numbers as input and print them as a list.</p>
-<blockquote>
-<p>Sample 1:<br />
-I/p:<br />
-3<br>
-5<br>
-2<br>
--20<br />
-O/p:
-[5, 2, -20]</p>
-</blockquote>
-<p><strong>Q2:</strong> Get the list of integers as input, sort them and print as output.</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P:<br />
--1 110 -10 0 20 1 60<br />
-O/P:<br />
-[-10 -1 0 1 20 60 110]</p>
-</blockquote>
-<p><strong>Q3:</strong> Get a list of integers as input and print the even elements present in it. (No. of even elements &gt; 1)</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 -2 79 23335 40<br />
-O/p: [10 20 -2 40]</p>
-</blockquote>
-<p><strong>Q4:</strong> Write a program to get a list of integers and print their product as output. (Use <em>reduce</em> method).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 13202000  </p>
-</blockquote>
-<p><strong>Q5:</strong> Write a program to get a list of integers and print their sum as output. (Use <em>sum</em> method).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 90</p>
-</blockquote>
-<p><strong>Q6:</strong> Write a program to get a list of integers and print their sum as output. (use loops).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 90  </p>
-</blockquote>
-<p><strong>Q7:</strong> Write a program to get a list of integers and print their product as output. (Use loops).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 13202000  </p>
-</blockquote>
-<p><strong>Q8:</strong> Write a program to get a list of integers and print their average as output. (round off to 3 decimal places).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 12.857  </p>
-</blockquote>
-<p><strong>Q9:</strong> Write a program to get a list of integers and print the maximum value as output. (Use <em>max</em> method).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 41  </p>
-</blockquote>
-<p><strong>Q10:</strong> Write a program to get a list of integers and print the maximum value as output. (Use loops).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: 41  </p>
-</blockquote>
-<p><strong>Q11:</strong> Write a program to get a list of integers and print the minimum value as output. (Use <em>min</em> method).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: -7  </p>
-</blockquote>
-<p><strong>Q12:</strong> Write a program to get a list of integers and print the minimum value as output. (Use loops).</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 10 20 5 41 -2 -7 23<br />
-O/P: -7  </p>
-</blockquote>
-<p><strong>Q13:</strong> Write a program to get a number <strong><em>n</em></strong> and print first <strong><em>n</em></strong> terms of Fibonacci series.</p>
-<p><strong>Q14:</strong> Write a program to get a list of string values as input and print the values at even position as output.</p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: Hi First Second python STRING<br />
-O/P: First python  </p>
-</blockquote>
-<p><strong>Q15:</strong> Write a program to get a list of numbers as input and print their median as output.<br />
-(Median is the center-most value of the sorted list)  </p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 2 9 1 7 4 8<br />
-O/P: 6.5  </p>
-<p>Sample 2:<br />
-I/P: 1 7 8 6 3<br />
-O/P: 3</p>
-</blockquote>
-<p><strong>Q16:</strong> Write a program to get a list of numbers as input and print their mode as output.<br />
-(Mode is the most frequent value of the given list)  </p>
-<blockquote>
-<p>Sample 1:<br />
-I/P: 2 9 1 1 4 1<br />
-O/P: 1  </p>
-<p>Sample 2:<br />
-I/P: 1 3 8 6 3<br />
-O/P: 3</p>
-</blockquote>
-<p><strong>Q17:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and n rows of a matrix and print each row as a list.  </p>
-<blockquote>
-<p>Sample1:
-I/P:<br />
-3<br>
-10 20 30<br />
-1 2 3<br />
-5 -4 -10<br />
-O/P:<br />
-[10, 20, 30]<br />
-[1, 2, 3]<br />
-[5, -4, -10]  </p>
-</blockquote>
-<p><strong>Q18:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and <em>nxn</em> matrix and print its transpose.  </p>
-<blockquote>
-<p>Sample1:
-I/P:<br />
-3<br>
-10 20 30<br />
-1 2 3<br />
-5 -4 -10<br />
-O/P:<br />
-10 1 5<br />
-20 2 -4<br />
-30 3 -10  </p>
-</blockquote>
-<p><strong>Q19:</strong> Write a program to get number of rows <strong><em>r</em></strong> and columns <strong><em>c</em></strong> and two <em>rxc</em> matrices and print their sum as output.<br />
-(No empty lines are provided in between the matrices)  </p>
-<blockquote>
-<p>Sample 1:<br />
-4<br>
-4<br>
-9 13 5 2<br />
-1 11 7 6<br />
-3 7  4  1<br />
-6 0  7 10   <br><br>
--2 4 7 31<br />
-6 9 12 6<br />
-12 11 0 1<br />
-9 10 2 3  <br><br>
-O/P:<br />
-7 17 12 33<br />
-7 20 19 12<br />
-15 18 4 2<br />
-15 10 9 13  </p>
-</blockquote>
-<p><strong>Q20:</strong> Write a program to get number of rows <strong><em>r</em></strong> and no. of columns <strong><em>c</em></strong>  and three <em>rxc</em> matrices and print their sum as output.<br />
-(No empty lines are provided in between the matrices)  </p>
-<blockquote>
-<p>Sample 1:<br />
-4<br>
-4<br>
-9 13 5 2<br />
-1 11 7 6<br />
-3 7  4  1<br />
-6 0  7 10   <br><br>
--2 4 7 31<br />
-6 9 12 6<br />
-12 11 0 1<br />
-9 10 2 3  <br><br>
-0 2 8 6<br />
-3 7 1 0<br />
-0 0 1 2<br />
-10 1 0 11  <br><br>
-O/P:<br />
-7 19 20 39<br />
-10 27 20 12 <br />
-15 18 5 4<br />
-25 11 9 24  </p>
-</blockquote>
-<p><strong>Q21:</strong> Write a program to get a <em>mxn</em> matrix and a <em>pxq</em> matrix (m, n, p, q given) and print their product as output.<br />
-(No empty lines are provided in between the matrices)</p>
-<blockquote>
-<p>Sample1:<br />
-3<br>2<br>
--82 0<br />
--57 -95<br />
-91 56  <br><br>
-2<br>4<br>
-1 3 -11 24<br />
--59 42 -15 48 <br><br>
-O/P:<br />
--82 -246 902 -1968<br />
-5548 -4161 2052 -5928<br />
--3213 2625 -1841 4872</p>
-</blockquote>
-<p><strong>Q22:</strong> Write a program to get a list of words and sort them in lexicograhic order.</p>
-<hr />
-<p><strong><a href="Solution5.html">Check Solution</a></strong></p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practice_code1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+
+
+    <script>
+        MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+</head>
+
+<body>
+    <p>This Notebook Contains practice question for the note on <a href="DS_Lists.html">Lists</a>.</p>
+    <p>Try working online at:<br />
+        <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br />
+        <a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a>
+    </p>
+    <p><strong>Q1:</strong> Write a program to get a number <strong><em>n</em></strong> and <strong><em>n</em></strong>
+        numbers as input and print them as a list.</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/p:<br />
+            3<br>
+            5<br>
+            2<br>
+            -20<br />
+            O/p:
+            [5, 2, -20]</p>
+    </blockquote>
+    <p><strong>Q2:</strong> Get the list of integers as input, sort them and print as output.</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P:<br />
+            -1 110 -10 0 20 1 60<br />
+            O/P:<br />
+            [-10 -1 0 1 20 60 110]</p>
+    </blockquote>
+    <p><strong>Q3:</strong> Get a list of integers as input and print the even elements present in it. (No. of even
+        elements &gt; 1)</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 -2 79 23335 40<br />
+            O/p: [10 20 -2 40]</p>
+    </blockquote>
+    <p><strong>Q4:</strong> Write a program to get a list of integers and print their product as output. (Use
+        <em>reduce</em> method).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 13202000 </p>
+    </blockquote>
+    <p><strong>Q5:</strong> Write a program to get a list of integers and print their sum as output. (Use <em>sum</em>
+        method).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 90</p>
+    </blockquote>
+    <p><strong>Q6:</strong> Write a program to get a list of integers and print their sum as output. (use loops).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 90 </p>
+    </blockquote>
+    <p><strong>Q7:</strong> Write a program to get a list of integers and print their product as output. (Use loops).
+    </p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 13202000 </p>
+    </blockquote>
+    <p><strong>Q8:</strong> Write a program to get a list of integers and print their average as output. (round off to 3
+        decimal places).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 12.857 </p>
+    </blockquote>
+    <p><strong>Q9:</strong> Write a program to get a list of integers and print the maximum value as output. (Use
+        <em>max</em> method).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 41 </p>
+    </blockquote>
+    <p><strong>Q10:</strong> Write a program to get a list of integers and print the maximum value as output. (Use
+        loops).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: 41 </p>
+    </blockquote>
+    <p><strong>Q11:</strong> Write a program to get a list of integers and print the minimum value as output. (Use
+        <em>min</em> method).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: -7 </p>
+    </blockquote>
+    <p><strong>Q12:</strong> Write a program to get a list of integers and print the minimum value as output. (Use
+        loops).</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 10 20 5 41 -2 -7 23<br />
+            O/P: -7 </p>
+    </blockquote>
+    <p><strong>Q13:</strong> Write a program to get a number <strong><em>n</em></strong> and print first
+        <strong><em>n</em></strong> terms of Fibonacci series.</p>
+    <p><strong>Q14:</strong> Write a program to get a list of string values as input and print the values at even
+        position as output.</p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: Hi First Second python STRING<br />
+            O/P: First python </p>
+    </blockquote>
+    <p><strong>Q15:</strong> Write a program to get a list of numbers as input and print their median as output.<br />
+        (Median is the center-most value of the sorted list) </p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 2 9 1 7 4 8<br />
+            O/P: 6.5 </p>
+        <p>Sample 2:<br />
+            I/P: 1 7 8 6 3<br />
+            O/P: 3</p>
+    </blockquote>
+    <p><strong>Q16:</strong> Write a program to get a list of numbers as input and print their mode as output.<br />
+        (Mode is the most frequent value of the given list) </p>
+    <blockquote>
+        <p>Sample 1:<br />
+            I/P: 2 9 1 1 4 1<br />
+            O/P: 1 </p>
+        <p>Sample 2:<br />
+            I/P: 1 3 8 6 3<br />
+            O/P: 3</p>
+    </blockquote>
+    <p><strong>Q17:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and n rows of a
+        matrix and print each row as a list. </p>
+    <blockquote>
+        <p>Sample1:
+            I/P:<br />
+            3<br>
+            10 20 30<br />
+            1 2 3<br />
+            5 -4 -10<br />
+            O/P:<br />
+            [10, 20, 30]<br />
+            [1, 2, 3]<br />
+            [5, -4, -10] </p>
+    </blockquote>
+    <p><strong>Q18:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and <em>nxn</em>
+        matrix and print its transpose. </p>
+    <blockquote>
+        <p>Sample1:
+            I/P:<br />
+            3<br>
+            10 20 30<br />
+            1 2 3<br />
+            5 -4 -10<br />
+            O/P:<br />
+            10 1 5<br />
+            20 2 -4<br />
+            30 3 -10 </p>
+    </blockquote>
+    <p><strong>Q19:</strong> Write a program to get number of rows <strong><em>r</em></strong> and columns
+        <strong><em>c</em></strong> and two <em>rxc</em> matrices and print their sum as output.<br />
+        (No empty lines are provided in between the matrices) </p>
+    <blockquote>
+        <p>Sample 1:<br />
+            4<br>
+            4<br>
+            9 13 5 2<br />
+            1 11 7 6<br />
+            3 7 4 1<br />
+            6 0 7 10 <br><br>
+            -2 4 7 31<br />
+            6 9 12 6<br />
+            12 11 0 1<br />
+            9 10 2 3 <br><br>
+            O/P:<br />
+            7 17 12 33<br />
+            7 20 19 12<br />
+            15 18 4 2<br />
+            15 10 9 13 </p>
+    </blockquote>
+    <p><strong>Q20:</strong> Write a program to get number of rows <strong><em>r</em></strong> and no. of columns
+        <strong><em>c</em></strong> and three <em>rxc</em> matrices and print their sum as output.<br />
+        (No empty lines are provided in between the matrices) </p>
+    <blockquote>
+        <p>Sample 1:<br />
+            4<br>
+            4<br>
+            9 13 5 2<br />
+            1 11 7 6<br />
+            3 7 4 1<br />
+            6 0 7 10 <br><br>
+            -2 4 7 31<br />
+            6 9 12 6<br />
+            12 11 0 1<br />
+            9 10 2 3 <br><br>
+            0 2 8 6<br />
+            3 7 1 0<br />
+            0 0 1 2<br />
+            10 1 0 11 <br><br>
+            O/P:<br />
+            7 19 20 39<br />
+            10 27 20 12 <br />
+            15 18 5 4<br />
+            25 11 9 24 </p>
+    </blockquote>
+    <p><strong>Q21:</strong> Write a program to get a <em>mxn</em> matrix and a <em>pxq</em> matrix (m, n, p, q given)
+        and print their product as output.<br />
+        (No empty lines are provided in between the matrices)</p>
+    <blockquote>
+        <p>Sample1:<br />
+            3<br>2<br>
+            -82 0<br />
+            -57 -95<br />
+            91 56 <br><br>
+            2<br>4<br>
+            1 3 -11 24<br />
+            -59 42 -15 48 <br><br>
+            O/P:<br />
+            -82 -246 902 -1968<br />
+            5548 -4161 2052 -5928<br />
+            -3213 2625 -1841 4872</p>
+    </blockquote>
+    <p><strong>Q22:</strong> Write a program to get a list of words and sort them in lexicograhic order.</p>
+    <hr />
+    <p><strong><a href="Solution5.html">Check Solution</a></strong></p>
+</body>
+
+</html>
