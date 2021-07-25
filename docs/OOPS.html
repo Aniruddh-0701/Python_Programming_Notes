@@ -14259,7 +14259,7 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="OOPS:">OOPS:<a class="anchor-link" href="#OOPS:">&#182;</a></h1><p>Object Oriented Programming or OOP is working with classes and objects. It involves interaction between objects having various attributes.</p>
+<h1 id="Object-Oriented-Programming---Part-1">Object Oriented Programming - Part 1<a class="anchor-link" href="#Object-Oriented-Programming---Part-1">&#182;</a></h1><h3 id="OOP:">OOP:<a class="anchor-link" href="#OOP:">&#182;</a></h3><p>Object Oriented Programming or OOP is working with classes and objects. It involves interaction between objects having various attributes.</p>
 <p>Python is a object oriented programming language. This meand that all the types are representation or instance of a type class.</p>
 
 </div>
@@ -14275,7 +14275,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Class:">Class:<a class="anchor-link" href="#Class:">&#182;</a></h2><p>It is a structure or a building block (a code block) representing or defining the attributes (features and behaviour) of similar parameters.</p>
+<h2 id="Class:">Class:<a class="anchor-link" href="#Class:">&#182;</a></h2><p>It is a structure, a blueprint or a building block (a code block) representing or defining the attributes (features and behaviour) of similar parameters.</p>
 <h3 id="Definition:">Definition:<a class="anchor-link" href="#Definition:">&#182;</a></h3><p>Using <code>class</code> keyword.
 Name of a class should start with an uppercase letter.</p>
 <p>Syntax:</p>
@@ -14374,10 +14374,10 @@ Name of a class should start with an uppercase letter.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Defining-attributes-in-a-class">Defining attributes in a class<a class="anchor-link" href="#Defining-attributes-in-a-class">&#182;</a></h2><p>Attributes or Properties are generally of two types:</p>
+<h2 id="Defining-attributes-and-behavior-in-a-class">Defining attributes and behavior in a class<a class="anchor-link" href="#Defining-attributes-and-behavior-in-a-class">&#182;</a></h2><p>An object is generally defined by the follwing:</p>
 <ol>
-<li>Fields (variables)</li>
-<li>Methods (functions)</li>
+<li>Fields (variables) or Attributes</li>
+<li>Methods (functions) or Behavior</li>
 </ol>
 <h3 id="Fields">Fields<a class="anchor-link" href="#Fields">&#182;</a></h3><p>The <code>fields</code> are the variables or containers that store data used and related to an object/Class</p>
 <p>Types:</p>
@@ -14385,12 +14385,74 @@ Name of a class should start with an uppercase letter.</p>
 <li>Instance fields</li>
 <li>Class or static fields</li>
 </ol>
+<h4 id="Instance-fields:">Instance fields:<a class="anchor-link" href="#Instance-fields:">&#182;</a></h4><p>The instance fields are variables that are associated with an object, an instance of the class.</p>
+<p>The data they have may vary from object to object and are independent. The field of one instance cannot be accessed by the other.<br>
+The instance variables are accessed as follows:</p>
+<div class="highlight"><pre><span></span><span class="c1"># Inside the class using `self` keyword</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">instance_variable</span>
+
+<span class="c1"># Outside the class using the object name</span>
+<span class="n">object_name</span><span class="o">.</span><span class="n">instance_variable</span>
+</pre></div>
+<h4 id="Class-fields:">Class fields:<a class="anchor-link" href="#Class-fields:">&#182;</a></h4><p>The class variables are variables that are common throughout the instances of the defined class and can be accessed by all of them.</p>
+<p>Modifying data in one object changes it for all the present instances.<br>
+They are accessed inside and outside the class definition as follows:</p>
+<div class="highlight"><pre><span></span><span class="c1"># Using class name to access static variables</span>
+<span class="n">Class_name</span><span class="o">.</span><span class="n">class_variable</span>
+</pre></div>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student_details</span><span class="p">:</span>
+    <span class="n">student_count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span> <span class="c1"># Instance variable</span>
+        <span class="n">Student_details</span><span class="o">.</span><span class="n">student_count</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># Class Variable</span>
+
+<span class="n">s</span> <span class="o">=</span> <span class="n">Student_details</span><span class="p">(</span><span class="s2">&quot;Prabhu&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="c1"># Instance variable</span>
+<span class="n">s1</span> <span class="o">=</span> <span class="n">Student_details</span><span class="p">(</span><span class="s2">&quot;Mano&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="c1"># Instance variable</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Student_details</span><span class="o">.</span><span class="n">student_count</span><span class="p">)</span> <span class="c1"># Class variable</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Prabhu
+Mano
+2
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The <code>methods</code> are block of code that, like functions, execute a specific task</p>
+<h3 id="Methods">Methods<a class="anchor-link" href="#Methods">&#182;</a></h3><p>The <code>methods</code> are block of code that, like functions, execute a specific task</p>
 <p>Though a method and function are defined in the same way, they have differences.</p>
 <p>A <strong>function</strong> is a piece of code that is called by name. It can be passed data to operate on (i.e. the parameters) and can optionally return data (the return value). All data that is passed to a function is explicitly passed.</p>
 <p>A <strong>method</strong> is a piece of code that is called by a name that is associated with an object.</p>
@@ -14400,11 +14462,36 @@ Name of a class should start with an uppercase letter.</p>
 <li>A method is able to operate on data that is contained within the class </li>
 </ol>
 <p>(remembering that an object is an instance of a class - the class is the definition, the object is an instance of that data).</p>
+<p>Source: <a href="https://stackoverflow.com/questions/155609/whats-the-difference-between-a-method-and-a-function#155655">What's the difference between a method and a function? - StackOverflow</a></p>
 <p>Types:</p>
 <ol>
 <li>Instance methods</li>
 <li>Static methods</li>
 </ol>
+<h4 id="Instance-methods:">Instance methods:<a class="anchor-link" href="#Instance-methods:">&#182;</a></h4><p>Instance methods are methods/behavior that are associated with objects. When an object calls one of its instnace methods, the instance method gets implicitly passed object and uses the data it gets with other required parameters to do the task.<br>
+Definition and access:</p>
+<div class="highlight"><pre><span></span><span class="c1"># Definition</span>
+<span class="k">def</span> <span class="nf">instance_method</span><span class="p">(</span><span class="bp">self</span><span class="p">[,</span> <span class="o">...</span><span class="p">]):</span> <span class="c1"># the self keyword indicates the implicit passing of the object</span>
+    <span class="c1"># Statements</span>
+
+<span class="c1"># access inside the class (in another instance method)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">instance_method</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+
+<span class="c1"># Access outside the class</span>
+<span class="n">obj</span><span class="o">.</span><span class="n">instance_method</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</pre></div>
+<p><strong><em>Note:</em></strong> It is to be noted that an instance method can be called only inside another instance method</p>
+<h4 id="Static-or-Class-method:">Static or Class method:<a class="anchor-link" href="#Static-or-Class-method:">&#182;</a></h4><p>A static method is a method that is common for all objects. It is equivalent of function being defined outside the class.</p>
+<p>A static method is identified by the decorator <code>@staticmethod</code> and has implicit object passing using <code>self</code> keyword.</p>
+<p>Definition and Access:</p>
+<div class="highlight"><pre><span></span><span class="nd">@staticmethod</span>
+<span class="k">def</span> <span class="nf">class_method</span><span class="p">([</span><span class="o">...</span><span class="p">]):</span>
+    <span class="c1">#Statement(s)</span>
+
+<span class="c1"># accessing the method using class name</span>
+<span class="n">Class_name</span><span class="o">.</span><span class="n">class_method</span><span class="p">([</span><span class="o">...</span><span class="p">])</span>
+</pre></div>
+<p>The static method can be called inside another static method or instance method(s)</p>
 
 </div>
 </div>
@@ -14415,7 +14502,7 @@ Name of a class should start with an uppercase letter.</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
     <span class="c1"># Custom constructor</span>
 </pre></div>
-<h3 id="Initializer:">Initializer:<a class="anchor-link" href="#Initializer:">&#182;</a></h3><p>A method that initializes the object (instance) created by call with the parameters passed.</p>
+<h3 id="Initializer:">Initializer:<a class="anchor-link" href="#Initializer:">&#182;</a></h3><p>An instance method that initializes the object (instance) created by call with the parameters passed.</p>
 <p>The <code>__new__()</code> method calls this automatically.</p>
 <p>Defined as <code>__init__()</code>.</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -14486,17 +14573,20 @@ Roll No: 1, Name: Ravi
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Student_details</span><span class="p">:</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rn</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">st_name</span> <span class="o">=</span> <span class="s1">&#39;Name&#39;</span><span class="p">):</span> <span class="c1"># Parametric Constructor</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">roll_no</span> <span class="o">=</span> <span class="n">rn</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">st_name</span>
-<span class="c1">#         print(&#39;__init__ file&#39;)</span>
+        <span class="c1"># print(&#39;__init__ file&#39;)</span>
     
     <span class="k">def</span> <span class="nf">study</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Studying....&#39;</span><span class="p">)</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">work</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Working...&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14507,11 +14597,12 @@ Roll No: 1, Name: Ravi
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">st2</span> <span class="o">=</span> <span class="n">Student_details</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;Rahul&#39;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Roll No: </span><span class="si">{</span><span class="n">st2</span><span class="o">.</span><span class="n">roll_no</span><span class="si">}</span><span class="s1">, Name: </span><span class="si">{</span><span class="n">st2</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">Student_details</span><span class="o">.</span><span class="n">work</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14532,6 +14623,7 @@ Roll No: 1, Name: Ravi
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Roll No: 2, Name: Rahul
+Working...
 </pre>
 </div>
 </div>
@@ -14575,39 +14667,10 @@ Roll No: 1, Name: Ravi
 <p>E.g.: __var, __method</p>
 <p>It is advised for best programming practice to avoid calling private attributes outside the class.<br>
 But if needed, use the following syntax:</p>
-<p><code>obj._classname__attribute</code></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Calling-a-method-in-another-method-inside-the-class:">Calling a method in another method inside the class:<a class="anchor-link" href="#Calling-a-method-in-another-method-inside-the-class:">&#182;</a></h2><p>Use self keyword to call the function.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Definining-run-time-class-attributes:">Definining run time class attributes:<a class="anchor-link" href="#Definining-run-time-class-attributes:">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Methods-of-attributes:">Methods of attributes:<a class="anchor-link" href="#Methods-of-attributes:">&#182;</a></h2>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class="highlight"><pre><span></span><span class="n">obj</span><span class="o">.</span><span class="n">_classname__attribute</span>
 </pre></div>
 
-     </div>
 </div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
