@@ -19,9 +19,9 @@ Try working online at:
 **Q7:** Write a program to get a string and set the first letter of all the words in the string to upper case and print the modified string as output.
 
 **Q8**: Write a program to get a name from the user and print if it is a valid name as output.  
-**Condition:** Name is valid if contains only alphabets and there are atleast 1 uppercase and 1 lowercase characters.
+**Condition:** Name is valid if contains only alphabets and there are at least 1 uppercase and 1 lowercase characters.
 
-**Q9:** Write a program to get a variable name, replace all the whitespaces with an underscore " _ " and print the modified string as output.
+**Q9:** Write a program to get a variable name, replace all the white spaces with an underscore " _ " and print the modified string as output.
 
 **Q10:** Write a program to get a string and print all the elements sorted in the alphabetical order as output.
 

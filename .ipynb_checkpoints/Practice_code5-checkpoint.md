@@ -179,7 +179,7 @@ O/P:
 5548 -4161 2052 -5928  
 -3213 2625 -1841 4872
 
-**Q22:** Write a program to get a list of words and sort them in lexicograhic order.
+**Q22:** Write a program to get a list of words and sort them in lexicographic order.
 
 *****
 **[Check Solution](Solution5.ipynb)**

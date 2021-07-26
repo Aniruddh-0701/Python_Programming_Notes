@@ -50,7 +50,7 @@ O/P: Fail
 
 **Q4:** Write a program to get the age of the user and print if he is eligible to vote.  
 **Condition:**
-A person is elgible to vote if his/her age is greater than or equal to 18  
+A person is eligible to vote if his/her age is greater than or equal to 18  
 >Sample1:  
 I/P: 10  
 O/P: Ineligible  
