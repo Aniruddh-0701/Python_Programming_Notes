@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice code4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Functions Practice Questions</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
@@ -15,89 +18,86 @@
         };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <style>
+        blockquote {
+            padding: 10px 20px;
+            margin: 0 0 20px;
+            font-size: 17.5px;
+            border-left: 5px solid #3e3c3c;
+        }
 
+        blockquote>p {
+            margin-bottom: 0;
+        }
+
+        .card {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
 </head>
 
 <body>
-    <p>This Notebook Contains practice question for the note on <a href="Functions.html">Functions</a>.</p>
-    <p>Try working online at:<br />
-        <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br />
-        <a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a>
-    </p>
-    <p><strong>Q1:</strong> Write a program to define a function <strong><em>multiply</em></strong> which get two
-        parameters and returns the product of them.</p>
-    <p><strong>Q2:</strong> Write a program to create a function that gets sides of a rectangle and return its perimeter
-        and area.</p>
-    <p><strong>Q3:</strong> Write a program to create a function that gets a number <strong><em>n</em></strong> and a
-        value <strong><em>s</em></strong> and prints the value <strong><em>n</em></strong> times as output.</p>
-    <blockquote>
-        <p>Sample1:<br />
-            I/P:<br />
-            10 <br>
-            Hello<br />
-            O/p:<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello<br />
-            Hello </p>
-        <p>Sample2:<br />
-            I/P:<br />
-            5 <br>
-            1 <br>
-            O/p:<br />
-            1 <br>
-            1 <br>
-            1 <br>
-            1<br />
-            1 </p>
-    </blockquote>
-    <p><strong>Q4:</strong> Write a program to define a function to determine simple interest for given values of
-        Principal, Rate p.a. and duration in years.<br />
-        Simple Interest, S.I. = $\dfrac{P \times R \times T}{100}$</p>
-    <p><strong>Q5:</strong> Write a program to get a number <strong><em>n</em></strong> and and print the prime numbers
-        from 1 to <strong><em>n</em></strong>. Use function to check if a number is prime or not.</p>
-    <p><strong>Q6:</strong> Write a program to define a function to return factorial of the number passed in it (use
-        recursion).</p>
-    <p><strong>Q7:</strong> Write a program to define a function to return factorial of the number passed in it (without
-        recursion).</p>
-    <p><strong>Q8:</strong> Write a program to define a function that gets a year as input and print if it is a leap
-        year or not.<br />
-        <strong>Condition:</strong> A year is leap if it is either divisible <em>4</em> or <em>400</em> and not
-        <em>100</em>.
-    </p>
-    <p><strong>Q9:</strong> Write a program to define a function that returns the permutation of
-        <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
-        Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!}$
-    </p>
-    <p><strong>Q10:</strong> Write a program to define a function that returns the permutation of
-        <strong><em>n</em></strong> and <strong><em>r</em></strong>. Use recursion to compute the factorials.<br>
-        Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!}$
-    </p>
-    <p><strong>Q11:</strong> Write a program to define a function that returns the permutation of
-        <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
-        Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!} = n(n-1)(n-2)...r ~\text{terms}$
-    </p>
-    <p><strong>Q12:</strong> Write a program to define a function that returns the combination of
-        <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
-        Combination(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!}$
-    </p>
-    <p><strong>Q13:</strong> Write a program to define a function that returns the combinations of
-        <strong><em>n</em></strong> and <strong><em>r</em></strong>. Use recursion to compute the factorials.<br>
-        Combination(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!}$
-    </p>
-    <p><strong>Q14:</strong> Write a program to define a function that returns the combinations of
-        <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
-        Combination(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!} = \dfrac{n(n-1)(n-2)...r ~\text{terms}}{1 \times 2 \times
-        3... r ~\text{(r terms)}} = \displaystyle \prod_{i ~= ~0}^{r ~-~1} \dfrac{n-i}{i+1}$
-    </p>
-    <hr />
-    <p><strong><a href="Solution4.html">Check Solution</a></strong></p>
+
+    <div class="container">
+        <h1>Practice code4</h1><br>
+        <p>This Notebook Contains practice question for the note on <a href="Functions.html">Functions</a>.</p>
+<p>Try working online at:<br>
+<a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
+<a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a></p>
+<p><strong>Q1:</strong> Write a program to define a function <strong><em>multiply</em></strong> which get two parameters and returns the product of them.</p>
+<p><strong>Q2:</strong> Write a program to create a function that gets sides of a rectangle and return its perimeter and area.</p>
+<p><strong>Q3:</strong> Write a program to create a function that gets a number <strong><em>n</em></strong> and a value <strong><em>s</em></strong> and prints the value <strong><em>n</em></strong> times as output.</p>
+<blockquote>
+<p>Sample1:<br>
+I/P:<br>
+10  <br>
+Hello<br>
+O/p:<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello<br>
+Hello  </p>
+<p>Sample2:<br>
+I/P:<br>
+5  <br>
+1  <br>
+O/p:<br>
+1  <br>
+1  <br>
+1  <br>
+1<br>
+1  </p>
+</blockquote>
+<p><strong>Q4:</strong> Write a program to define a function to determine simple interest for given values of Principal, Rate p.a. and duration in years.<br>
+Simple Interest, S.I. = $\dfrac{P \times R \times T}{100}$</p>
+<p><strong>Q5:</strong> Write a program to get a number <strong><em>n</em></strong> and and print the prime numbers from 1 to <strong><em>n</em></strong>. Use function to check if a number is prime or not.</p>
+<p><strong>Q6:</strong> Write a program to define a function to return factorial of the number passed in it (use recursion).</p>
+<p><strong>Q7:</strong> Write a program to define a function to return factorial of the number passed in it (without recursion).</p>
+<p><strong>Q8:</strong> Write a program to define a function that gets a year as input and print if it is a leap year or not.<br>
+<strong>Condition:</strong> A year is leap if it is either divisible <em>4</em> or <em>400</em> and not <em>100</em>.</p>
+<p><strong>Q9:</strong> Write a program to define a function that returns the permutation of <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
+Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!}$</p>
+<p><strong>Q10:</strong> Write a program to define a function that returns the permutation of <strong><em>n</em></strong> and <strong><em>r</em></strong>. Use recursion to compute the factorials.<br>
+Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!}$</p>
+<p><strong>Q11:</strong> Write a program to define a function that returns the permutation of <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
+Permutation(n,r) = $^nP_r$ = $\dfrac{n!}{(n-r)!} = n(n-1)(n-2)&hellip;r ~\text{terms}$</p>
+<p><strong>Q12:</strong> Write a program to define a function that returns the combination of <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
+Combination(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!}$</p>
+<p><strong>Q13:</strong> Write a program to define a function that returns the combinations of <strong><em>n</em></strong> and <strong><em>r</em></strong>. Use recursion to compute the factorials.<br>
+Combination(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!}$</p>
+<p><strong>Q14:</strong> Write a program to define a function that returns the combinations of <strong><em>n</em></strong> and <strong><em>r</em></strong>.<br>
+Combination(n,r) = $^nC_r$ = $\dfrac{n!}{(n-r)!~r!} = \dfrac{n(n-1)(n-2)&hellip;r ~\text{terms}}{1 \times 2 \times 3&hellip; r ~\text{(r terms)}} = \displaystyle \prod_{i ~= ~0}^{r ~-~1} \dfrac{n-i}{i+1}$</p>
+<hr>
+<p><strong><a href="Solution4.html">Check Solution</a></strong></p>
+    </div>
+
 </body>
 
 </html>

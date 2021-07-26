@@ -4,3 +4,6 @@ file_converter.py
 Convert_and _move single.py
 __pycache__/
 temp.html
+markdown_converter.py
+markdown_template.html
+md_convert/

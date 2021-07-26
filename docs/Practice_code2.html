@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice code2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Conditional Statements Practice Questions</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
@@ -15,88 +18,108 @@
         };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <style>
+        blockquote {
+            padding: 10px 20px;
+            margin: 0 0 20px;
+            font-size: 17.5px;
+            border-left: 5px solid #3e3c3c;
+        }
 
+        blockquote>p {
+            margin-bottom: 0;
+        }
+
+        .card {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
 </head>
 
 <body>
-    <p>This Notebook Contains practice question for the note on <a href="Condition_Statements.html">Condition
-            statements</a>.</p>
-    <p>Try working online at:<br />
-        <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br />
-        <a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a>
-    </p>
-    <p><strong>Q1:</strong> Write a program to get a number as input and print if it is odd or even. </p>
-    <blockquote>
-        <p>Sample1:<br />
-            I/P: 10<br />
-            O/P: Even</p>
-        <p>Sample 2:<br />
-            I/P: 11<br />
-            O/P: Odd</p>
-    </blockquote>
-    <p><strong>Q2:</strong> Write a program to get a number as input and check whether it is positive, negative or zero.
-    </p>
-    <blockquote>
-        <p>Sample1:<br />
-            I/P: 10<br />
-            O/P: Positive</p>
-        <p>Sample2:<br />
-            I/P: 0<br />
-            O/P: Zero</p>
-        <p>Sample3:<br />
-            I/P: -5<br />
-            O/P: Negative</p>
-    </blockquote>
-    <p><strong>Q3:</strong> Write a program to get the mark of a student as input print his grade. </p>
-    <p><strong>Condition:</strong><br />
-        <code>mark &lt; 0 or mark &gt; 100: Invalid  
+
+    <div class="container">
+        <h1>Practice code2</h1><br>
+        <p>This Notebook Contains practice question for the note on <a href="Condition_Statements.html">Condition
+                statements</a>.</p>
+        <p>Try working online at:<br>
+            <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
+            <a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a>
+        </p>
+        <p><strong>Q1:</strong> Write a program to get a number as input and print if it is odd or even. </p>
+        <blockquote>
+            <p>Sample1:<br>
+                I/P: 10<br>
+                O/P: Even</p>
+            <p>Sample 2:<br>
+                I/P: 11<br>
+                O/P: Odd</p>
+        </blockquote>
+        <p><strong>Q2:</strong> Write a program to get a number as input and check whether it is positive, negative or
+            zero. </p>
+        <blockquote>
+            <p>Sample1:<br>
+                I/P: 10<br>
+                O/P: Positive</p>
+            <p>Sample2:<br>
+                I/P: 0<br>
+                O/P: Zero</p>
+            <p>Sample3:<br>
+                I/P: -5<br>
+                O/P: Negative</p>
+        </blockquote>
+        <p><strong>Q3:</strong> Write a program to get the mark of a student as input print his grade. </p>
+        <p><strong>Condition:</strong> </p>
+        <pre><code>mark &lt; 0 or mark &gt; 100: Invalid  
 90 &lt; mark &lt;= 100: O  
 80 &lt; mark &lt;= 90 : A+  
 70 &lt; mark &lt;= 80 : A  
 60 &lt; mark &lt;= 70 : B+  
 50 &lt;= mark &lt;= 60: B  
- 0 &lt;= mark &lt; 50: Fail</code>
-    </p>
-    <blockquote>
-        <p>Sample1:<br />
-            I/P: 85<br />
-            O/P: A+</p>
-        <p>Sample2:<br />
-            I/P: 10<br />
-            O/P: Fail</p>
-    </blockquote>
-    <p><strong>Q4:</strong> Write a program to get the age of the user and print if he is eligible to vote.<br />
-        <strong>Condition:</strong>
-        A person is elgible to vote if his/her age is greater than or equal to 18
-    </p>
-    <blockquote>
-        <p>Sample1:<br />
-            I/P: 10<br />
-            O/P: Ineligible </p>
-        <p>Sample2:<br />
-            I/P: 27<br />
-            O/P: Eligible</p>
-    </blockquote>
-    <p><strong>Q5:</strong> Code a simple Calculator.</p>
-    <p><strong>Q6:</strong> Write a program to get an input from the user and print if it is a vowel or a consonant.</p>
-    <p><strong>Q7:</strong> Write a program to two numbers and print the greatest of them.</p>
-    <p><strong>Q8:</strong> Write a program to get three numbers and the print the greatest of them.</p>
-    <p><strong>Q9:</strong> Write a program to check if a number is a perfect square or not.</p>
-    <p><strong>Q10:</strong> The humidity (in percentage) and temperature (in celsius) value in a city is given as the
-        input
-        to the program. The program must print <strong><em>YES</em></strong> as the output if there is a possibility of
-        rain. Else the program must print <strong><em>NO</em></strong> as the output. If one of the conditions given
-        below
-        is true then there is a possibility of rain.</p>
-    <p><em>Condition:</em><br />
-        1. Humidity &gt; 90<br />
-        2. Temperature &lt; 18<br />
-        3. Humidity &gt; 70 and Temperature &lt; 30<br />
-        4. Humidity &gt; 60 and Temperature &lt; 24</p>
-    <p><strong>Q11:</strong> Write a program to get a year as input and print if it is a leap year or not.<br />
-        A year is leap if it is either divisible <em>4</em> or <em>400</em> and not <em>100</em>.</p>
-    <hr />
-    <p><strong><a href="Solution2.html">Check Solution</a></strong></p>
+ 0 &lt;= mark &lt; 50: Fail
+</code></pre>
+        <blockquote>
+            <p>Sample1:<br>
+                I/P: 85<br>
+                O/P: A+</p>
+            <p>Sample2:<br>
+                I/P: 10<br>
+                O/P: Fail</p>
+        </blockquote>
+        <p><strong>Q4:</strong> Write a program to get the age of the user and print if he is eligible to vote.<br>
+            <strong>Condition:</strong>
+            A person is eligible to vote if his/her age is greater than or equal to 18
+        </p>
+        <blockquote>
+            <p>Sample1:<br>
+                I/P: 10<br>
+                O/P: Ineligible </p>
+            <p>Sample2:<br>
+                I/P: 27<br>
+                O/P: Eligible</p>
+        </blockquote>
+        <p><strong>Q5:</strong> Code a simple Calculator.</p>
+        <p><strong>Q6:</strong> Write a program to get an input from the user and print if it is a vowel or a consonant.
+        </p>
+        <p><strong>Q7:</strong> Write a program to two numbers and print the greatest of them.</p>
+        <p><strong>Q8:</strong> Write a program to get three numbers and the print the greatest of them.</p>
+        <p><strong>Q9:</strong> Write a program to check if a number is a perfect square or not.</p>
+        <p><strong>Q10:</strong> The humidity (in percentage) and temperature (in celsius) value in a city is given as
+            the input to the program. The program must print <strong><em>YES</em></strong> as the output if there is a
+            possibility of rain. Else the program must print <strong><em>NO</em></strong> as the output. If one of the
+            conditions given below is true then there is a possibility of rain.</p>
+        <p><em>Condition:</em><br>
+            1. Humidity &gt; 90<br>
+            2. Temperature &lt; 18<br>
+            3. Humidity &gt; 70 and Temperature &lt; 30<br>
+            4. Humidity &gt; 60 and Temperature &lt; 24</p>
+        <p><strong>Q11:</strong> Write a program to get a year as input and print if it is a leap year or not.<br>
+            A year is leap if it is either divisible <em>4</em> or <em>400</em> and not <em>100</em>.</p>
+        <hr>
+        <p><strong><a href="Solution2.html">Check Solution</a></strong></p>
+    </div>
+
 </body>
 
 </html>
