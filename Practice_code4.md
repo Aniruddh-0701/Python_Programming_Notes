@@ -1,3 +1,8 @@
+---
+title: Practice Functions
+subtitle: Practice Code 4
+---
+
 This Notebook Contains practice question for the note on [Functions](Functions.ipynb).
 
 Try working online at:  
@@ -6,32 +11,32 @@ Try working online at:
 
 ---
 
-**Q1:** Write a program to define a function ***multiply*** which get two parameters and returns the product of them.
+**Q1:** Write a program to define a function **_multiply_** which get two parameters and returns the product of them.
 
 ---
-
 
 **Q2:** Write a program to create a function that gets sides of a rectangle and return its perimeter and area.
 
 ---
 
-**Q3:** Write a program to create a function that gets a number ***n*** and a value ***s*** and prints the value ***n*** times as output.
->**Sample 1:**  
-I/P:  
-10  <br>
-Hello  
-<br>
-O/P:  
-Hello  
-Hello  
-Hello  
-Hello  
-Hello  
-Hello  
-Hello  
-Hello  
-Hello  
-Hello  
+**Q3:** Write a program to create a function that gets a number **_n_** and a value **_s_** and prints the value **_n_** times as output.
+
+> **Sample 1:**  
+> I/P:  
+> 10 <br>
+> Hello  
+> <br>
+> O/P:  
+> Hello  
+> Hello  
+> Hello  
+> Hello  
+> Hello  
+> Hello  
+> Hello  
+> Hello  
+> Hello  
+> Hello
 
 <br>  
 >**Sample 2:**  
@@ -44,7 +49,7 @@ O/P:
 1  <br>
 1  <br>
 1  
-1  
+1
 
 ---
 
@@ -53,7 +58,7 @@ Simple Interest, S.I. = $\dfrac{P \times R \times T}{100}$
 
 ---
 
-**Q5:** Write a program to get a number ***n*** and and print the prime numbers from 1 to ***n***. Use function to check if a number is prime or not.
+**Q5:** Write a program to get a number **_n_** and and print the prime numbers from 1 to **_n_**. Use function to check if a number is prime or not.
 
 ---
 
@@ -65,39 +70,40 @@ Simple Interest, S.I. = $\dfrac{P \times R \times T}{100}$
 
 ---
 
-**Q8:** Write a program to define a function that gets a year as input and print if it is a leap year or not.  
+**Q8:** Write a program to define a function that gets a year as input and print if it is a leap year or not.
 
-**Condition:** A year is leap if it is either divisible *4* or *400* and not *100*.
+**Condition:** A year is leap if it is either divisible _4_ or _400_ and not _100_.
 
 ---
 
-**Q9:** Write a program to define a function that returns the permutation of ***n*** and ***r***.<br>
+**Q9:** Write a program to define a function that returns the permutation of **_n_** and **_r_**.<br>
 $\text{Permutation(n, r)} = {}^nP_r = \dfrac{n!}{(n-r)!}$
 
 ---
 
-**Q10:** Write a program to define a function that returns the permutation of ***n*** and ***r***. Use recursion to compute the factorials.<br>
+**Q10:** Write a program to define a function that returns the permutation of **_n_** and **_r_**. Use recursion to compute the factorials.<br>
 $\text{Permutation(n, r)} = {}^nP_r = \dfrac{n!}{(n-r)!}$
 
 ---
 
-**Q11:** Write a program to define a function that returns the permutation of ***n*** and ***r***.<br>
+**Q11:** Write a program to define a function that returns the permutation of **_n_** and **_r_**.<br>
 $\text{Permutation(n, r)} = {}^nP_r$ = $\dfrac{n!}{(n-r)!} = n(n-1)(n-2)...r ~\text{terms}$
 
 ---
 
-**Q12:** Write a program to define a function that returns the combination of ***n*** and ***r***.<br>
+**Q12:** Write a program to define a function that returns the combination of **_n_** and **_r_**.<br>
 $\text{Combination(n, r)} = {}^nC_r = \dfrac{n!}{(n-r)!~r!}$
 
 ---
 
-**Q13:** Write a program to define a function that returns the combinations of ***n*** and ***r***. Use recursion to compute the factorials.<br>
+**Q13:** Write a program to define a function that returns the combinations of **_n_** and **_r_**. Use recursion to compute the factorials.<br>
 $\text{Combination(n, r)} = {}^nC_r = \dfrac{n!}{(n-r)!~r!}$
 
 ---
 
-**Q14:** Write a program to define a function that returns the combinations of ***n*** and ***r***.<br>
+**Q14:** Write a program to define a function that returns the combinations of **_n_** and **_r_**.<br>
 $\text{Combination(n, r)} = {}^nC_r = \dfrac{n!}{(n-r)!~r!} = \dfrac{n(n-1)(n-2)...r ~\text{terms}}{1 \times 2 \times 3... r ~\text{(r terms)}} = \displaystyle \prod_{i ~= ~0}^{r ~-~1} \dfrac{n-i}{i+1}$
 
-****
+---
+
 **[Check Solution](Solution4.ipynb)**

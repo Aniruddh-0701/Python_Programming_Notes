@@ -1,3 +1,8 @@
+---
+title: Tuples Practice
+subtitle: Practice Code 7
+---
+
 This Notebook Contains practice question for the note on [Tuples](DS_Tuples.ipynb).
 
 Try working online at:  

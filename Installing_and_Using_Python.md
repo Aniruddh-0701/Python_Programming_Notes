@@ -1,3 +1,8 @@
+---
+title: Installing and Using Python
+subtitle: Installing and Using Python
+---
+
 ## Downloading and Installing Python
 
 The official python software (Interpreter and IDLE) available at [the official site](https://www.python.org)

@@ -1,3 +1,8 @@
+---
+title: Strings Practice
+subtitle: Practice Code 6
+---
+
 This Notebook Contains practice question for the note on [Strings](DS_Strings.ipynb).
 
 Try working online at:  
@@ -14,14 +19,14 @@ Try working online at:
 
 **Q5:** Write a program to get a string and print digits in them as output.
 
-**Q6:** Write a program to get a string ***s*** and a substring ***x*** and print if the ***x*** is present in ***s*** as output.
+**Q6:** Write a program to get a string **_s_** and a substring **_x_** and print if the **_x_** is present in **_s_** as output.
 
 **Q7:** Write a program to get a string and set the first letter of all the words in the string to upper case and print the modified string as output.
 
 **Q8**: Write a program to get a name from the user and print if it is a valid name as output.  
 **Condition:** Name is valid if contains only alphabets and there are at least 1 uppercase and 1 lowercase characters.
 
-**Q9:** Write a program to get a variable name, replace all the white spaces with an underscore " _ " and print the modified string as output.
+**Q9:** Write a program to get a variable name, replace all the white spaces with an underscore " \_ " and print the modified string as output.
 
 **Q10:** Write a program to get a string and print all the elements sorted in the alphabetical order as output.
 

@@ -1,3 +1,8 @@
+---
+title: Looping Practice
+subtitle: Practice Code 3
+---
+
 This Notebook Contains practice question for the note on [Looping Statements](Looping_Statements.ipynb).
 
 Try working online at:  

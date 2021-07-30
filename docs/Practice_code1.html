@@ -5,11 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice code1</title>
+    <title>Input/Output Practice questions</title>
+    <meta name="description" content="Practice Code 1">
+    <link rel="shortcut icon" href="./python-logo-4k.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./static/main.css" />
+    <script
+        src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autorun=false&amp;lang=llvm&amp;lang=py"></script>
+    <script>
+        window.onload = (function () {
+            let tags = document.getElementsByTagName("pre");
+            let br = document.createElement("br");
+            for (var i = 0; i < tags.length; ++i) {
+                tags[i].classList.add("prettyprint");
+            }
+            tags = document.getElementsByTagName("code");
+            console.log(tags);
+            for (var i = 0; i < tags.length; ++i) {
+                if (tags[i].classList.contains("language-python")) {
+                    tags[i].classList.add("lang-py");
+                    tags[i].classList.remove("language-python");
+                }
+            }
+            PR.prettyPrint();
+        })
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
     <script>
@@ -18,379 +40,354 @@
         };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <style>
-        blockquote {
-            padding: 10px 20px;
-            margin: 0 0 20px;
-            font-size: 17.5px;
-            border-left: 5px solid #3e3c3c;
-        }
-
-        blockquote>p {
-            margin-bottom: 0;
-        }
-
-        .card {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    </style>
 </head>
 
 <body>
+    <div class="head">
+        <a href="./" style="margin: 10%;">Home</a>
+        <br>
+        <hr>
+    </div>
 
     <div class="container">
-        <h1>Practice code1</h1><br>
-        <p>This file contains practice question for <a href="Introduction_to_Python_Programming.html">Introduction to
-                Python programming</a> (input ad output)</p>
-        <p>Try working online at:<br>
-            <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
-            <a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a>
-        </p>
-        <hr>
-        <p><strong>Q1:</strong> Write a program to print &lsquo;Hello World&rsquo;</p>
-        <hr>
-        <p><strong>Q2:</strong> Write a program to get Name from the user and print it. </p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: Chandru<br>
-                O/p: Chandru </p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: Prabhu<br>
-                O/p: Prabhu</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q3:</strong> Write a program to get Name and age from user and print it.</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p:<br>
-                Chandru 19<br>
-                O/p:<br>
-                Chandru<br>
-                19 </p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p:<br>
-                Prabhu 20<br>
-                O/p:<br>
-                Prabhu<br>
-                20 </p>
-        </blockquote>
-        <hr>
-        <p><strong>Q4:</strong> Write a program to get two numbers from user and print their sum</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p:<br>
-                12<br>
-                12<br>
-                O/p:<br>
-                24</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p:<br>
-                10<br>
-                15<br>
-                O/p:<br>
-                25</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q5:</strong> Write a program to get two numbers and perform all arithmetic operations on them.</p>
-        <hr>
-        <p><strong>Q6:</strong> (Update of <strong>Q4</strong>)<br>
-            Print formatted output</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p:<br>
-                12<br>
-                12<br>
-                O/p:<br>
-                Sum of 12 and 12 is 24</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p:<br>
-                10<br>
-                15<br>
-                O/p:<br>
-                Sum of 10 and 15 is 25</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q6:</strong> (Update of <strong>Q4</strong>)<br>
-            Print formatted output</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p:<br>
-                12<br>
-                12<br>
-                O/p:<br>
-                Sum of 12 and 12 is 24</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p:<br>
-                10<br>
-                15<br>
-                O/p:<br>
-                Sum of 10 and 15 is 25</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q7:</strong> Write a program to get name from the user and wish them Good Morning </p>
-        <blockquote>
-            <p><strong>Sample:</strong><br>
-                I/p: Jenyhin<br>
-                O/p: Good Morning, Jenyhin</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q8:</strong> Write a program to get the side of the square and print its perimeter<br>
-            $\text{Perimeter of a square} = 4 \times \rm{side}$ </p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: 4<br>
-                O/p: 16</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: 22<br>
-                O/p: 88</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q9:</strong> Write a program to get the side of the square and print its area<br>
-            $\text{Area of square} = \rm{side} \times \rm{side}$ </p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: 4<br>
-                O/p: 16</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: 22<br>
-                O/p: 484</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q10:</strong> Write a program to get the length and breadth of a rectangle and print its
-            perimeter<br>
-            $\text{Perimeter of a rectangle} = 2 \times \rm{(length + breadth)}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                4 <br>
-                4<br>
-                O/p: 16</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                22<br>
-                21<br>
-                O/p: 86</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q11:</strong> Write a program to get the length and breadth of a rectangle and print its area<br>
-            $\text{Area of a rectangle} = \text{length} \times \text{breadth}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                4 <br>
-                4<br>
-                O/p: 16</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                22<br>
-                21<br>
-                O/p: 462</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q12:</strong> Write a program to get the number of sides and length of each side of a regular polygon
-            and print its perimeter.<br>
-            $\text{Perimeter} = \text{number of sides} \times \text{length of one side}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                8 <br>
-                4<br>
-                O/p: 32</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                7 <br>
-                21<br>
-                O/p: 147</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q13:</strong> Write a program to get the length and height of a right triangle and print its
-            area.<br>
-            $\text{Area of right triangle} = \dfrac{1}{2} \times \rm{base} \times \rm{height}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                4 <br>
-                4<br>
-                O/p: 8.0</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                22<br>
-                21<br>
-                O/p: 231.0</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q14:</strong> Write a program to get the radius of a circle and print its perimeter rounded off to 3
-            decimal places. (Take $\pi = 3.14159$)<br>
-            $\text{Perimeter of a circle} = 2\pi \times \rm{radius}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                4 <br>
-                O/p: 25.133</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                22 <br>
-                O/p: 138.230</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q15:</strong> Write a program to get the radius of a circle and print its area rounded off to 3
-            decimal places. (Take $\pi = 3.14159$)<br>
-            $\text{Area of a circle} = \pi \times \rm{radius}^2$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                4 <br>
-                O/p: 50.265</p>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                21<br>
-                O/p: 1385.442</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q16:</strong> Write a program to get the sides of a triangle and print its area using Heron&rsquo;s
-            Formula rounded off to 3 decimal places.<br>
-            $\text{Area of right triangle} = \sqrt{s \times (s-a)\times(s-b)\times(s-c)}$<br>
-            $\rm{where},$<br>
-            $s = \text{Semi-Perimeter} = \dfrac{\text{Perimter of triangle}}{2}$<br>
-            $a, ~b, ~c = \text{Sides of the triangle}$ </p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                3 <br>
-                4<br>
-                5<br>
-                O/p: 6.0</p>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                12<br>
-                21<br>
-                30<br>
-                O/p: 98.359</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q17:</strong> Write a program to get the side of a equilateral triangle and print its area rounded
-            off to 4 decimal places.<br>
-            $\text{Area of equilateral triangle} = \dfrac{\sqrt{3}}{4} \times \rm{side}^2$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                4 <br>
-                O/p: 6.9282</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                31<br>
-                O/p: 416.1252</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q18:</strong> Write a program to get the length and height of a right triangle and print the length
-            of its hypotenuse rounded off to 3 decimal places using Pythagoras Theorem.<br>
-            From Pythagoras theorem, $ \rm{hypotenuse} = \sqrt{\rm{base}^2 + \rm{height}^2}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/p: <br>
-                3 <br>
-                4<br>
-                O/p: 5</p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/p: <br>
-                12<br>
-                6 <br>
-                O/p: 13.416</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q19:</strong> Write a program to get the side of a cube and print its volume.<br>
-            $\text{Volume of cube} = \rm{side}^3$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P: 15<br>
-                O/P: 3375</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q20:</strong> Write a program to get the side of a cube and print its total surface area.<br>
-            $ \text{T.S.A of Cube} = 6 \times \rm{side}^2$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P: 15<br>
-                O/P: 1350</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q21:</strong> Write a program to get the side of a cube and print its Lateral surface area.<br>
-            $\text{L.S.A of cube} = 4 \times \rm{side}^2$</p>
-        <hr>
-        <p><strong>Q22:</strong> Write a program to get the length, breadth and height of a cuboid and print its
-            volume.<br>
-            $\text{Volume of Cuboid} = \rm{length} \times \rm{breadth} \times \rm{height}$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P:<br>
-                43<br>
-                28<br>
-                35<br>
-                O/P: 42140</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q23:</strong> Write a program to get the length, breadth and height of a cuboid and print its Total
-            Surface Area.<br>
-            $\text{T.S.A of Cuboid} = 2 \times ( (\rm{length} \times \rm{breadth}) + (\rm{breadth} \times \rm{height}) +
-            (\rm{height} \times \rm{length}))$</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P:<br>
-                43<br>
-                28<br>
-                35<br>
-                O/P: 7378</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q24:</strong> Write a program to get the length, breadth and height of a cuboid and print its Lateral
-            Surface Area.<br>
-            $\text{L.S.A of Cuboid} = 2 \times \rm{height} \times (\rm{breadth}+ \rm{length})$</p>
-        <hr>
-        <p><strong><a href="Solution1.html">Check Solution</a></strong></p>
+        <h1>Input/Output Practice questions</h1>
+        <p>This file contains practice question for <a href="Introduction_to_Python_Programming.html">Introduction to Python programming</a> (input ad output)</p>
+<p>Try working online at:<br>
+<a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
+<a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a></p>
+<hr>
+<p><strong>Q1:</strong> Write a program to print &lsquo;Hello World&rsquo;</p>
+<hr>
+<p><strong>Q2:</strong> Write a program to get Name from the user and print it.</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p: Chandru<br>
+O/p: Chandru</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: Prabhu<br>
+O/p: Prabhu</p>
+</blockquote>
+<hr>
+<p><strong>Q3:</strong> Write a program to get Name and age from user and print it.</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+Chandru 19<br>
+O/p:<br>
+Chandru<br>
+19</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p:<br>
+Prabhu  20<br>
+O/p:<br>
+Prabhu<br>
+20</p>
+</blockquote>
+<hr>
+<p><strong>Q4:</strong> Write a program to get two numbers from user and print their sum</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+12<br>
+12<br>
+O/p:<br>
+24</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p:<br>
+10<br>
+15<br>
+O/p:<br>
+25</p>
+</blockquote>
+<hr>
+<p><strong>Q5:</strong> Write a program to get two numbers and perform all arithmetic operations on them.</p>
+<hr>
+<p><strong>Q6:</strong> (Update of <strong>Q4</strong>)<br>
+Print formatted output</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+12<br>
+12<br>
+O/p:<br>
+Sum of 12 and 12 is 24</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p:<br>
+10<br>
+15<br>
+O/p:<br>
+Sum of 10 and 15 is 25</p>
+</blockquote>
+<hr>
+<p><strong>Q6:</strong> (Update of <strong>Q4</strong>)<br>
+Print formatted output</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+12<br>
+12<br>
+O/p:<br>
+Sum of 12 and 12 is 24</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p:<br>
+10<br>
+15<br>
+O/p:<br>
+Sum of 10 and 15 is 25</p>
+</blockquote>
+<hr>
+<p><strong>Q7:</strong> Write a program to get name from the user and wish them Good Morning</p>
+<blockquote>
+<p><strong>Sample:</strong><br>
+I/p: Jenyhin<br>
+O/p: Good Morning, Jenyhin</p>
+</blockquote>
+<hr>
+<p><strong>Q8:</strong> Write a program to get the side of the square and print its perimeter<br>
+$\text{Perimeter of a square} = 4 \times \rm{side}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p: 4<br>
+O/p: 16</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: 22<br>
+O/p: 88</p>
+</blockquote>
+<hr>
+<p><strong>Q9:</strong> Write a program to get the side of the square and print its area<br>
+$\text{Area of square} = \rm{side} \times \rm{side}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p: 4<br>
+O/p: 16</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: 22<br>
+O/p: 484</p>
+</blockquote>
+<hr>
+<p><strong>Q10:</strong> Write a program to get the length and breadth of a rectangle and print its perimeter<br>
+$\text{Perimeter of a rectangle} = 2 \times \rm{(length + breadth)}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+4 <br>
+4<br>
+O/p: 16</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+22<br>
+21<br>
+O/p: 86</p>
+</blockquote>
+<hr>
+<p><strong>Q11:</strong> Write a program to get the length and breadth of a rectangle and print its area<br>
+$\text{Area of a rectangle} = \text{length} \times \text{breadth}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+4 <br>
+4<br>
+O/p: 16</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+22<br>
+21<br>
+O/p: 462</p>
+</blockquote>
+<hr>
+<p><strong>Q12:</strong> Write a program to get the number of sides and length of each side of a regular polygon and print its perimeter.<br>
+$\text{Perimeter} = \text{number of sides} \times \text{length of one side}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+8 <br>
+4<br>
+O/p: 32</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+7  <br>
+21<br>
+O/p: 147</p>
+</blockquote>
+<hr>
+<p><strong>Q13:</strong> Write a program to get the length and height of a right triangle and print its area.<br>
+$\text{Area of right triangle} = \dfrac{1}{2} \times \rm{base} \times \rm{height}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+4 <br>
+4<br>
+O/p: 8.0</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+22<br>
+21<br>
+O/p: 231.0</p>
+</blockquote>
+<hr>
+<p><strong>Q14:</strong> Write a program to get the radius of a circle and print its perimeter rounded off to 3 decimal places. (Take $\pi = 3.14159$)<br>
+$\text{Perimeter of a circle} = 2\pi \times \rm{radius}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+4 <br>
+O/p: 25.133</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+22 <br>
+O/p: 138.230</p>
+</blockquote>
+<hr>
+<p><strong>Q15:</strong> Write a program to get the radius of a circle and print its area rounded off to 3 decimal places. (Take $\pi = 3.14159$)<br>
+$\text{Area of a circle} = \pi \times \rm{radius}^2$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+4 <br>
+O/p: 50.265</p>
+<p><strong>Sample 2:</strong><br>
+I/p:<br>
+21<br>
+O/p: 1385.442</p>
+</blockquote>
+<hr>
+<p><strong>Q16:</strong> Write a program to get the sides of a triangle and print its area using Heron&rsquo;s Formula rounded off to 3 decimal places.<br>
+$\text{Area of right triangle} = \sqrt{s \times (s-a)\times(s-b)\times(s-c)}$<br>
+$\rm{where},$<br>
+$s = \text{Semi-Perimeter} = \dfrac{\text{Perimter of triangle}}{2}$<br>
+$a, ~b, ~c = \text{Sides of the triangle}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+3 <br>
+4<br>
+5<br>
+O/p: 6.0</p>
+<p><strong>Sample 2:</strong><br>
+I/p:<br>
+12<br>
+21<br>
+30<br>
+O/p: 98.359</p>
+</blockquote>
+<hr>
+<p><strong>Q17:</strong> Write a program to get the side of a equilateral triangle and print its area rounded off to 4 decimal places.<br>
+$\text{Area of equilateral triangle} = \dfrac{\sqrt{3}}{4} \times \rm{side}^2$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+4 <br>
+O/p: 6.9282</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+31<br>
+O/p: 416.1252</p>
+</blockquote>
+<hr>
+<p><strong>Q18:</strong> Write a program to get the length and height of a right triangle and print the length of its hypotenuse rounded off to 3 decimal places using Pythagoras Theorem.<br>
+From Pythagoras theorem, $ \rm{hypotenuse} = \sqrt{\rm{base}^2 + \rm{height}^2}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/p:<br>
+3 <br>
+4<br>
+O/p: 5</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/p: <br>
+12<br>
+6  <br>
+O/p: 13.416</p>
+</blockquote>
+<hr>
+<p><strong>Q19:</strong> Write a program to get the side of a cube and print its volume.<br>
+$\text{Volume of cube} = \rm{side}^3$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P: 15<br>
+O/P: 3375</p>
+</blockquote>
+<hr>
+<p><strong>Q20:</strong> Write a program to get the side of a cube and print its total surface area.<br>
+$ \text{T.S.A of Cube} = 6 \times \rm{side}^2$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P: 15<br>
+O/P: 1350</p>
+</blockquote>
+<hr>
+<p><strong>Q21:</strong> Write a program to get the side of a cube and print its Lateral surface area.<br>
+$\text{L.S.A of cube} = 4  \times \rm{side}^2$</p>
+<hr>
+<p><strong>Q22:</strong> Write a program to get the length, breadth and height of a cuboid and print its volume.<br>
+$\text{Volume of Cuboid} = \rm{length} \times \rm{breadth} \times \rm{height}$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P:<br>
+43<br>
+28<br>
+35<br>
+O/P: 42140</p>
+</blockquote>
+<hr>
+<p><strong>Q23:</strong> Write a program to get the length, breadth and height of a cuboid and print its Total Surface Area.<br>
+$\text{T.S.A of Cuboid} = 2 \times ( (\rm{length} \times \rm{breadth}) + (\rm{breadth} \times \rm{height}) + (\rm{height} \times \rm{length}))$</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P:<br>
+43<br>
+28<br>
+35<br>
+O/P: 7378</p>
+</blockquote>
+<hr>
+<p><strong>Q24:</strong> Write a program to get the length, breadth and height of a cuboid and print its Lateral Surface Area.<br>
+$\text{L.S.A of Cuboid} = 2 \times \rm{height} \times (\rm{breadth}+ \rm{length})$</p>
+<hr>
+<p><strong><a href="Solution1.html">Check Solution</a></strong></p>
     </div>
+
 
 </body>
 

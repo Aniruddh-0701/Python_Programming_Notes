@@ -1,3 +1,8 @@
+---
+title: Input/Output Practice questions
+subtitle: Practice Code 1
+---
+
 This file contains practice question for [Introduction to Python programming](Introduction_to_Python_Programming.ipynb) (input ad output)
 
 Try working online at:  
@@ -10,10 +15,11 @@ Try working online at:
 
 ---
 
-**Q2:** Write a program to get Name from the user and print it.  
->**Sample 1:**  
-I/p: Chandru  
-O/p: Chandru  
+**Q2:** Write a program to get Name from the user and print it.
+
+> **Sample 1:**  
+> I/p: Chandru  
+> O/p: Chandru
 
   <br>
 >**Sample 2:**  
@@ -24,12 +30,12 @@ O/p: Prabhu
 
 **Q3:** Write a program to get Name and age from user and print it.
 
->**Sample 1:**  
-I/p:  
-Chandru  19  
-O/p:  
-Chandru  
-19  
+> **Sample 1:**  
+> I/p:  
+> Chandru 19  
+> O/p:  
+> Chandru  
+> 19
 
 <br>
 >**Sample 2:**  
@@ -37,17 +43,18 @@ I/p:
 Prabhu  20  
 O/p:  
 Prabhu  
-20  
+20
 
 ---
 
 **Q4:** Write a program to get two numbers from user and print their sum
->**Sample 1:**  
-I/p:  
-12  
-12  
-O/p:  
-24
+
+> **Sample 1:**  
+> I/p:  
+> 12  
+> 12  
+> O/p:  
+> 24
 
 <br>
 >**Sample 2:**  
@@ -65,12 +72,13 @@ O/p:
 
 **Q6:** (Update of **Q4**)  
 Print formatted output
->**Sample 1:**  
-I/p:  
-12  
-12  
-O/p:  
-Sum of 12 and 12 is 24
+
+> **Sample 1:**  
+> I/p:  
+> 12  
+> 12  
+> O/p:  
+> Sum of 12 and 12 is 24
 
 <br>
 >**Sample 2:**  
@@ -84,12 +92,13 @@ Sum of 10 and 15 is 25
 
 **Q6:** (Update of **Q4**)  
 Print formatted output
->**Sample 1:**  
-I/p:  
-12  
-12  
-O/p:  
-Sum of 12 and 12 is 24
+
+> **Sample 1:**  
+> I/p:  
+> 12  
+> 12  
+> O/p:  
+> Sum of 12 and 12 is 24
 
 <br>
 >**Sample 2:**  
@@ -101,18 +110,20 @@ Sum of 10 and 15 is 25
 
 ---
 
-**Q7:** Write a program to get name from the user and wish them Good Morning  
->**Sample:**  
-I/p: Jenyhin  
-O/p: Good Morning, Jenyhin
+**Q7:** Write a program to get name from the user and wish them Good Morning
+
+> **Sample:**  
+> I/p: Jenyhin  
+> O/p: Good Morning, Jenyhin
 
 ---
 
 **Q8:** Write a program to get the side of the square and print its perimeter  
-$\text{Perimeter of a square} = 4 \times \rm{side}$  
->**Sample 1:**  
-I/p: 4  
-O/p: 16
+$\text{Perimeter of a square} = 4 \times \rm{side}$
+
+> **Sample 1:**  
+> I/p: 4  
+> O/p: 16
 
 <br>
 >**Sample 2:**  
@@ -122,10 +133,11 @@ O/p: 88
 ---
 
 **Q9:** Write a program to get the side of the square and print its area  
-$\text{Area of square} = \rm{side} \times \rm{side}$  
->**Sample 1:**  
-I/p: 4  
-O/p: 16
+$\text{Area of square} = \rm{side} \times \rm{side}$
+
+> **Sample 1:**  
+> I/p: 4  
+> O/p: 16
 
 <br>
 >**Sample 2:**  
@@ -136,11 +148,12 @@ O/p: 484
 
 **Q10:** Write a program to get the length and breadth of a rectangle and print its perimeter  
 $\text{Perimeter of a rectangle} = 2 \times \rm{(length + breadth)}$
->**Sample 1:**  
-I/p:   
-4  <br>
-4  
-O/p: 16
+
+> **Sample 1:**  
+> I/p:  
+> 4 <br>
+> 4  
+> O/p: 16
 
 <br>
 >**Sample 2:**  
@@ -153,11 +166,12 @@ O/p: 86
 
 **Q11:** Write a program to get the length and breadth of a rectangle and print its area  
 $\text{Area of a rectangle} = \text{length} \times \text{breadth}$
->**Sample 1:**  
-I/p:   
-4  <br>
-4  
-O/p: 16
+
+> **Sample 1:**  
+> I/p:  
+> 4 <br>
+> 4  
+> O/p: 16
 
 <br>
 >**Sample 2:**  
@@ -170,11 +184,12 @@ O/p: 462
 
 **Q12:** Write a program to get the number of sides and length of each side of a regular polygon and print its perimeter.  
 $\text{Perimeter} = \text{number of sides} \times \text{length of one side}$
->**Sample 1:**  
-I/p:   
-8  <br>
-4  
-O/p: 32
+
+> **Sample 1:**  
+> I/p:  
+> 8 <br>
+> 4  
+> O/p: 32
 
 <br>
 >**Sample 2:**  
@@ -187,11 +202,12 @@ O/p: 147
 
 **Q13:** Write a program to get the length and height of a right triangle and print its area.  
 $\text{Area of right triangle} = \dfrac{1}{2} \times \rm{base} \times \rm{height}$
->**Sample 1:**  
-I/p:   
-4  <br>
-4  
-O/p: 8.0
+
+> **Sample 1:**  
+> I/p:  
+> 4 <br>
+> 4  
+> O/p: 8.0
 
 <br>
 >**Sample 2:**  
@@ -204,10 +220,11 @@ O/p: 231.0
 
 **Q14:** Write a program to get the radius of a circle and print its perimeter rounded off to 3 decimal places. (Take $\pi = 3.14159$)  
 $\text{Perimeter of a circle} = 2\pi \times \rm{radius}$
->**Sample 1:**  
-I/p:   
-4  <br>
-O/p: 25.133
+
+> **Sample 1:**  
+> I/p:  
+> 4 <br>
+> O/p: 25.133
 
 <br>
 >**Sample 2:**  
@@ -219,15 +236,16 @@ O/p: 138.230
 
 **Q15:** Write a program to get the radius of a circle and print its area rounded off to 3 decimal places. (Take $\pi = 3.14159$)  
 $\text{Area of a circle} = \pi \times \rm{radius}^2$
->**Sample 1:**  
-I/p:   
-4  <br>
-O/p: 50.265
 
->**Sample 2:**  
-I/p:   
-21  
-O/p: 1385.442
+> **Sample 1:**  
+> I/p:  
+> 4 <br>
+> O/p: 50.265
+
+> **Sample 2:**  
+> I/p:  
+> 21  
+> O/p: 1385.442
 
 ---
 
@@ -235,29 +253,31 @@ O/p: 1385.442
 $\text{Area of right triangle} = \sqrt{s \times (s-a)\times(s-b)\times(s-c)}$  
 $\rm{where},$  
 $s = \text{Semi-Perimeter} = \dfrac{\text{Perimter of triangle}}{2}$  
-$a, ~b, ~c = \text{Sides of the triangle}$  
->**Sample 1:**  
-I/p:   
-3  <br>
-4<br>
-5  
-O/p: 6.0
+$a, ~b, ~c = \text{Sides of the triangle}$
 
->**Sample 2:**  
-I/p:   
-12  
-21  
-30  
-O/p: 98.359
+> **Sample 1:**  
+> I/p:  
+> 3 <br>
+> 4<br>
+> 5  
+> O/p: 6.0
+
+> **Sample 2:**  
+> I/p:  
+> 12  
+> 21  
+> 30  
+> O/p: 98.359
 
 ---
 
 **Q17:** Write a program to get the side of a equilateral triangle and print its area rounded off to 4 decimal places.  
 $\text{Area of equilateral triangle} = \dfrac{\sqrt{3}}{4} \times \rm{side}^2$
->**Sample 1:**  
-I/p:   
-4  <br>
-O/p: 6.9282
+
+> **Sample 1:**  
+> I/p:  
+> 4 <br>
+> O/p: 6.9282
 
 <br>
 >**Sample 2:**  
@@ -269,11 +289,12 @@ O/p: 416.1252
 
 **Q18:** Write a program to get the length and height of a right triangle and print the length of its hypotenuse rounded off to 3 decimal places using Pythagoras Theorem.  
 From Pythagoras theorem, $ \rm{hypotenuse} = \sqrt{\rm{base}^2 + \rm{height}^2}$
->**Sample 1:**  
-I/p:   
-3  <br>
-4  
-O/p: 5
+
+> **Sample 1:**  
+> I/p:  
+> 3 <br>
+> 4  
+> O/p: 5
 
 <br>
 >**Sample 2:**  
@@ -286,17 +307,19 @@ O/p: 13.416
 
 **Q19:** Write a program to get the side of a cube and print its volume.  
 $\text{Volume of cube} = \rm{side}^3$
->**Sample 1:**  
-I/P: 15  
-O/P: 3375
+
+> **Sample 1:**  
+> I/P: 15  
+> O/P: 3375
 
 ---
 
 **Q20:** Write a program to get the side of a cube and print its total surface area.  
 $ \text{T.S.A of Cube} = 6 \times \rm{side}^2$
->**Sample 1:**  
-I/P: 15  
-O/P: 1350
+
+> **Sample 1:**  
+> I/P: 15  
+> O/P: 1350
 
 ---
 
@@ -307,28 +330,31 @@ $\text{L.S.A of cube} = 4  \times \rm{side}^2$
 
 **Q22:** Write a program to get the length, breadth and height of a cuboid and print its volume.  
 $\text{Volume of Cuboid} = \rm{length} \times \rm{breadth} \times \rm{height}$
->**Sample 1:**  
-I/P:  
-43  
-28  
-35  
-O/P: 42140
+
+> **Sample 1:**  
+> I/P:  
+> 43  
+> 28  
+> 35  
+> O/P: 42140
 
 ---
 
 **Q23:** Write a program to get the length, breadth and height of a cuboid and print its Total Surface Area.  
 $\text{T.S.A of Cuboid} = 2 \times ( (\rm{length} \times \rm{breadth}) + (\rm{breadth} \times \rm{height}) + (\rm{height} \times \rm{length}))$
->**Sample 1:**  
-I/P:  
-43  
-28  
-35  
-O/P: 7378
+
+> **Sample 1:**  
+> I/P:  
+> 43  
+> 28  
+> 35  
+> O/P: 7378
 
 ---
 
 **Q24:** Write a program to get the length, breadth and height of a cuboid and print its Lateral Surface Area.  
 $\text{L.S.A of Cuboid} = 2 \times \rm{height} \times (\rm{breadth}+ \rm{length})$
 
-****
+---
+
 **[Check Solution](Solution1.ipynb)**

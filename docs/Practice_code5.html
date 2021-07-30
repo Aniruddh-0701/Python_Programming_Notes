@@ -5,11 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice code5</title>
+    <title>List DS Practice</title>
+    <meta name="description" content="Practice Code 5">
+    <link rel="shortcut icon" href="./python-logo-4k.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./static/main.css" />
+    <script
+        src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autorun=false&amp;lang=llvm&amp;lang=py"></script>
+    <script>
+        window.onload = (function () {
+            let tags = document.getElementsByTagName("pre");
+            let br = document.createElement("br");
+            for (var i = 0; i < tags.length; ++i) {
+                tags[i].classList.add("prettyprint");
+            }
+            tags = document.getElementsByTagName("code");
+            console.log(tags);
+            for (var i = 0; i < tags.length; ++i) {
+                if (tags[i].classList.contains("language-python")) {
+                    tags[i].classList.add("lang-py");
+                    tags[i].classList.remove("language-python");
+                }
+            }
+            PR.prettyPrint();
+        })
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
     <script>
@@ -18,29 +40,17 @@
         };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <style>
-        blockquote {
-            padding: 10px 20px;
-            margin: 0 0 20px;
-            font-size: 17.5px;
-            border-left: 5px solid #3e3c3c;
-        }
-
-        blockquote>p {
-            margin-bottom: 0;
-        }
-
-        .card {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    </style>
 </head>
 
 <body>
+    <div class="head">
+        <a href="./" style="margin: 10%;">Home</a>
+        <br>
+        <hr>
+    </div>
 
     <div class="container">
-        <h1>Practice code5</h1><br>
+        <h1>List DS Practice</h1>
         <p>This Notebook Contains practice question for the note on <a href="DS_Lists.html">Lists</a>.</p>
 <p>Try working online at:<br>
 <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
@@ -78,7 +88,7 @@ O/p: [10 20 -2 40]</p>
 <blockquote>
 <p>Sample 1:<br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: 13202000  </p>
+O/P: 13202000</p>
 </blockquote>
 <hr>
 <p><strong>Q5:</strong> Write a program to get a list of integers and print their sum as output. (Use <em>sum</em> method).</p>
@@ -92,49 +102,49 @@ O/P: 90</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: 90  </p>
+O/P: 90</p>
 </blockquote>
 <hr>
 <p><strong>Q7:</strong> Write a program to get a list of integers and print their product as output. (Use loops).</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: 13202000  </p>
+O/P: 13202000</p>
 </blockquote>
 <hr>
 <p><strong>Q8:</strong> Write a program to get a list of integers and print their average as output. (round off to 3 decimal places).</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: 12.857  </p>
+O/P: 12.857</p>
 </blockquote>
 <hr>
 <p><strong>Q9:</strong> Write a program to get a list of integers and print the maximum value as output. (Use <em>max</em> method).</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: 41  </p>
+O/P: 41</p>
 </blockquote>
 <hr>
 <p><strong>Q10:</strong> Write a program to get a list of integers and print the maximum value as output. (Use loops).</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: 41  </p>
+O/P: 41</p>
 </blockquote>
 <hr>
 <p><strong>Q11:</strong> Write a program to get a list of integers and print the minimum value as output. (Use <em>min</em> method).</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: -7  </p>
+O/P: -7</p>
 </blockquote>
 <hr>
 <p><strong>Q12:</strong> Write a program to get a list of integers and print the minimum value as output. (Use loops).</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 10 20 5 41 -2 -7 23<br>
-O/P: -7  </p>
+O/P: -7</p>
 </blockquote>
 <hr>
 <p><strong>Q13:</strong> Write a program to get a number <strong><em>n</em></strong> and print first <strong><em>n</em></strong> terms of Fibonacci series.</p>
@@ -143,15 +153,15 @@ O/P: -7  </p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: Hi First Second python STRING<br>
-O/P: First python  </p>
+O/P: First python</p>
 </blockquote>
 <hr>
 <p><strong>Q15:</strong> Write a program to get a list of numbers as input and print their median as output.<br>
-(Median is the center-most value of the sorted list)  </p>
+(Median is the center-most value of the sorted list)</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 2 9 1 7 4 8<br>
-O/P: 6.5  </p>
+O/P: 6.5</p>
 </blockquote>
 <p><br></p>
 <blockquote>
@@ -161,11 +171,11 @@ O/P: 3</p>
 </blockquote>
 <hr>
 <p><strong>Q16:</strong> Write a program to get a list of numbers as input and print their mode as output.<br>
-(Mode is the most frequent value of the given list)  </p>
+(Mode is the most frequent value of the given list)</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 I/P: 2 9 1 1 4 1<br>
-O/P: 1  </p>
+O/P: 1</p>
 </blockquote>
 <p><br></p>
 <blockquote>
@@ -174,7 +184,7 @@ I/P: 1 3 8 6 3<br>
 O/P: 3</p>
 </blockquote>
 <hr>
-<p><strong>Q17:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and n rows of a matrix and print each row as a list.  </p>
+<p><strong>Q17:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and n rows of a matrix and print each row as a list.</p>
 <blockquote>
 <p><strong>Sample 1:</strong>
 I/P:<br>
@@ -185,10 +195,10 @@ I/P:<br>
 O/P:<br>
 [10, 20, 30]<br>
 [1, 2, 3]<br>
-[5, -4, -10]  </p>
+[5, -4, -10]</p>
 </blockquote>
 <hr>
-<p><strong>Q18:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and $n\times n$ matrix and print its transpose.  </p>
+<p><strong>Q18:</strong> Write a program to get the number of rows <strong><em>n</em></strong> and $n\times n$ matrix and print its transpose.</p>
 <blockquote>
 <p><strong>Sample1:</strong><br>
 I/P:<br>
@@ -199,19 +209,19 @@ I/P:<br>
 O/P:<br>
 10 1 5<br>
 20 2 -4<br>
-30 3 -10  </p>
+30 3 -10</p>
 </blockquote>
 <hr>
 <p><strong>Q19:</strong> Write a program to get number of rows <strong><em>r</em></strong> and columns <strong><em>c</em></strong> and two $r \times c$ matrices and print their sum as output.<br>
-(No empty lines are provided in between the matrices)  </p>
+(No empty lines are provided in between the matrices)</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 4<br>
 4<br>
 9 13 5 2<br>
 1 11 7 6<br>
-3 7  4  1<br>
-6 0  7 10 <br>
+3 7 4 1<br>
+6 0 7 10 <br>
 -2 4 7 31<br>
 6 9 12 6<br>
 12 11 0 1<br>
@@ -220,19 +230,19 @@ O/P:<br>
 7 17 12 33<br>
 7 20 19 12<br>
 15 18 4 2<br>
-15 10 9 13  </p>
+15 10 9 13</p>
 </blockquote>
 <hr>
-<p><strong>Q20:</strong> Write a program to get number of rows <strong><em>r</em></strong> and no. of columns <strong><em>c</em></strong>  and three $r \times c$ matrices and print their sum as output.<br>
-(No empty lines are provided in between the matrices)  </p>
+<p><strong>Q20:</strong> Write a program to get number of rows <strong><em>r</em></strong> and no. of columns <strong><em>c</em></strong> and three $r \times c$ matrices and print their sum as output.<br>
+(No empty lines are provided in between the matrices)</p>
 <blockquote>
 <p><strong>Sample 1:</strong><br>
 4<br>
 4<br>
 9 13 5 2<br>
 1 11 7 6<br>
-3 7  4  1<br>
-6 0  7 10 <br>
+3 7 4 1<br>
+6 0 7 10 <br>
 -2 4 7 31<br>
 6 9 12 6<br>
 12 11 0 1<br>
@@ -243,9 +253,9 @@ O/P:<br>
 10 1 0 11 <br>
 O/P:<br>
 7 19 20 39<br>
-10 27 20 12 <br>
+10 27 20 12<br>
 15 18 5 4<br>
-25 11 9 24  </p>
+25 11 9 24</p>
 </blockquote>
 <hr>
 <p><strong>Q21:</strong> Write a program to get a $m \times n$ matrix and a $p \times q$ matrix (m, n, p, q given) and print their product as output.<br>
@@ -269,6 +279,7 @@ O/P:<br>
 <hr>
 <p><strong><a href="Solution5.html">Check Solution</a></strong></p>
     </div>
+
 
 </body>
 

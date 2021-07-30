@@ -5,11 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice code3</title>
+    <title>Looping Practice</title>
+    <meta name="description" content="Practice Code 3">
+    <link rel="shortcut icon" href="./python-logo-4k.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./static/main.css" />
+    <script
+        src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autorun=false&amp;lang=llvm&amp;lang=py"></script>
+    <script>
+        window.onload = (function () {
+            let tags = document.getElementsByTagName("pre");
+            let br = document.createElement("br");
+            for (var i = 0; i < tags.length; ++i) {
+                tags[i].classList.add("prettyprint");
+            }
+            tags = document.getElementsByTagName("code");
+            console.log(tags);
+            for (var i = 0; i < tags.length; ++i) {
+                if (tags[i].classList.contains("language-python")) {
+                    tags[i].classList.add("lang-py");
+                    tags[i].classList.remove("language-python");
+                }
+            }
+            PR.prettyPrint();
+        })
+    </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
     <script>
@@ -18,144 +40,117 @@
         };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <style>
-        blockquote {
-            padding: 10px 20px;
-            margin: 0 0 20px;
-            font-size: 17.5px;
-            border-left: 5px solid #3e3c3c;
-        }
-
-        blockquote>p {
-            margin-bottom: 0;
-        }
-
-        .card {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    </style>
 </head>
 
 <body>
+    <div class="head">
+        <a href="./" style="margin: 10%;">Home</a>
+        <br>
+        <hr>
+    </div>
 
     <div class="container">
-        <h1>Practice code3</h1><br>
-        <p>This Notebook Contains practice question for the note on <a href="Looping_Statements.html">Looping
-                Statements</a>.</p>
-        <p>Try working online at:<br>
-            <a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
-            <a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a>
-        </p>
-        <hr>
-        <p><strong>Q1:</strong> Write a program to get the value of <strong><em>n</em></strong> from the user and print
-            sum of <strong><em>n</em></strong> natural numbers as output.</p>
-        <hr>
-        <p><strong>Q2:</strong> Write a program to get the values of <strong><em>n</em></strong> and
-            <strong><em>n</em></strong> numbers from the user and print sum of the <strong><em>n</em></strong> numbers
-            as output.<br>
-            Input: </p>
-        <p>First line contains the number <strong><em>n</em></strong><br>
-            Next n lines contain <strong><em>n</em></strong> integers </p>
-        <p>Output:
-            Sum of n numbers </p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P:<br>
-                10 <br>
-                1 <br>
-                5 <br>
-                7<br>
-                22<br>
-                20<br>
-                40<br>
-                2 <br>
-                53<br>
-                18<br>
-                -1<br>
-                O/p: 167</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q3:</strong> Write a program get a number from user and print if it is prime or composite.</p>
-        <hr>
-        <p><strong>Q4:</strong> Write a program to get a number from the user and print its factorial as output.</p>
-        <hr>
-        <p><strong>Q5:</strong> Write a program to get the value of <strong><em>n</em></strong> from the user and print
-            the first <strong><em>n</em></strong> terms of the Fibonacci series as output.</p>
-        <hr>
-        <p><strong>Q6:</strong> Write a program to get a number <strong><em>n</em></strong> from the user and print its
-            reverse as output.</p>
-        <hr>
-        <p><strong>Q7:</strong> Write a program to get a number and check if it is an armstrong number or not. </p>
-        <p><strong>Condition:</strong> Armstrong / Narcissistic number is the number in any given number base, which
-            forms the total of the same number, when each of its digits is raised to the power of the number of digits
-            in the number.</p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P:
-                153<br>
-                O/P:
-                Armstrong Number </p>
-        </blockquote>
-        <p><strong>Explanation:</strong> $ 1^3 + 5^3 + 3^3 = 153 $</p>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 2:</strong><br>
-                I/P:<br>
-                407<br>
-                O/P:<br>
-                Armstrong Number<br>
-                <strong>Explanation:</strong> $ 4^3 + 0^3 + 7^3 = 407 $
-            </p>
-        </blockquote>
-        <p><br></p>
-        <blockquote>
-            <p><strong>Sample 3:</strong><br>
-                I/P:<br>
-                107
-                O/P:<br>
-                Not an Armstrong Number </p>
-        </blockquote>
-        <hr>
-        <p><strong>Q8:</strong> Write a program to get a number <strong><em>n</em></strong> and print its multiplication
-            table from 1 to 20.</p>
-        <hr>
-        <p><strong>Q9:</strong> Write a program to get the values of <strong><em>n</em></strong> and
-            <strong><em>n</em></strong> numbers from the user and print average of the <strong><em>n</em></strong>
-            numbers rounded off to 4 decimal places as output.<br>
-            Input: </p>
-        <p>First line contains the number <strong><em>n</em></strong><br>
-            Next n lines contain <strong><em>n</em></strong> integers </p>
-        <p>Output:</p>
-        <p>Average of n numbers </p>
-        <blockquote>
-            <p><strong>Sample 1:</strong><br>
-                I/P:<br>
-                10 <br>
-                1 <br>
-                5 <br>
-                7<br>
-                22<br>
-                20<br>
-                40<br>
-                2 <br>
-                53<br>
-                18<br>
-                -1<br>
-                O/p: 16.7</p>
-        </blockquote>
-        <hr>
-        <p><strong>Q10:</strong> Write a program to get a number <strong><em>n</em></strong> and print the
-            <strong><em>nth</em></strong> term of Fibonacci series as output.</p>
-        <hr>
-        <p><strong>Q11:</strong> Write a program to get two numbers as input and print their <strong>HCF</strong> as
-            output.</p>
-        <hr>
-        <p><strong>Q12:</strong> Write a program to get two numbers as input and print their <strong>LCM</strong> as
-            output.</p>
-        <hr>
-        <p><strong><a href="Solution3.html">Check Solution</a></strong></p>
+        <h1>Looping Practice</h1>
+        <p>This Notebook Contains practice question for the note on <a href="Looping_Statements.html">Looping Statements</a>.</p>
+<p>Try working online at:<br>
+<a href="https://www.tutorialspoint.com/execute_python3_online.php">Coding Ground - Tutorials Point</a><br>
+<a href="https://www.onlinegdb.com/online_python_compiler">Online Compiler and Debugger</a></p>
+<hr>
+<p><strong>Q1:</strong> Write a program to get the value of <strong><em>n</em></strong> from the user and print sum of <strong><em>n</em></strong> natural numbers as output.</p>
+<hr>
+<p><strong>Q2:</strong> Write a program to get the values of <strong><em>n</em></strong> and <strong><em>n</em></strong> numbers from the user and print sum of the <strong><em>n</em></strong> numbers as output.<br>
+Input:</p>
+<p>First line contains the number <strong><em>n</em></strong><br>
+Next n lines contain <strong><em>n</em></strong> integers</p>
+<p>Output:
+Sum of n numbers</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P:<br>
+10 <br>
+1 <br>
+5 <br>
+7<br>
+22<br>
+20<br>
+40<br>
+2 <br>
+53<br>
+18<br>
+-1<br>
+O/p: 167</p>
+</blockquote>
+<hr>
+<p><strong>Q3:</strong> Write a program get a number from user and print if it is prime or composite.</p>
+<hr>
+<p><strong>Q4:</strong> Write a program to get a number from the user and print its factorial as output.</p>
+<hr>
+<p><strong>Q5:</strong> Write a program to get the value of <strong><em>n</em></strong> from the user and print the first <strong><em>n</em></strong> terms of the Fibonacci series as output.</p>
+<hr>
+<p><strong>Q6:</strong> Write a program to get a number <strong><em>n</em></strong> from the user and print its reverse as output.</p>
+<hr>
+<p><strong>Q7:</strong> Write a program to get a number and check if it is an armstrong number or not.</p>
+<p><strong>Condition:</strong> Armstrong / Narcissistic number is the number in any given number base, which forms the total of the same number, when each of its digits is raised to the power of the number of digits in the number.</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P:
+153<br>
+O/P:
+Armstrong Number</p>
+</blockquote>
+<p><strong>Explanation:</strong> $ 1^3 + 5^3 + 3^3 = 153 $</p>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 2:</strong><br>
+I/P:<br>
+407<br>
+O/P:<br>
+Armstrong Number<br>
+<strong>Explanation:</strong> $ 4^3 + 0^3 + 7^3 = 407 $</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p><strong>Sample 3:</strong><br>
+I/P:<br>
+107
+O/P:<br>
+Not an Armstrong Number</p>
+</blockquote>
+<hr>
+<p><strong>Q8:</strong> Write a program to get a number <strong><em>n</em></strong> and print its multiplication table from 1 to 20.</p>
+<hr>
+<p><strong>Q9:</strong> Write a program to get the values of <strong><em>n</em></strong> and <strong><em>n</em></strong> numbers from the user and print average of the <strong><em>n</em></strong> numbers rounded off to 4 decimal places as output.<br>
+Input:</p>
+<p>First line contains the number <strong><em>n</em></strong><br>
+Next n lines contain <strong><em>n</em></strong> integers</p>
+<p>Output:</p>
+<p>Average of n numbers</p>
+<blockquote>
+<p><strong>Sample 1:</strong><br>
+I/P:<br>
+10 <br>
+1 <br>
+5 <br>
+7<br>
+22<br>
+20<br>
+40<br>
+2 <br>
+53<br>
+18<br>
+-1<br>
+O/p: 16.7</p>
+</blockquote>
+<hr>
+<p><strong>Q10:</strong> Write a program to get a number <strong><em>n</em></strong> and print the <strong><em>nth</em></strong> term of Fibonacci series as output.</p>
+<hr>
+<p><strong>Q11:</strong> Write a program to get two numbers as input and print their <strong>HCF</strong> as output.</p>
+<hr>
+<p><strong>Q12:</strong> Write a program to get two numbers as input and print their <strong>LCM</strong> as output.</p>
+<hr>
+<p><strong><a href="Solution3.html">Check Solution</a></strong></p>
     </div>
+
 
 </body>
 
