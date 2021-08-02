@@ -10,10 +10,10 @@ window.onload = (function () {
             tags[i].classList.add("lang-py");
             tags[i].classList.remove("language-python");
         }
-        let br = document.createElement("br");
-        while (tags[i].contains(br)) {
-            console.log(tags[i], "true");
-            tags[i].removeChild(br);
+        if (tags[i].classList.contains("language-err")) {
+            tags[i].parentElement.classList.add("err");
+            tags[i].parentElement.classList.remove("prettyprint");
+
         }
     }
     PR.prettyPrint();

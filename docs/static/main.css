@@ -109,6 +109,7 @@ img {
 
 pre {
   margin: 2%;
+  padding-left: 1.5%;
   margin-left: 10%;
   align-content: flex-start;
   box-sizing: border-box;
@@ -123,8 +124,10 @@ code {
   font-weight: bold;
 }
 
-code.language-err {
-  color: red;
+pre.err {
+  background-color: #e15344;
+  color: black;
+  padding-left: 2%;
 }
 mjx-container {
   margin-left: 5%;
