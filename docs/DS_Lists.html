@@ -33,81 +33,81 @@
 
     <div class="container">
         <h1>Data Structures or Derived data Types in Python:</h1>
-        
-<p>Storing multiple values of same or different types under a single name.
-They are collection of data.</p>
-<ol>
-<li>List</li>
-<li>Tuple</li>
-<li>String</li>
-<li>Dictionary</li>
-<li>Set<br>
-In this notebook, we&rsquo;ll discuss indepth on Lists</li>
-</ol>
-<h2>Lists:</h2>
-<p>Lists are ordered collection of data.
-Represented by square brackets &lsquo;[ ]&rsquo;  </p>
-<pre><code class="language-python">list : [10, 20, 30, 'Hello', -2.0]
+
+        <p>Storing multiple values of same or different types under a single name.
+            They are collection of data.</p>
+        <ol>
+            <li>List</li>
+            <li>Tuple</li>
+            <li>String</li>
+            <li>Dictionary</li>
+            <li>Set<br>
+                In this notebook, we&rsquo;ll discuss indepth on Lists</li>
+        </ol>
+        <h2>Lists:</h2>
+        <p>Lists are ordered collection of data.
+            Represented by square brackets &lsquo;[ ]&rsquo; </p>
+        <pre><code class="language-python">list : [10, 20, 30, 'Hello', -2.0]
 </code></pre>
-<p>Each value in the list is called a element<br>
-order of elements: index of element<br>
-Index - may be positive or negative  </p>
-<table>
-<thead>
-<tr>
-<th>Order (element)</th>
-<th>First</th>
-<th>Second</th>
-<th>Third</th>
-<th>&hellip;</th>
-<th>Last</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Positive Index</td>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>&hellip;</td>
-<td>n-1</td>
-</tr>
-<tr>
-<td>Negative Index</td>
-<td>-n</td>
-<td>-n+1</td>
-<td>-n+2</td>
-<td>&hellip;</td>
-<td>-1</td>
-</tr>
-</tbody>
-</table>
-<h2>Defining a list:</h2>
-<ol>
-<li>&rsquo;[ ]&rsquo;</li>
-<li>list()</li>
-</ol>
-<h3>1. &lsquo;[ ]&rsquo;</h3>
-<pre><code class="language-python">l = [10, 20, 30]
+        <p>Each value in the list is called a element<br>
+            order of elements: index of element<br>
+            Index - may be positive or negative </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order (element)</th>
+                    <th>First</th>
+                    <th>Second</th>
+                    <th>Third</th>
+                    <th>&hellip;</th>
+                    <th>Last</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Positive Index</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>&hellip;</td>
+                    <td>n-1</td>
+                </tr>
+                <tr>
+                    <td>Negative Index</td>
+                    <td>-n</td>
+                    <td>-n+1</td>
+                    <td>-n+2</td>
+                    <td>&hellip;</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Defining a list:</h2>
+        <ol>
+            <li>&rsquo;[ ]&rsquo;</li>
+            <li>list()</li>
+        </ol>
+        <h3>1. &lsquo;[ ]&rsquo;</h3>
+        <pre><code class="language-python">l = [10, 20, 30]
 </code></pre>
-<h3>2. list()</h3>
-<p>Syntax: </p>
-<pre><code class="language-python">list(iterable = None)
+        <h3>2. list()</h3>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list(iterable = None)
 </code></pre>
-<p>iterable: any data structures listed above  </p>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python">l = [10, 'Hello', -3.9]
+        <p>iterable: any data structures listed above </p>
+        <p><code>IN [1]</code></p>
+        <pre><code class="language-python">l = [10, 'Hello', -3.9]
 type(l)
 </code></pre>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python">list1 = list()
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python">list1 = list()
 list1
 </code></pre>
-<p><code>IN [3]</code></p>
-<pre><code class="language-python">list2 = list(1)
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python">list2 = list(1)
 </code></pre>
-<p><strong>Error</strong></p>
-<pre><code class="language-err">
+        <p><strong>Error</strong></p>
+        <pre><code class="language-err">
 Traceback (most recent call last):
 
   File &quot;D:\Programming\Python\Jupyter Notebooks\Python_Programming_Notes\temp.py&quot;, line 1, in &lt;module&gt;
@@ -117,66 +117,66 @@ Traceback (most recent call last):
 TypeError: 'int' object is not iterable
 
 </code></pre>
-<h3>Getting list as input:</h3>
-<pre><code class="language-python">list1 = list(input())  
+        <h3>Getting list as input:</h3>
+        <pre><code class="language-python">list1 = list(input())  
 list1 = list(input().split())
 </code></pre>
-<p>To know more on <code>split()</code>, find it in <a href="DS_Strings.html">Data Structures - Strings</a></p>
-<p><code>IN [4]</code></p>
-<pre><code class="language-python">list1 = list(input())
+        <p>To know more on <code>split()</code>, find it in <a href="DS_Strings.html">Data Structures - Strings</a></p>
+        <p><code>IN [4]</code></p>
+        <pre><code class="language-python">list1 = list(input())
 list1
 
 # Input: Hello
 </code></pre>
-<p><strong>stdin</strong></p>
-<pre><code class="language-txt"> Hello
+        <p><strong>stdin</strong></p>
+        <pre><code class="language-txt"> Hello
 
 </code></pre>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python">list2 = list(input().split())
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python">list2 = list(input().split())
 list2
 # Input: 10 20 30 40.0
 </code></pre>
-<p><strong>stdin</strong></p>
-<pre><code class="language-txt"> 10 20 30 40.0
+        <p><strong>stdin</strong></p>
+        <pre><code class="language-txt"> 10 20 30 40.0
 
 </code></pre>
-<p><code>IN [7]</code></p>
-<pre><code class="language-python">list3 = list(input().split())
+        <p><code>IN [7]</code></p>
+        <pre><code class="language-python">list3 = list(input().split())
 list3
 # Input: Hello Python
 </code></pre>
-<p><strong>stdin</strong></p>
-<pre><code class="language-txt"> Hello Python
+        <p><strong>stdin</strong></p>
+        <pre><code class="language-txt"> Hello Python
 
 </code></pre>
-<h2>Methods or Functions in list:</h2>
-<p>There are various methods or functions that are used to work on lists.<br>
-1. append<br>
-2. insert<br>
-3. pop<br>
-4. map<br>
-5. filter<br>
-6. sort<br>
-7. sorted<br>
-8. extend<br>
-9. index<br>
-10. remove<br>
-11. reduce<br>
-12. reverse<br>
-13. len<br>
-14. count<br>
-15. sum<br>
-16. max<br>
-17. min<br>
-18. enumerate</p>
-<h3>1. append:</h3>
-<p>Adds the given element to the end of the list.<br>
-Syntax: </p>
-<pre><code class="language-python">list.append(element)
+        <h2>Methods or Functions in list:</h2>
+        <p>There are various methods or functions that are used to work on lists.<br>
+            1. append<br>
+            2. insert<br>
+            3. pop<br>
+            4. map<br>
+            5. filter<br>
+            6. sort<br>
+            7. sorted<br>
+            8. extend<br>
+            9. index<br>
+            10. remove<br>
+            11. reduce<br>
+            12. reverse<br>
+            13. len<br>
+            14. count<br>
+            15. sum<br>
+            16. max<br>
+            17. min<br>
+            18. enumerate</p>
+        <h3>1. append:</h3>
+        <p>Adds the given element to the end of the list.<br>
+            Syntax: </p>
+        <pre><code class="language-python">list.append(element)
 </code></pre>
-<p><code>IN [12]</code></p>
-<pre><code class="language-python"># Example
+        <p><code>IN [12]</code></p>
+        <pre><code class="language-python"># Example
 l = []
 n = 1
 l.append(10)
@@ -185,168 +185,170 @@ l.append('Hello')
 l.append(n)
 print(l)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[10, 15, 'Hello', 1]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[10, 15, 'Hello', 1]
 
 </code></pre>
-<h3>2. insert:</h3>
-<p>Inserts the element at the index specified<br>
-Syntax: </p>
-<pre><code class="language-python">list.insert(index, element)
+        <h3>2. insert:</h3>
+        <p>Inserts the element at the index specified<br>
+            Syntax: </p>
+        <pre><code class="language-python">list.insert(index, element)
 </code></pre>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python"># Example
+        <p><code>IN [1]</code></p>
+        <pre><code class="language-python"># Example
 list1 = [10, 15, 25, 30]
 n = 35
 list1.insert(2, 20)
 list1.insert(-1, n)
 list1
 </code></pre>
-<h3>3. pop:</h3>
-<p>Removes and returns the element from the index specified. Default is last element</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.pop(index = -1)
+        <h3>3. pop:</h3>
+        <p>Removes and returns the element from the index specified. Default is last element</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.pop(index = -1)
 </code></pre>
-<p><code>IN [18]</code></p>
-<pre><code class="language-python">list2 = [10, 100, 1000, 'Hi']
+        <p><code>IN [18]</code></p>
+        <pre><code class="language-python">list2 = [10, 100, 1000, 'Hi']
 print(list2.pop())
 print(list2)
 print(list2.pop(1))
 list2
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">Hi
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">Hi
 [10, 100, 1000]
 100
 
 </code></pre>
-<h3>4. map:</h3>
-<p>Applies the given function to every element in a list or iterable.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">map(function, iterable)
+        <h3>4. map:</h3>
+        <p>Applies the given function to every element in a list or iterable.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">map(function, iterable)
 </code></pre>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python">def sample_fn(x):
+        <p><code>IN [1]</code></p>
+        <pre><code class="language-python">def sample_fn(x):
     return x+2
 l = [1, 2, 3, 4]
 l = list(map(sample_fn, l))
 l
 </code></pre>
-<h3>Getting a list of integers or float as input:</h3>
-<p>Use map function to map int function to each value</p>
-<p><code>IN [4]</code></p>
-<pre><code class="language-python">list1 = list(map(int, input().split()))
+        <h3>Getting a list of integers or float as input:</h3>
+        <p>Use map function to map int function to each value</p>
+        <p><code>IN [4]</code></p>
+        <pre><code class="language-python">list1 = list(map(int, input().split()))
 print(type(list1[0]))
 list1
 
 # Input: 10 20 30 40
 </code></pre>
-<p><strong>stdin</strong></p>
-<pre><code class="language-txt"> 10 20 30 40
+        <p><strong>stdin</strong></p>
+        <pre><code class="language-txt"> 10 20 30 40
 
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">&lt;class 'int'&gt;
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">&lt;class 'int'&gt;
 
 </code></pre>
-<h3>5. filter:</h3>
-<p>Filters out the elements that match the given condition</p>
-<p>Syntax: </p>
-<pre><code class="language-python">filter(condition, iterable)
+        <h3>5. filter:</h3>
+        <p>Filters out the elements that match the given condition</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">filter(condition, iterable)
 </code></pre>
-<p>The condition should be given as a function definition which can be mapped to each variable. </p>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python">l = [1, -1, 0, 3, -10, 100]
+        <p>The condition should be given as a function definition which can be mapped to each variable. </p>
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python">l = [1, -1, 0, 3, -10, 100]
 list2 = list(filter(lambda x: x&gt;0, l)) # A Lambda function used for condition
 print(list2)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[1, 3, 100]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[1, 3, 100]
 
 </code></pre>
-<h3>6. sort:</h3>
-<p>Sorts the list as per the given condition</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.sort(key = None, reverse = False)
+        <h3>6. sort:</h3>
+        <p>Sorts the list as per the given condition</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.sort(key = None, reverse = False)
 </code></pre>
-<p><code>IN [8]</code></p>
-<pre><code class="language-python">l = [10, 60, 0, 40, -100]
+        <p><code>IN [8]</code></p>
+        <pre><code class="language-python">l = [10, 60, 0, 40, -100]
 l.sort() # Ascending order
 print(l)
 l.sort(reverse = True) # Descending Order
 print(l)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[-100, 0, 10, 40, 60]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[-100, 0, 10, 40, 60]
 [60, 40, 10, 0, -100]
 
 </code></pre>
-<p><code>IN [14]</code></p>
-<pre><code class="language-python">l1 = ['Hi', 'Python', 'how', 'String', 'Data', 'Sorting Strings']
+        <p><code>IN [14]</code></p>
+        <pre><code class="language-python">l1 = ['Hi', 'Python', 'how', 'String', 'Data', 'Sorting Strings']
 l1.sort() #lexicographic sorting (as per unicode values)
 print(l1)
 l1.sort(key = len, reverse = True)
 print(l1)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">['Data', 'Hi', 'Python', 'Sorting Strings', 'String', 'how']
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">['Data', 'Hi', 'Python', 'Sorting Strings', 'String', 'how']
 ['Sorting Strings', 'Python', 'String', 'Data', 'how', 'Hi']
 
 </code></pre>
-<h3>7. sorted:</h3>
-<p>It is also function used to sort. Difference is that the sorted list should be reassigned to a variable.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">sorted(iterable, key = None, reverse = False)
+        <h3>7. sorted:</h3>
+        <p>It is also function used to sort. Difference is that the sorted list should be reassigned to a variable.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">sorted(iterable, key = None, reverse = False)
 </code></pre>
-<p><code>IN [3]</code></p>
-<pre><code class="language-python">l1 = [10, 20, 50, 0, -10, -1, 100]
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python">l1 = [10, 20, 50, 0, -10, -1, 100]
 l2 = sorted(l1)
 print(l1)
 l2
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[10, 20, 50, 0, -10, -1, 100]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[10, 20, 50, 0, -10, -1, 100]
 
 </code></pre>
-<h3>8. extend:</h3>
-<p>Extends the given list using the elements of iterable, i.e. appends the elements of iterable to the given list  </p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.extend(iterable)
+        <h3>8. extend:</h3>
+        <p>Extends the given list using the elements of iterable, i.e. appends the elements of iterable to the given
+            list </p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.extend(iterable)
 </code></pre>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python">l = [10, 20, 30, 40]
+        <p><code>IN [1]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30, 40]
 l.extend([50, 60, 70])
 l
 </code></pre>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python">l1 = ['H','e', 'l', 'l', 'o']
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python">l1 = ['H','e', 'l', 'l', 'o']
 l1.extend('Welcome')
 l1
 </code></pre>
-<h3>9. index:</h3>
-<p>Returns the index of the element in the list. If multiple elements exist, it gives the index of first occurrence. If the element is not in the list, it raises an error</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.index(element)
+        <h3>9. index:</h3>
+        <p>Returns the index of the element in the list. If multiple elements exist, it gives the index of first
+            occurrence. If the element is not in the list, it raises an error</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.index(element)
 </code></pre>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python">l = [10, 20, 30, 40, 10]
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30, 40, 10]
 l.index(10)
 </code></pre>
-<h3>10. remove:</h3>
-<p>Removes the first occurence of the element if present. Raises error when element not present</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.remove(value)
+        <h3>10. remove:</h3>
+        <p>Removes the first occurence of the element if present. Raises error when element not present</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.remove(value)
 </code></pre>
-<p><code>IN [6]</code></p>
-<pre><code class="language-python">l = [10, 20, 30, 40]
+        <p><code>IN [6]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30, 40]
 l.remove(20)
 l
 </code></pre>
-<p><code>IN [7]</code></p>
-<pre><code class="language-python">l.remove(20) # Removing element that is not present
+        <p><code>IN [7]</code></p>
+        <pre><code class="language-python">l.remove(20) # Removing element that is not present
 </code></pre>
-<p><strong>Error</strong></p>
-<pre><code class="language-err">
+        <p><strong>Error</strong></p>
+        <pre><code class="language-err">
 Traceback (most recent call last):
 
   File &quot;D:\Programming\Python\Jupyter Notebooks\Python_Programming_Notes\temp.py&quot;, line 1, in &lt;module&gt;
@@ -356,13 +358,14 @@ Traceback (most recent call last):
 NameError: name 'l' is not defined
 
 </code></pre>
-<h3>11. reduce:</h3>
-<p>Sequentially applies the elements in the list to a function to give the final value. To use this we need to call <em>functools</em> module. In depth study of modules will be dealt later</p>
-<p>Syntax: </p>
-<pre><code class="language-python">reduce(function, list)
+        <h3>11. reduce:</h3>
+        <p>Sequentially applies the elements in the list to a function to give the final value. To use this we need to
+            call <em>functools</em> module. In depth study of modules will be dealt later</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">reduce(function, list)
 </code></pre>
-<p><code>IN [8]</code></p>
-<pre><code class="language-python">from functools import reduce
+        <p><code>IN [8]</code></p>
+        <pre><code class="language-python">from functools import reduce
 
 def add(x, y):
     return x+y
@@ -371,62 +374,62 @@ l = [10, 20, 30, 40]
 c = reduce(add, l)
 c
 </code></pre>
-<h4>Explanation:</h4>
-<p><em>Step 1:</em>
-applies 10 and 20 to the function. result = 30</p>
-<p><em>Step 2:</em>
-applies the result and next element (30). result = 60</p>
-<p><em>Step 3:</em>
-applies the result and next element (40). result = 100</p>
-<p>List end is reached. so the result 100 is returned</p>
-<h3>12. reverse:</h3>
-<p>Used to reverse the list.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.reverse()
+        <h4>Explanation:</h4>
+        <p><em>Step 1:</em>
+            applies 10 and 20 to the function. result = 30</p>
+        <p><em>Step 2:</em>
+            applies the result and next element (30). result = 60</p>
+        <p><em>Step 3:</em>
+            applies the result and next element (40). result = 100</p>
+        <p>List end is reached. so the result 100 is returned</p>
+        <h3>12. reverse:</h3>
+        <p>Used to reverse the list.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.reverse()
 </code></pre>
-<p><code>IN [10]</code></p>
-<pre><code class="language-python">list1 = [10, 20, 30, 50, 60]
+        <p><code>IN [10]</code></p>
+        <pre><code class="language-python">list1 = [10, 20, 30, 50, 60]
 list1.reverse()
 list1
 </code></pre>
-<h3>13. len:</h3>
-<p>Returns the length of the given iterable</p>
-<p>Syntax: </p>
-<pre><code class="language-python">len(iterable)
+        <h3>13. len:</h3>
+        <p>Returns the length of the given iterable</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">len(iterable)
 </code></pre>
-<p><code>IN [11]</code></p>
-<pre><code class="language-python">list2 = [10, 20, 30, -1, 123]
+        <p><code>IN [11]</code></p>
+        <pre><code class="language-python">list2 = [10, 20, 30, -1, 123]
 len(list2)
 </code></pre>
-<h3>14. count:</h3>
-<p>Returns the count of the element specified</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list.count(element)
+        <h3>14. count:</h3>
+        <p>Returns the count of the element specified</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list.count(element)
 </code></pre>
-<p><code>IN [14]</code></p>
-<pre><code class="language-python">l = [10, 20, 30, 10, 20, 25, 20, 50]
+        <p><code>IN [14]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30, 10, 20, 25, 20, 50]
 print(l.count(20))
 l.count(10)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">3
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">3
 
 </code></pre>
-<h3>15. sum:</h3>
-<p>returns the sum elements in the list or tuple.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">sum(list, start = 0)
+        <h3>15. sum:</h3>
+        <p>returns the sum elements in the list or tuple.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">sum(list, start = 0)
 </code></pre>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python">l = [10, -10, 20, -30, 40]
+        <p><code>IN [1]</code></p>
+        <pre><code class="language-python">l = [10, -10, 20, -30, 40]
 sum(l)
 </code></pre>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python">l = ['Hello', 'World'] # Non Numeric data raise error.
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python">l = ['Hello', 'World'] # Non Numeric data raise error.
 sum(l)
 </code></pre>
-<p><strong>Error</strong></p>
-<pre><code class="language-err">
+        <p><strong>Error</strong></p>
+        <pre><code class="language-err">
 Traceback (most recent call last):
 
   File &quot;D:\Programming\Python\Jupyter Notebooks\Python_Programming_Notes\temp.py&quot;, line 2, in &lt;module&gt;
@@ -436,314 +439,317 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 </code></pre>
-<h3>16. max:</h3>
-<p>Returns the maximum value in the list.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">max(list, key = None)
+        <h3>16. max:</h3>
+        <p>Returns the maximum value in the list.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">max(list, key = None)
 </code></pre>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python">l = [10, 15, 50, 21, -7]
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python">l = [10, 15, 50, 21, -7]
 max(l)
 </code></pre>
-<p><code>IN [9]</code></p>
-<pre><code class="language-python">l = [10, 15, 50, 21, -7, 7]
+        <p><code>IN [9]</code></p>
+        <pre><code class="language-python">l = [10, 15, 50, 21, -7, 7]
 max(l, key = lambda x: x % 5) # Maximum reminder when divided by 5
 </code></pre>
-<h3>17. min:</h3>
-<p>Returns minimum value in the iterable</p>
-<p>Syntax: </p>
-<pre><code class="language-python">min(iterable, key = None)
+        <h3>17. min:</h3>
+        <p>Returns minimum value in the iterable</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">min(iterable, key = None)
 </code></pre>
-<p><code>IN [11]</code></p>
-<pre><code class="language-python">l = [10, 15, 50, 21, -7]
+        <p><code>IN [11]</code></p>
+        <pre><code class="language-python">l = [10, 15, 50, 21, -7]
 min(l)
 </code></pre>
-<h3>18. enumerate:</h3>
-<p>Returns the enumerate object for given list. An enumerate object is an iterable which contains ordered pair of the form <code>(index, value)</code>  </p>
-<p>Syntax: </p>
-<pre><code class="language-python">enumerate(iterable, start = 0)
+        <h3>18. enumerate:</h3>
+        <p>Returns the enumerate object for given list. An enumerate object is an iterable which contains ordered pair
+            of the form <code>(index, value)</code> </p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">enumerate(iterable, start = 0)
 </code></pre>
-<p><code>IN [14]</code></p>
-<pre><code class="language-python">l = [10, 20, 'Hello', 'a', -1]
+        <p><code>IN [14]</code></p>
+        <pre><code class="language-python">l = [10, 20, 'Hello', 'a', -1]
 list(enumerate(l))
 </code></pre>
-<h2>Accessing Elements in a list:</h2>
-<p>Elements of a list can be accessed using index.</p>
-<p><em>Example:</em><br>
-Consider a list, <code>l = [10, 20, 30, 40, 50]</code>. Length = 5</p>
-<table>
-<thead>
-<tr>
-<th>Element</th>
-<th>10</th>
-<th>20</th>
-<th>30</th>
-<th>40</th>
-<th>50</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Position</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Positive Index</td>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-</tr>
-<tr>
-<td>Negative Index</td>
-<td>-5</td>
-<td>-4</td>
-<td>-3</td>
-<td>-2</td>
-<td>-1</td>
-</tr>
-</tbody>
-</table>
-<p>Calling $i^{th}$ element: <br>
-positive index: <code>l[i-1]</code><br>
-negative index: <code>l[i - 1 - length]</code></p>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python">l = [10, 50, 20, 30, -2]
+        <h2>Accessing Elements in a list:</h2>
+        <p>Elements of a list can be accessed using index.</p>
+        <p><em>Example:</em><br>
+            Consider a list, <code>l = [10, 20, 30, 40, 50]</code>. Length = 5</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>10</th>
+                    <th>20</th>
+                    <th>30</th>
+                    <th>40</th>
+                    <th>50</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Position</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Positive Index</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Negative Index</td>
+                    <td>-5</td>
+                    <td>-4</td>
+                    <td>-3</td>
+                    <td>-2</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Calling $i^{th}$ element: <br>
+            positive index: <code>l[i-1]</code><br>
+            negative index: <code>l[i - 1 - length]</code></p>
+        <p><code>IN [1]</code></p>
+        <pre><code class="language-python">l = [10, 50, 20, 30, -2]
 n = len(l) # length
 print(n-1, l[n-1]) # Last Element Positive index
 print(l[-1]) # Last Element negative index
 print(l[2]) # third element
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">4 -2
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">4 -2
 -2
 20
 
 </code></pre>
-<p><code>IN [15]</code></p>
-<pre><code class="language-python">l = [10, 50, 20, 30, -2]
+        <p><code>IN [15]</code></p>
+        <pre><code class="language-python">l = [10, 50, 20, 30, -2]
 for index, element in enumerate(l):
     print(index, element)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">0 10
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">0 10
 1 50
 2 20
 3 30
 4 -2
 
 </code></pre>
-<h2>Slicing operator:</h2>
-<p>Used to get / set a sublist of a list. Denoted by <code>'[]'</code></p>
-<p>Syntax: </p>
-<pre><code class="language-python">list_name[start = 0 : stop = length : step = 1]
+        <h2>Slicing operator:</h2>
+        <p>Used to get / set a sublist of a list. Denoted by <code>'[]'</code></p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list_name[start = 0 : stop = length : step = 1]
 </code></pre>
-<p><code>IN [19]</code></p>
-<pre><code class="language-python"># Getting sublist in forward direction
+        <p><code>IN [19]</code></p>
+        <pre><code class="language-python"># Getting sublist in forward direction
 l = [10, 50, 20, 30, -2]
 print(l[1:-1])
 print(l[1::2])
 print(l[::2])
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[50, 20, 30]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[50, 20, 30]
 [50, 30]
 [10, 20, -2]
 
 </code></pre>
-<p><code>IN [24]</code></p>
-<pre><code class="language-python"># Getting Sublist in reverse:
+        <p><code>IN [24]</code></p>
+        <pre><code class="language-python"># Getting Sublist in reverse:
 l = [10, 50, 20, 30, -2]
 print(l[4:0:-1])
 print(l[::-1]) # reverse of the list
 print(l[::-2]) # reverse list every alternate term
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[-2, 30, 20, 50]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[-2, 30, 20, 50]
 [-2, 30, 20, 50, 10]
 [-2, 20, 10]
 
 </code></pre>
-<h2>Printing the elements in a list:</h2>
-<ol>
-<li>Using loops</li>
-<li>Using Variable length argument ( * )</li>
-</ol>
-<h3>1. Looping:</h3>
-<p>Use for or while loop to access element or list.</p>
-<h3>2. Using * :</h3>
-<p>Using * will convert the elements of the list into arguements of print method</p>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python"># for loop to get index
+        <h2>Printing the elements in a list:</h2>
+        <ol>
+            <li>Using loops</li>
+            <li>Using Variable length argument ( * )</li>
+        </ol>
+        <h3>1. Looping:</h3>
+        <p>Use for or while loop to access element or list.</p>
+        <h3>2. Using * :</h3>
+        <p>Using * will convert the elements of the list into arguements of print method</p>
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python"># for loop to get index
 l = [10, 20, 30, 40, 50]
 for i in range(len(l)):
     print(l[i], end= ' ')
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">10 20 30 40 50 
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">10 20 30 40 50 
 </code></pre>
-<p><code>IN [3]</code></p>
-<pre><code class="language-python"># for loop to get elements
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python"># for loop to get elements
 l = [10, 20, 30, 40, 50]
 for i in l:
     print(i, end = ' ')
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">10 20 30 40 50 
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">10 20 30 40 50 
 </code></pre>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python"># while loop to get index
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python"># while loop to get index
 l = [10, 20, 30, 40, 50]
 i = 0
 while i&lt;len(l):
     print(l[i], end= ' ')
     i += 1
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">10 20 30 40 50 
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">10 20 30 40 50 
 </code></pre>
-<p><code>IN [6]</code></p>
-<pre><code class="language-python"># Using *
+        <p><code>IN [6]</code></p>
+        <pre><code class="language-python"># Using *
 l = [10, 20, 30, 40, 50]
 print(*l)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">10 20 30 40 50
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">10 20 30 40 50
 
 </code></pre>
-<h2>List Comprehension:</h2>
-<p>It follows the form of the mathematical set-builder notation unlike the use of map and filter functions. It is used to create lists from either an existing like or a completely new list.</p>
-<p>Set bulider form:
-${x: x ~\rm{\epsilon~ list}}$<br>
-Example: </p>
-<pre><code class="language-python">list1 = [expression (loops)]
+        <h2>List Comprehension:</h2>
+        <p>It follows the form of the mathematical set-builder notation unlike the use of map and filter functions. It
+            is used to create lists from either an existing like or a completely new list.</p>
+        <p>Set builder form:
+            $\{x: x ~\rm{\epsilon~ list}\}$<br>
+            Example: </p>
+        <pre><code class="language-python">list1 = [expression (loops)]
 </code></pre>
-<p><code>IN [9]</code></p>
-<pre><code class="language-python"># map vs comprehension
+        <p><code>IN [9]</code></p>
+        <pre><code class="language-python"># map vs comprehension
 l = [10, 20, 30, 40, 50]
 s = [i**2 for i in l] # squares of elements in list l using comprehension
 sq = list(map(lambda x: x**2, l)) # Using map
 print(*s)
 print(*sq)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">100 400 900 1600 2500
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">100 400 900 1600 2500
 100 400 900 1600 2500
 
 </code></pre>
-<p><code>IN [13]</code></p>
-<pre><code class="language-python"># Equivalent of above comprehension
+        <p><code>IN [13]</code></p>
+        <pre><code class="language-python"># Equivalent of above comprehension
 l = [10, 20, 30, 40, 50]
 s = list()
 for i in l:
     s.append(i ** 2)
 print(*s)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">100 400 900 1600 2500
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">100 400 900 1600 2500
 
 </code></pre>
-<p><code>IN [10]</code></p>
-<pre><code class="language-python"># filter vs comprehension
+        <p><code>IN [10]</code></p>
+        <pre><code class="language-python"># filter vs comprehension
 l = [10, 20, 30, 40, 50]
 mul_t = [i for i in l if i % 20 == 0] # Multiples o twenty in l Using Comprehension
 mul_tc = list(filter(lambda x: x % 20 == 0, l )) #Using filter
 print(*mul_t)
 print(*mul_tc)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">20 40
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">20 40
 20 40
 
 </code></pre>
-<p><code>IN [14]</code></p>
-<pre><code class="language-python"># Equivalent of above comprehension
+        <p><code>IN [14]</code></p>
+        <pre><code class="language-python"># Equivalent of above comprehension
 l = [10, 20, 30, 40, 50]
 mul = list()
 for i in l:
     if i % 20 == 0: mul.append(i)
 print(*mul)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">20 40
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">20 40
 
 </code></pre>
-<h2>List Aliasing:</h2>
-<p>Aliasing a list variable with another name. Referring a single list by multiple names.<br>
-Syntax: </p>
-<pre><code class="language-python">new_name = old_name
+        <h2>List Aliasing:</h2>
+        <p>Aliasing a list variable with another name. Referring a single list by multiple names.<br>
+            Syntax: </p>
+        <pre><code class="language-python">new_name = old_name
 </code></pre>
-<p><code>IN [15]</code></p>
-<pre><code class="language-python">a = [10, 20, 0]
+        <p><code>IN [15]</code></p>
+        <pre><code class="language-python">a = [10, 20, 0]
 b = a # aliasing list a
 b
 </code></pre>
-<h2>List Copying or Cloning:</h2>
-<p>Create a new instance of list with same value. It is used to copy a list to a new variable by new memory allocation.</p>
-<h3>Types:</h3>
-<ol>
-<li>Shallow Copy</li>
-<li>Deep copy</li>
-</ol>
-<h3>Methods:</h3>
-<ol>
-<li>copy method</li>
-<li>slicing operator</li>
-<li>list method</li>
-<li>copy module</li>
-</ol>
-<h3>1. Copy method:</h3>
-<p>Creates a shallow copy of variable  </p>
-<p>Syntax: </p>
-<pre><code class="language-python">new_list = list.copy(list_name)
+        <h2>List Copying or Cloning:</h2>
+        <p>Create a new instance of list with same value. It is used to copy a list to a new variable by new memory
+            allocation.</p>
+        <h3>Types:</h3>
+        <ol>
+            <li>Shallow Copy</li>
+            <li>Deep copy</li>
+        </ol>
+        <h3>Methods:</h3>
+        <ol>
+            <li>copy method</li>
+            <li>slicing operator</li>
+            <li>list method</li>
+            <li>copy module</li>
+        </ol>
+        <h3>1. Copy method:</h3>
+        <p>Creates a shallow copy of variable </p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">new_list = list.copy(list_name)
 </code></pre>
-<p><code>IN [8]</code></p>
-<pre><code class="language-python">l = [10, 20, 30, 40]
+        <p><code>IN [8]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30, 40]
 list1 = l.copy()
 list1
 </code></pre>
-<h3>2. slicing operator:</h3>
-<p>Another method for shallow copy</p>
-<p>Syntax: </p>
-<pre><code class="language-python">new_list = old_list[:]
+        <h3>2. slicing operator:</h3>
+        <p>Another method for shallow copy</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">new_list = old_list[:]
 </code></pre>
-<p><code>IN [16]</code></p>
-<pre><code class="language-python">l = [10, 20, 30]
+        <p><code>IN [16]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30]
 list2 = l[:]
 list2
 </code></pre>
-<h3>3. list function:</h3>
-<p>Create a new instance using list function. It also results in shallow copy</p>
-<p>Syntax: </p>
-<pre><code class="language-python">list_new = list(old_list)
+        <h3>3. list function:</h3>
+        <p>Create a new instance using list function. It also results in shallow copy</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list_new = list(old_list)
 </code></pre>
-<p><code>IN [17]</code></p>
-<pre><code class="language-python">l = [10, 20, 30]
+        <p><code>IN [17]</code></p>
+        <pre><code class="language-python">l = [10, 20, 30]
 m = list(l)
 m
 </code></pre>
-<h3>4. Copy module:</h3>
-<p>Copy module can be used to copy list to new variable</p>
-<p>Functions:
-1. copy
-2. deepcopy</p>
-<h4>1. copy:</h4>
-<p>creates shallow copy</p>
-<p>Syntax: </p>
-<pre><code class="language-python">new_list = copy(list_name)
+        <h3>4. Copy module:</h3>
+        <p>Copy module can be used to copy list to new variable</p>
+        <p>Functions:
+            1. copy
+            2. deepcopy</p>
+        <h4>1. copy:</h4>
+        <p>creates shallow copy</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">new_list = copy(list_name)
 </code></pre>
-<h4>2. deepcopy:</h4>
-<p>Creates a deep copy</p>
-<p>Syntax: </p>
-<pre><code class="language-python">new_list = deepcopy(list_name)
+        <h4>2. deepcopy:</h4>
+        <p>Creates a deep copy</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">new_list = deepcopy(list_name)
 </code></pre>
-<p><code>IN [18]</code></p>
-<pre><code class="language-python">import copy
+        <p><code>IN [18]</code></p>
+        <pre><code class="language-python">import copy
 
 l = [10, 20, 30]
 m = copy.copy(l)
@@ -751,52 +757,53 @@ s = copy.deepcopy(l)
 print(m)
 s
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[10, 20, 30]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[10, 20, 30]
 
 </code></pre>
-<h2>Multi-dimensional lists or matrices:</h2>
-<p>Lists in a list is called a multidimensional list or nested lists. They are generally used to work with matrices.</p>
-<p>Example: </p>
-<pre><code class="language-python">list = [[10, 20, 30], [40, 50, 60]] # - Two dimensional list
+        <h2>Multi-dimensional lists or matrices:</h2>
+        <p>Lists in a list is called a multidimensional list or nested lists. They are generally used to work with
+            matrices.</p>
+        <p>Example: </p>
+        <pre><code class="language-python">list = [[10, 20, 30], [40, 50, 60]] # - Two dimensional list
 </code></pre>
-<h3>Accessing elements using index:</h3>
-<p>Syntax: </p>
-<pre><code class="language-python">list_name[outermost list index][inner list index]...
+        <h3>Accessing elements using index:</h3>
+        <p>Syntax: </p>
+        <pre><code class="language-python">list_name[outermost list index][inner list index]...
 </code></pre>
-<p><code>IN [25]</code></p>
-<pre><code class="language-python">m = [[10, 20, 30], [40, 50, 60]] # two dimensional
+        <p><code>IN [25]</code></p>
+        <pre><code class="language-python">m = [[10, 20, 30], [40, 50, 60]] # two dimensional
 print(m[0]) # first element in outermost list
 print(m[0][0]) # first element in first inner list
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[10, 20, 30]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[10, 20, 30]
 10
 
 </code></pre>
-<p><code>IN [31]</code></p>
-<pre><code class="language-python">l = [ [[10, 20], [30]], 
+        <p><code>IN [31]</code></p>
+        <pre><code class="language-python">l = [ [[10, 20], [30]], 
      [[40, 50,], [60]] ] # three dimensional
 print(l[0]) # first element in outermost list
 print(l[0][0]) # first element in first inner list
 print(l[0][0][0]) # first element in first innermost list in first inner list
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">[[10, 20], [30]]
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">[[10, 20], [30]]
 [10, 20]
 10
 
 </code></pre>
-<h2>Matrix:</h2>
-<p>A rectangular array of elements. Two dimensional lists or tuples are used to work with matrices.</p>
-<p>Each row of matrix is stored as a list</p>
-<p>Example: </p>
-<pre><code class="language-python">matrix = [[10, 20, 30], [40, 50, 60]]
+        <h2>Matrix:</h2>
+        <p>A rectangular array of elements. Two dimensional lists or tuples are used to work with matrices.</p>
+        <p>Each row of matrix is stored as a list</p>
+        <p>Example: </p>
+        <pre><code class="language-python">matrix = [[10, 20, 30], [40, 50, 60]]
 </code></pre>
-<h3>Matrix input:</h3>
-<p>Matrix can be taken as input using loops or list comprehension.</p>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python"># Using loops and append function:
+        <h3>Matrix input:</h3>
+        <p>Matrix can be taken as input using loops or list comprehension.</p>
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python"># Using loops and append function:
 matrix1 = list()
 n = int(input()) # no. of rows
 for i in range(n):
@@ -807,15 +814,15 @@ matrix1
 # -2 1 0
 # 3 9 11
 </code></pre>
-<p><strong>stdin</strong></p>
-<pre><code class="language-txt"> 3
+        <p><strong>stdin</strong></p>
+        <pre><code class="language-txt"> 3
  10 2 -3
  -2 1 0
  3 9 11
 
 </code></pre>
-<p><code>IN [3]</code></p>
-<pre><code class="language-python"># Using list comprehension:
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python"># Using list comprehension:
 m = int(input()) # no. of rows
 matrix2 = [ list(map(int, input().split())) for i in range(m)] # a matrix input
 matrix2
@@ -824,101 +831,104 @@ matrix2
 # -2 1 0
 # 3 9 11
 </code></pre>
-<p><strong>stdin</strong></p>
-<pre><code class="language-txt"> 3
+        <p><strong>stdin</strong></p>
+        <pre><code class="language-txt"> 3
  10 2 -3
  -2 1 0
  3 9 11
 
 </code></pre>
-<h3>Output:</h3>
-<p>Output is printed using for loop</p>
-<p><code>IN [4]</code></p>
-<pre><code class="language-python"># Using iterable:
+        <h3>Output:</h3>
+        <p>Output is printed using for loop</p>
+        <p><code>IN [4]</code></p>
+        <pre><code class="language-python"># Using iterable:
 matrix3 = [[1, 2],[4, 3]] # A 2x2 matrix 
 for i in matrix3:
     print(*i)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">1 2
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">1 2
 4 3
 
 </code></pre>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python"># Using range:
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python"># Using range:
 matrix3 = [[1, 2],[4, 3]] # A 2x2 matrix 
 for i in range(len(matrix3)):
     print(*matrix3[i])
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">1 2
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">1 2
 4 3
 
 </code></pre>
-<p><code>IN [6]</code></p>
-<pre><code class="language-python"># Using nested loop:
+        <p><code>IN [6]</code></p>
+        <pre><code class="language-python"># Using nested loop:
 matrix3 = [[1, 2],[4, 3]] # A 2x2 matrix 
 for i in range(len(matrix3)):
     for j in range(len(matrix3[0])):
         print(matrix3[i][j], end=' ')
     print()
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">1 2 
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">1 2 
 4 3 
 
 </code></pre>
-<h2>Stack:</h2>
-<p>A data type where elements are arranged such that the elements can only be added to and removed from the last.<br>
-It follows the principle <em>FILO</em> - First In Last Out</p>
-<p><strong>Methods used:</strong> <code>append()</code> and <code>pop()</code></p>
-<h2>Queue</h2>
-<p>A data type where elements are arranged such that the elements can only be added to the last and removed from the first.<br>
-It follows the principle <em>FIFO</em> - First In First Out</p>
-<p><strong>Methods Used:</strong> <code>append()</code> and <code>pop(0)</code></p>
-<h2>Mutability:</h2>
-<p>It is the ability to change the value of an element in a Data structure during execution.</p>
-<h3>1. Mutables:</h3>
-<ol>
-<li>List</li>
-<li>Dictionary</li>
-<li>Sets</li>
-</ol>
-<h3>2. Immutable:</h3>
-<ol>
-<li>Tuple</li>
-<li>String</li>
-</ol>
-<h2>Working with lists:</h2>
-<ol>
-<li>Concatenation</li>
-<li>Appending</li>
-<li>Multiplication</li>
-</ol>
-<h3>1. Concatenation:</h3>
-<p>Two lists can be concatenated by using &lsquo;+&rsquo; operator.</p>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python">l1 = ['list']
+        <h2>Stack:</h2>
+        <p>A data type where elements are arranged such that the elements can only be added to and removed from the
+            last.<br>
+            It follows the principle <em>FILO</em> - First In Last Out</p>
+        <p><strong>Methods used:</strong> <code>append()</code> and <code>pop()</code></p>
+        <h2>Queue</h2>
+        <p>A data type where elements are arranged such that the elements can only be added to the last and removed from
+            the first.<br>
+            It follows the principle <em>FIFO</em> - First In First Out</p>
+        <p><strong>Methods Used:</strong> <code>append()</code> and <code>pop(0)</code></p>
+        <h2>Mutability:</h2>
+        <p>It is the ability to change the value of an element in a Data structure during execution.</p>
+        <h3>1. Mutables:</h3>
+        <ol>
+            <li>List</li>
+            <li>Dictionary</li>
+            <li>Sets</li>
+        </ol>
+        <h3>2. Immutable:</h3>
+        <ol>
+            <li>Tuple</li>
+            <li>String</li>
+        </ol>
+        <h2>Working with lists:</h2>
+        <ol>
+            <li>Concatenation</li>
+            <li>Appending</li>
+            <li>Multiplication</li>
+        </ol>
+        <h3>1. Concatenation:</h3>
+        <p>Two lists can be concatenated by using &lsquo;+&rsquo; operator.</p>
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python">l1 = ['list']
 l2 = ['Concatenation']
 l1 + l2 # Concatenation
 </code></pre>
-<h3>2. Appending:</h3>
-<p>A list can be appended to string using &lsquo;+=&rsquo; operator or by reassignment.</p>
-<p><code>IN [3]</code></p>
-<pre><code class="language-python">l3 = ['Let']
+        <h3>2. Appending:</h3>
+        <p>A list can be appended to string using &lsquo;+=&rsquo; operator or by reassignment.</p>
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python">l3 = ['Let']
 ch = ['s']
 l3 += ch # str3 = str3 + ch
 l3
 </code></pre>
-<h3>3. List Multiplication:</h3>
-<p>List multiplication results a list with repitition. It can be done using &lsquo; * &lsquo; operator.</p>
-<p><code>IN [5]</code></p>
-<pre><code class="language-python">l4 = ['Namaste ', 'Hello']
+        <h3>3. List Multiplication:</h3>
+        <p>List multiplication results a list with repitition. It can be done using &lsquo; * &lsquo; operator.</p>
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python">l4 = ['Namaste ', 'Hello']
 l4*5
 </code></pre>
-<h2>List Comparison:</h2>
-<p>Python allows usage of relational operators on List.</p>
-<p>Python compares two lists using the elements present in them. Whenever a greater element is encounter thr boolean value is returned.</p>
+        <h2>List Comparison:</h2>
+        <p>Python allows usage of relational operators on List.</p>
+        <p>Python compares two lists using the elements present in them. Whenever a greater element is encounter thr
+            boolean value is returned.</p>
     </div>
 
 

@@ -33,434 +33,504 @@
 
     <div class="container">
         <h1>Data Structures or Derived data Types in Python:</h1>
-        
-<p>Storing multiple values of same or different types under a single name.
-They are collection of data.</p>
-<ol>
-<li>List</li>
-<li>Tuple</li>
-<li>String</li>
-<li>Dictionary</li>
-<li>Set<br>
-In this notebook, we&rsquo;ll discuss indepth on Tuples</li>
-</ol>
-<h2>Tuple:</h2>
-<p>Tuples are ordered collection of data. Unlike Lists they are immutable.
-Represented by parenthesis &lsquo;( )&rsquo;  </p>
-<pre><code class="language-python">tuple : (10, 20, 30, 'Hello', -2.0)
+
+        <p>Storing multiple values of same or different types under a single name.
+            They are collection of data.</p>
+        <ol>
+            <li>List</li>
+            <li>Tuple</li>
+            <li>String</li>
+            <li>Dictionary</li>
+            <li>Set<br>
+                In this notebook, we&rsquo;ll discuss indepth on Tuples</li>
+        </ol>
+        <h2>Tuple:</h2>
+        <p>Tuples are ordered collection of data. Unlike Lists they are immutable.
+            Represented by parenthesis &lsquo;( )&rsquo; </p>
+        <pre><code class="language-python">tuple : (10, 20, 30, 'Hello', -2.0)
 </code></pre>
-<p>Each value in the tuple is called a element<br>
-order of elements: index of element<br>
-Index - may be positive or negative  </p>
-<table>
-<thead>
-<tr>
-<th>Order (element)</th>
-<th>First</th>
-<th>Second</th>
-<th>Third</th>
-<th>&hellip;</th>
-<th>Last</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Positive Index</td>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>&hellip;</td>
-<td>n-1</td>
-</tr>
-<tr>
-<td>Negative Index</td>
-<td>-n</td>
-<td>-n+1</td>
-<td>-n+2</td>
-<td>&hellip;</td>
-<td>-1</td>
-</tr>
-</tbody>
-</table>
-<h2>Defining a tuple:</h2>
-<ol>
-<li>&rsquo;( )&rsquo;</li>
-<li>tuple()</li>
-</ol>
-<h3>1. &lsquo;( )&rsquo;</h3>
-<pre><code class="language-python">l = (10, 20, 30)
+        <p>Each value in the tuple is called a element<br>
+            order of elements: index of element<br>
+            Index - may be positive or negative </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order (element)</th>
+                    <th>First</th>
+                    <th>Second</th>
+                    <th>Third</th>
+                    <th>&hellip;</th>
+                    <th>Last</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Positive Index</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>&hellip;</td>
+                    <td>n-1</td>
+                </tr>
+                <tr>
+                    <td>Negative Index</td>
+                    <td>-n</td>
+                    <td>-n+1</td>
+                    <td>-n+2</td>
+                    <td>&hellip;</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Defining a tuple:</h2>
+        <ol>
+            <li>&rsquo;( )&rsquo;</li>
+            <li>tuple()</li>
+        </ol>
+        <h3>1. &lsquo;( )&rsquo;</h3>
+        <pre><code class="language-python">l = (10, 20, 30)
 </code></pre>
-<p>add a comma &lsquo;,&rsquo; if tuple is singleton,</p>
-<pre><code class="language-python">t = (10,)
+        <p>add a comma &lsquo;,&rsquo; if tuple is singleton,</p>
+        <pre><code class="language-python">t = (10,)
 </code></pre>
-<h3>2. tuple()</h3>
-<p>Syntax: </p>
-<pre><code class="language-python">tuple(iterable = None)
+        <h3>2. tuple()</h3>
+        <p>Syntax: </p>
+        <pre><code class="language-python">tuple(iterable = None)
 </code></pre>
-<p>iterable: any data structures listed above  </p>
-<p><code>IN [4]</code></p>
-<pre><code class="language-python">t = (10, 30)
+        <p>iterable: any data structures listed above </p>
+        <p><code>IN [9]</code></p>
+        <pre><code class="language-python">t = (10, 30)
 print(t)
-type(t)
+print(type(t))
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">(10, 30)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10, 30)
+&lt;class 'tuple'&gt;
 
 </code></pre>
-<p><code>IN [7]</code></p>
-<pre><code class="language-python">t1 = (10,)
+        <p><code>IN [8]</code></p>
+        <pre><code class="language-python">t1 = (10,)
 print(t1)
-type(t1)
+print(type(t1))
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">(10,)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10,)
+&lt;class 'tuple'&gt;
 
 </code></pre>
-<p><code>IN [8]</code></p>
-<pre><code class="language-python">t2 = tuple()
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python">t2 = tuple()
 print(t2)
-type(t2)
+print(type(t2))
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">()
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">()
+&lt;class 'tuple'&gt;
 
 </code></pre>
-<h2>Working with tuples:</h2>
-<ol>
-<li>Concatenation</li>
-<li>Appending</li>
-<li>Multiplication</li>
-</ol>
-<h3>1. Concatenation:</h3>
-<p>Two tuples can be concatenated by using <code>+</code> operator.</p>
-<p><code>IN [9]</code></p>
-<pre><code class="language-python">t1 = (10, 20)
+        <h2>Working with tuples:</h2>
+        <ol>
+            <li>Concatenation</li>
+            <li>Appending</li>
+            <li>Multiplication</li>
+        </ol>
+        <h3>1. Concatenation:</h3>
+        <p>Two tuples can be concatenated by using <code>+</code> operator.</p>
+        <p><code>IN [4]</code></p>
+        <pre><code class="language-python">t1 = (10, 20)
 t2 = (30,)
-t1+t2
+print(t1 + t2)
 </code></pre>
-<h3>2. Appending:</h3>
-<p>A tuples can be appended to string using <code>+=</code> operator or by reassignment.</p>
-<p><code>IN [10]</code></p>
-<pre><code class="language-python">t1 = (10, 20)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10, 20, 30)
+
+</code></pre>
+        <h3>2. Appending:</h3>
+        <p>A tuples can be appended to string using <code>+=</code> operator or by reassignment.</p>
+        <p><code>IN [5]</code></p>
+        <pre><code class="language-python">t1 = (10, 20)
 t2 = (30,)
 t1 += t2
-t1
+print(t1)
 </code></pre>
-<h3>3. Tuple Multiplication:</h3>
-<p>Tuple multiplication results a new tuple with repitition. It can be done using <code>*</code> operator.</p>
-<p><code>IN [11]</code></p>
-<pre><code class="language-python">t1 = (10, 20)
-t1*5
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10, 20, 30)
+
 </code></pre>
-<h2>Methods or Functions in tuple:</h2>
-<p>There are various methods or functions that are used to work on tuples.  </p>
-<ol>
-<li>map</li>
-<li>filter</li>
-<li>sorted</li>
-<li>index</li>
-<li>reduce</li>
-<li>reversed</li>
-<li>len</li>
-<li>count</li>
-<li>sum</li>
-<li>max</li>
-<li>min</li>
-<li>enumerate</li>
-<li>zip</li>
-</ol>
-<h3>1. map:</h3>
-<p>Applies the given function to every element in a iterable.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">map(function, iterable)
+        <h3>3. Tuple Multiplication:</h3>
+        <p>Tuple multiplication results a new tuple with repitition. It can be done using <code>*</code> operator.</p>
+        <p><code>IN [6]</code></p>
+        <pre><code class="language-python">t1 = (10, 20)
+print(t1 * 5)
 </code></pre>
-<p><code>IN [16]</code></p>
-<pre><code class="language-python">def sample_fn(x):
-    return x+2
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10, 20, 10, 20, 10, 20, 10, 20, 10, 20)
+
+</code></pre>
+        <h2>Methods or Functions in tuple:</h2>
+        <p>There are various methods or functions that are used to work on tuples. </p>
+        <ol>
+            <li>map</li>
+            <li>filter</li>
+            <li>sorted</li>
+            <li>index</li>
+            <li>reduce</li>
+            <li>reversed</li>
+            <li>len</li>
+            <li>count</li>
+            <li>sum</li>
+            <li>max</li>
+            <li>min</li>
+            <li>enumerate</li>
+            <li>zip</li>
+        </ol>
+        <h3>1. map:</h3>
+        <p>Applies the given function to every element in a iterable.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">map(function, iterable)
+</code></pre>
+        <p><code>IN [10]</code></p>
+        <pre><code class="language-python">def sample_fn(x):
+    return x + 2
 t = [1, 2, 3, 4]
 t = tuple(map(sample_fn, t))
-t
+print(t)
 </code></pre>
-<h3>2. filter:</h3>
-<p>Filters out the elements that match the given condition</p>
-<p>Syntax: </p>
-<pre><code class="language-python">filter(condition, iterable)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(3, 4, 5, 6)
+
 </code></pre>
-<p>The condition should be given as a function definition which can be mapped to each variable. </p>
-<p><code>IN [17]</code></p>
-<pre><code class="language-python">t = (1, -1, 0, 3, -10, 100)
+        <h3>2. filter:</h3>
+        <p>Filters out the elements that match the given condition</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">filter(condition, iterable)
+</code></pre>
+        <p>The condition should be given as a function definition which can be mapped to each variable. </p>
+        <p><code>IN [17]</code></p>
+        <pre><code class="language-python">t = (1, -1, 0, 3, -10, 100)
 t2 = tuple(filter(lambda x: x&gt;0, t)) # A Lambda function used for condition
 print(t2)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">(1, 3, 100)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(1, 3, 100)
 
 </code></pre>
-<h3>3. sorted:</h3>
-<p>Sorts the given tuple and returns a copy</p>
-<p>Syntax: </p>
-<pre><code class="language-python">sorted(iterable, key = None, reverse = False)
+        <h3>3. sorted:</h3>
+        <p>Sorts the given tuple and returns a copy</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">sorted(iterable, key = None, reverse = False)
 </code></pre>
-<p><code>IN [19]</code></p>
-<pre><code class="language-python">l2 = (10, 20, 50, 0, -10, -1, 100)
+        <p><code>IN [11]</code></p>
+        <pre><code class="language-python">l2 = (10, 20, 50, 0, -10, -1, 100)
 l2 = tuple(sorted(l2))
-l2
+print(l2)
 </code></pre>
-<h3>4. index:</h3>
-<p>Returns the index of the element in the tuple. If multiple elements exist, it gives the index of first occurrence. If the element is not in the tuple, it raises an error</p>
-<p>Syntax: </p>
-<pre><code class="language-python">tuple.index(element)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(-10, -1, 0, 10, 20, 50, 100)
+
 </code></pre>
-<p><code>IN [20]</code></p>
-<pre><code class="language-python">l = (10, 20, 30, 40, 10)
-l.index(10)
+        <h3>4. index:</h3>
+        <p>Returns the index of the element in the tuple. If multiple elements exist, it gives the index of first
+            occurrence. If the element is not in the tuple, it raises an error</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">tuple.index(element)
 </code></pre>
-<h3>5. reduce:</h3>
-<p>Sequentially applies the elements in the tuple to a function to give the final value. To use this we need to call <em>functools</em> module. In depth study of modules will be dealt later</p>
-<p>Syntax: </p>
-<pre><code class="language-python">reduce(function, tuple)
+        <p><code>IN [12]</code></p>
+        <pre><code class="language-python">l = (10, 20, 30, 40, 10)
+print(l.index(10))
 </code></pre>
-<p><code>IN [21]</code></p>
-<pre><code class="language-python">from functools import reduce
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">0
+
+</code></pre>
+        <h3>5. reduce:</h3>
+        <p>Sequentially applies the elements in the tuple to a function to give the final value. To use this we need to
+            call <em>functools</em> module. In depth study of modules will be dealt later</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">reduce(function, tuple)
+</code></pre>
+        <p><code>IN [13]</code></p>
+        <pre><code class="language-python">from functools import reduce
 
 def add(x, y):
     return x+y
 
 l = (10, 20, 30, 40)
 c = reduce(add, l)
-c
+print(c)
 </code></pre>
-<h4>Explanation:</h4>
-<p><em>Step 1:</em>
-applies 10 and 20 to the function. result = 30</p>
-<p><em>Step 2:</em>
-applies the result and next element (30). result = 60</p>
-<p><em>Step 3:</em>
-applies the result and next element (40). result = 100</p>
-<p>End is reached. so the result 100 is returned</p>
-<h3>6. reversed:</h3>
-<p>Returns iterator object of reversed tuple.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">revrsed(sequence)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">100
+
 </code></pre>
-<p><code>IN [22]</code></p>
-<pre><code class="language-python">s = (10, 20, 30)
+        <h4>Explanation:</h4>
+        <p><em>Step 1:</em>
+            applies 10 and 20 to the function. result = 30</p>
+        <p><em>Step 2:</em>
+            applies the result and next element (30). result = 60</p>
+        <p><em>Step 3:</em>
+            applies the result and next element (40). result = 100</p>
+        <p>End is reached. so the result 100 is returned</p>
+        <h3>6. reversed:</h3>
+        <p>Returns iterator object of reversed tuple.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">revrsed(sequence)
+</code></pre>
+        <p><code>IN [22]</code></p>
+        <pre><code class="language-python">s = (10, 20, 30)
 for i in reversed(s):
     print(i, end=' ')
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">30 20 10 
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">30 20 10 
 </code></pre>
-<h3>7. len:</h3>
-<p>Returns the length of the given iterable</p>
-<p>Syntax: </p>
-<pre><code class="language-python">len(iterable)
+        <h3>7. len:</h3>
+        <p>Returns the length of the given iterable</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">len(iterable)
 </code></pre>
-<p><code>IN [24]</code></p>
-<pre><code class="language-python">list2 = (10, 20, 30, -1, 123, 10.0)
-len(list2)
+        <p><code>IN [14]</code></p>
+        <pre><code class="language-python">list2 = (10, 20, 30, -1, 123, 10.0)
+print(len(list2))
 </code></pre>
-<h3>8. count:</h3>
-<p>Returns the count of the element specified</p>
-<p>Syntax: </p>
-<pre><code class="language-python">tuple.count(element)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">6
+
 </code></pre>
-<p><code>IN [25]</code></p>
-<pre><code class="language-python">l = (10, 20, 30, 10, 20, 25, 20, 50)
+        <h3>8. count:</h3>
+        <p>Returns the count of the element specified</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">tuple.count(element)
+</code></pre>
+        <p><code>IN [15]</code></p>
+        <pre><code class="language-python">l = (10, 20, 30, 10, 20, 25, 20, 50)
 print(l.count(20))
-l.count(10)
+print(l.count(10))
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">3
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">3
+2
 
 </code></pre>
-<h3>9. sum:</h3>
-<p>Returns the sum elements in the tuple.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">sum(tuple, start = 0)
+        <h3>9. sum:</h3>
+        <p>Returns the sum elements in the tuple.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">sum(tuple, start = 0)
 </code></pre>
-<p><code>IN [26]</code></p>
-<pre><code class="language-python">l = (10, -10, 20, -30, 40)
-sum(l)
+        <p><code>IN [16]</code></p>
+        <pre><code class="language-python">l = (10, -10, 20, -30, 40)
+print(sum(l))
 </code></pre>
-<h3>10. max:</h3>
-<p>Returns the maximum value in the tuple.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">max(tuple, key = None)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">30
+
 </code></pre>
-<p><code>IN [27]</code></p>
-<pre><code class="language-python">l = (10, 15, 50, 21, -7)
-max(l)
+        <h3>10. max:</h3>
+        <p>Returns the maximum value in the tuple.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">max(tuple, key = None)
 </code></pre>
-<p><code>IN [28]</code></p>
-<pre><code class="language-python">l = (10, 15, 50, 21, -7, 7)
-max(l, key = lambda x: x % 5) # Maximum reminder when divided by 5
+        <p><code>IN [17]</code></p>
+        <pre><code class="language-python">l = (10, 15, 50, 21, -7)
+print(max(l))
 </code></pre>
-<h3>11. min:</h3>
-<p>Returns minimum value in the iterable</p>
-<p>Syntax: </p>
-<pre><code class="language-python">min(iterable, key = None)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">50
+
 </code></pre>
-<p><code>IN [29]</code></p>
-<pre><code class="language-python">l = (10, 15, 50, 21, -7)
-min(l)
+        <p><code>IN [18]</code></p>
+        <pre><code class="language-python">l = (10, 15, 50, 21, -7, 7)
+print(max(l, key=lambda x: x % 5)) # Maximum reminder when divided by 5
 </code></pre>
-<p><code>IN [31]</code></p>
-<pre><code class="language-python">l = (10, 15, 50, 21, -7, 10.0)
-min(l)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">-7
+
 </code></pre>
-<h3>12. enumerate:</h3>
-<p>Returns the enumerate object for given tuple. An enumerate object is an iterable which contains ordered pair of the form <code>(index, value)</code>  </p>
-<p>Syntax: </p>
-<pre><code class="language-python">enumerate(iterable, start = 0)
+        <h3>11. min:</h3>
+        <p>Returns minimum value in the iterable</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">min(iterable, key = None)
 </code></pre>
-<p><code>IN [32]</code></p>
-<pre><code class="language-python">l = (10, 20, 'Hello', 'a', -1)
-tuple(enumerate(l))
+        <p><code>IN [19]</code></p>
+        <pre><code class="language-python">l = (10, 15, 50, 21, -7)
+print(min(l))
 </code></pre>
-<h3>13. zip:</h3>
-<p>Returns zipped object containing order pairs of elements from given iterables.</p>
-<p>Syntax: </p>
-<pre><code class="language-python">zip(iterables)
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">-7
+
 </code></pre>
-<p><code>IN [40]</code></p>
-<pre><code class="language-python">l = (10, 15, 50, 21, -7, 8)
+        <p><code>IN [20]</code></p>
+        <pre><code class="language-python">l = (10, 15, 50, 21, -7, 10.0)
+print(min(l))
+</code></pre>
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">-7
+
+</code></pre>
+        <h3>12. enumerate:</h3>
+        <p>Returns the enumerate object for given tuple. An enumerate object is an iterable which contains ordered pair
+            of the form <code>(index, value)</code> </p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">enumerate(iterable, start = 0)
+</code></pre>
+        <p><code>IN [21]</code></p>
+        <pre><code class="language-python">l = (10, 20, 'Hello', 'a', -1)
+print(tuple(enumerate(l)))
+</code></pre>
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">((0, 10), (1, 20), (2, 'Hello'), (3, 'a'), (4, -1))
+
+</code></pre>
+        <h3>13. zip:</h3>
+        <p>Returns zipped object containing order pairs of elements from given iterables.</p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">zip(iterables)
+</code></pre>
+        <p><code>IN [40]</code></p>
+        <pre><code class="language-python">l = (10, 15, 50, 21, -7, 8)
 t = ['Ten', 'Fifteen', 'Fifty', 'Twenty One', 'Negative Seven']
-print(*zip(l,t))
+print(*zip(l, t))
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">(10, 'Ten') (15, 'Fifteen') (50, 'Fifty') (21, 'Twenty One') (-7, 'Negative Seven')
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10, 'Ten') (15, 'Fifteen') (50, 'Fifty') (21, 'Twenty One') (-7, 'Negative Seven')
 
 </code></pre>
-<h2>Accessing Elements in a tuple:</h2>
-<p>Elements of a tuple can be accessed using index.</p>
-<p><em>Example:</em><br>
-Consider a tuple, </p>
-<pre><code class="language-python">t = (10, 20, 30, 40, 50)
+        <h2>Accessing Elements in a tuple:</h2>
+        <p>Elements of a tuple can be accessed using index.</p>
+        <p><em>Example:</em><br>
+            Consider a tuple, </p>
+        <pre><code class="language-python">t = (10, 20, 30, 40, 50)
 </code></pre>
-<p>Length = 5</p>
-<table>
-<thead>
-<tr>
-<th>Element</th>
-<th>10</th>
-<th>20</th>
-<th>30</th>
-<th>40</th>
-<th>50</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Position</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Positive Index</td>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-</tr>
-<tr>
-<td>Negative Index</td>
-<td>-5</td>
-<td>-4</td>
-<td>-3</td>
-<td>-2</td>
-<td>-1</td>
-</tr>
-</tbody>
-</table>
-<p>Calling $i^{th}$ element: <br>
-positive index: t [i-1]<br>
-negative index: t [i - 1 - length]</p>
-<h2>Slicing operator:</h2>
-<p>Used to get / set a sub-tuple of a tuple. Denoted by <code>[]</code></p>
-<p>Syntax: </p>
-<pre><code class="language-python">tuple_name[start = 0 : stop = length : step = 1]
+        <p>Length = 5</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>10</th>
+                    <th>20</th>
+                    <th>30</th>
+                    <th>40</th>
+                    <th>50</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Position</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Positive Index</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Negative Index</td>
+                    <td>-5</td>
+                    <td>-4</td>
+                    <td>-3</td>
+                    <td>-2</td>
+                    <td>-1</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Calling $i^{th}$ element: <br>
+            positive index: t [i-1]<br>
+            negative index: t [i - 1 - length]</p>
+        <h2>Slicing operator:</h2>
+        <p>Used to get / set a sub-tuple of a tuple. Denoted by <code>[]</code></p>
+        <p>Syntax: </p>
+        <pre><code class="language-python">tuple_name[start = 0 : stop = length : step = 1]
 </code></pre>
-<p><code>IN [1]</code></p>
-<pre><code class="language-python">t = (10, 20, 30, 40)
-t[:3]
+        <p><code>IN [22]</code></p>
+        <pre><code class="language-python">t = (10, 20, 30, 40)
+print(t[:3])
 </code></pre>
-<h2>Printing the elements in a tuples:</h2>
-<ol>
-<li>Using loops</li>
-<li>Using  * </li>
-</ol>
-<h3>1. Looping:</h3>
-<p>Use <em>for</em> or <em>while</em> loop to access elements.</p>
-<h3>2. Using * :</h3>
-<p>Using <code>*</code> will convert the tuple elements into individual arguments of print method</p>
-<p><code>IN [2]</code></p>
-<pre><code class="language-python"># for loop to get index
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">(10, 20, 30)
+
+</code></pre>
+        <h2>Printing the elements in a tuples:</h2>
+        <ol>
+            <li>Using loops</li>
+            <li>Using * </li>
+        </ol>
+        <h3>1. Looping:</h3>
+        <p>Use <em>for</em> or <em>while</em> loop to access elements.</p>
+        <h3>2. Using * :</h3>
+        <p>Using <code>*</code> will convert the tuple elements into individual arguments of print method</p>
+        <p><code>IN [2]</code></p>
+        <pre><code class="language-python"># for loop to get index
 l = (10, 20, 30, 40, 50)
 for i in range(len(l)):
     print(l[i], end= ' ')
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">10 20 30 40 50 
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">10 20 30 40 50 
 </code></pre>
-<p><code>IN [3]</code></p>
-<pre><code class="language-python"># Using *
+        <p><code>IN [3]</code></p>
+        <pre><code class="language-python"># Using *
 l = (10, 20, 30, 40, 50)
 print(*l)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">10 20 30 40 50
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">10 20 30 40 50
 
 </code></pre>
-<h2>List Comprehension in tuples:</h2>
-<p>It follows the form of the mathematical set-builder notation unlike the use of map and filter functions. It is used to create tuples from either an existing one or a completely new tuple.</p>
-<p>Set bulider form:
-${x: x ~\rm{\epsilon~ iterable}}$<br>
-Example: </p>
-<pre><code class="language-python">t = tuple(expression (loops))
+        <h2>List Comprehension in tuples:</h2>
+        <p>It follows the form of the mathematical set-builder notation unlike the use of map and filter functions. It
+            is used to create tuples from either an existing one or a completely new tuple.</p>
+        <p>Set builder form:
+            $\{x: x ~\rm{\epsilon~ iterable}\}$<br>
+            Example: </p>
+        <pre><code class="language-python">t = tuple(expression (loops))
 </code></pre>
-<p><code>IN [9]</code></p>
-<pre><code class="language-python"># comprehension
+        <p><code>IN [9]</code></p>
+        <pre><code class="language-python"># comprehension
 l = [10, 20, 30, 40, 50]
 s = tuple(i**2 for i in l) # squares of elements in list l using comprehension
 sq = list(map(lambda x: x**2, l)) # Using map
 print(*s)
 print(*sq)
 </code></pre>
-<p><strong>stdout</strong></p>
-<pre><code class="language-txt">100 400 900 1600 2500
+        <p><strong>stdout</strong></p>
+        <pre><code class="language-txt">100 400 900 1600 2500
 100 400 900 1600 2500
 
 </code></pre>
-<h2>Multi-dimensional tuples or matrices:</h2>
-<p>Like Lists, tuples / lists in a tuple is called a multidimensional tuple or nested tuple. They are generally used to store matrices.</p>
-<p>Example: </p>
-<pre><code class="language-python">t = ((10, 20, 30), (40, 50, 60))
+        <h2>Multi-dimensional tuples or matrices:</h2>
+        <p>Like Lists, tuples / lists in a tuple is called a multidimensional tuple or nested tuple. They are generally
+            used to store matrices.</p>
+        <p>Example: </p>
+        <pre><code class="language-python">t = ((10, 20, 30), (40, 50, 60))
 # Two dimensional tuple
 </code></pre>
-<h3>Accessing elements using index:</h3>
-<p>Syntax: </p>
-<pre><code class="language-python">tuple_name[outermost_tuple_index][inner]...[inner_most_index]
+        <h3>Accessing elements using index:</h3>
+        <p>Syntax: </p>
+        <pre><code class="language-python">tuple_name[outermost_tuple_index][inner]...[inner_most_index]
 </code></pre>
-<h2>Matrix:</h2>
-<p>A rectangular array of elements. Two dimensional lists or tuples are used to work with matrices.</p>
-<p>Each row of matrix is stored as a list / tuple</p>
-<p>Example: </p>
-<pre><code class="language-python">matrix = ([10, 20, 30], (40, 50, 60))
+        <h2>Matrix:</h2>
+        <p>A rectangular array of elements. Two dimensional lists or tuples are used to work with matrices.</p>
+        <p>Each row of matrix is stored as a list / tuple</p>
+        <p>Example: </p>
+        <pre><code class="language-python">matrix = ([10, 20, 30], (40, 50, 60))
 </code></pre>
-<h3>Matrix input:</h3>
-<p>Matrix can be taken as input using loops or list comprehension.</p>
-<h3>Output:</h3>
-<p>Output is printed using for loop</p>
-<h2>Variable length argument Tuples:</h2>
-<p>The input given to variable length arguements are gathered together to form a tuple</p>
-<h2>Tuple Comparison:</h2>
-<p>Python allows usage of relational operators on Tuples.</p>
-<p>Python compares two tuples using the elements present in them. Whenever a greater element is encounter the boolean value is returned.</p>
+        <h3>Matrix input:</h3>
+        <p>Matrix can be taken as input using loops or list comprehension.</p>
+        <h3>Output:</h3>
+        <p>Output is printed using for loop</p>
+        <h2>Variable length argument Tuples:</h2>
+        <p>The input given to variable length arguements are gathered together to form a tuple</p>
+        <h2>Tuple Comparison:</h2>
+        <p>Python allows usage of relational operators on Tuples.</p>
+        <p>Python compares two tuples using the elements present in them. Whenever a greater element is encounter the
+            boolean value is returned.</p>
     </div>
 
 
