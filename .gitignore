@@ -7,3 +7,9 @@ temp.html
 markdown_converter.py
 markdown_template.html
 md_convert/
+Custom_nb_converter.py
+nb_convert.py
+temp.py
+error.txt
+files.txt
+remove_rendered_md.bat
