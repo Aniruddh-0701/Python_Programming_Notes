@@ -13,25 +13,7 @@
     <link rel="stylesheet" type="text/css" href="./static/main.css" />
     <script
         src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autorun=false&amp;lang=llvm&amp;lang=py"></script>
-    <script>
-        window.onload = (function () {
-            let tags = document.getElementsByTagName("pre");
-            let br = document.createElement("br");
-            for (var i = 0; i < tags.length; ++i) {
-                tags[i].classList.add("prettyprint");
-            }
-            tags = document.getElementsByTagName("code");
-            console.log(tags);
-            for (var i = 0; i < tags.length; ++i) {
-                if (tags[i].classList.contains("language-python")) {
-                    tags[i].classList.add("lang-py");
-                    tags[i].classList.remove("language-python");
-                }
-            }
-            PR.prettyPrint();
-        })
-    </script>
-
+    <script src="./static/html_format.js"></script>
 
 
     <script>

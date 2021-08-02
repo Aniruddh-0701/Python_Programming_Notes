@@ -123,6 +123,14 @@ code {
   font-weight: bold;
 }
 
+code.language-err {
+  color: red;
+}
+mjx-container {
+  margin-left: 5%;
+  height: 5%;
+  font-size: 120%;
+}
 .foot {
   text-align: center;
 }
