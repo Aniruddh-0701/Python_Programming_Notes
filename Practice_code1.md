@@ -156,11 +156,12 @@ $\text{Perimeter of a rectangle} = 2 \times \rm{(length + breadth)}$
 > O/p: 16
 
 <br>
->**Sample 2:**  
-I/p:   
-22  
-21  
-O/p: 86
+
+> **Sample 2:**  
+> I/p:  
+> 22  
+> 21  
+> O/p: 86
 
 ---
 
@@ -174,11 +175,12 @@ $\text{Area of a rectangle} = \text{length} \times \text{breadth}$
 > O/p: 16
 
 <br>
->**Sample 2:**  
-I/p:   
-22  
-21  
-O/p: 462
+
+> **Sample 2:**  
+> I/p:  
+> 22  
+> 21  
+> O/p: 462
 
 ---
 
@@ -192,11 +194,12 @@ $\text{Perimeter} = \text{number of sides} \times \text{length of one side}$
 > O/p: 32
 
 <br>
->**Sample 2:**  
-I/p:   
-7  <br>
-21  
-O/p: 147
+
+> **Sample 2:**  
+> I/p:  
+> 7 <br>
+> 21  
+> O/p: 147
 
 ---
 
@@ -210,11 +213,12 @@ $\text{Area of right triangle} = \dfrac{1}{2} \times \rm{base} \times \rm{height
 > O/p: 8.0
 
 <br>
->**Sample 2:**  
-I/p:   
-22  
-21  
-O/p: 231.0
+
+> **Sample 2:**  
+> I/p:  
+> 22  
+> 21  
+> O/p: 231.0
 
 ---
 
@@ -227,10 +231,11 @@ $\text{Perimeter of a circle} = 2\pi \times \rm{radius}$
 > O/p: 25.133
 
 <br>
->**Sample 2:**  
-I/p:   
-22   
-O/p: 138.230
+
+> **Sample 2:**  
+> I/p:  
+> 22  
+> O/p: 138.230
 
 ---
 
@@ -242,6 +247,8 @@ $\text{Area of a circle} = \pi \times \rm{radius}^2$
 > 4 <br>
 > O/p: 50.265
 
+<br>
+
 > **Sample 2:**  
 > I/p:  
 > 21  
@@ -252,7 +259,7 @@ $\text{Area of a circle} = \pi \times \rm{radius}^2$
 **Q16:** Write a program to get the sides of a triangle and print its area using Heron's Formula rounded off to 3 decimal places.  
 $\text{Area of right triangle} = \sqrt{s \times (s-a)\times(s-b)\times(s-c)}$  
 $\rm{where},$  
-$s = \text{Semi-Perimeter} = \dfrac{\text{Perimter of triangle}}{2}$  
+$s = \text{Semi-Perimeter} = \dfrac{\text{Perimeter of triangle}}{2}$  
 $a, ~b, ~c = \text{Sides of the triangle}$
 
 > **Sample 1:**  
@@ -261,6 +268,8 @@ $a, ~b, ~c = \text{Sides of the triangle}$
 > 4<br>
 > 5  
 > O/p: 6.0
+
+<br>
 
 > **Sample 2:**  
 > I/p:  
@@ -280,10 +289,11 @@ $\text{Area of equilateral triangle} = \dfrac{\sqrt{3}}{4} \times \rm{side}^2$
 > O/p: 6.9282
 
 <br>
->**Sample 2:**  
-I/p:   
-31  
-O/p: 416.1252
+
+> **Sample 2:**  
+> I/p:  
+> 31  
+> O/p: 416.1252
 
 ---
 
@@ -297,11 +307,12 @@ From Pythagoras theorem, $ \rm{hypotenuse} = \sqrt{\rm{base}^2 + \rm{height}^2}$
 > O/p: 5
 
 <br>
->**Sample 2:**  
-I/p:   
-12  
-6  <br>
-O/p: 13.416
+
+> **Sample 2:**  
+> I/p:  
+> 12  
+> 6 <br>
+> O/p: 13.416
 
 ---
 
